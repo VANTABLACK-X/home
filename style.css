@@ -10,7 +10,7 @@ body {
     display: flex;
     scroll-behavior: smooth;
     font-family: 'Belleza', sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(1, 0, 19);
 }
 
 .nav {
@@ -24,7 +24,7 @@ body {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(12px);
     border-radius: 10px;
-    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.1);
     -webkit-backdrop-filter: blur(12px);
 }
@@ -67,8 +67,88 @@ body {
     width: 100%;
 }
 
+.blob{
+    overflow: hidden;
+}
+
+.blob1 {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    height: 650px;
+    width: 700px;
+}
+
+.blob2 {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    height: 550px;
+    width: 600px;
+}
+
+.blob3 {
+    position: absolute;
+    top: 60px;
+    right: 250px;
+    height: 500px;
+    width: 550px;
+}
+
+.screen{
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    top: 150px;
+    right: 120px;
+    height: 450px;
+    width: 700px;
+    background: rgba(73, 73, 73, 0.2);
+    backdrop-filter: blur(32px);
+    border-radius: 15px;
+    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(12px);
+   animation: 4s skewani ease-out forwards;
+}
+
+@keyframes skewani {
+    to{
+        transform: skew(10deg);
+    }
+}
+
+.left-main{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height:450px;
+    width: 150px;
+}
+
+.center-main{
+    position: absolute;
+    overflow: hidden;
+    top: 30px;
+    left: 150px;
+    height:420px;
+    width: 400px;
+    border: 0.5px solid rgba(170, 170, 170, 0.3);
+}
+
+.right-main{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    height:450px;
+    width: 150px;
+}
+
 .hero-content {
     position: absolute;
+    z-index: 2;
     top: 20vh;
     left: 5vw;
     height: 75vh;
@@ -668,13 +748,6 @@ body {
     background-color: #ffffff;
 }
 
-.blob1 {
-    position: absolute;
-    top: 600vh;
-    left: 400px;
-    height: 600px;
-    width: 600px;
-}
 
 #hypno {
     position: fixed;
