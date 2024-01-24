@@ -267,6 +267,134 @@ body {
     margin-top: 2.5px;
 }
 
+.lm-home{
+    position: absolute;
+    top: 0;
+    height: 25px;
+    width: 100px;
+    margin: 5px;
+    font-size: 10px;
+    color: #a7a7a7;
+    border-radius: 3px;
+    background-color: #00000086;
+}
+
+.lm-home p{
+    margin: 5px;
+ }
+
+.lm-home i{
+   margin-right: 10px;
+}
+
+.lm-music{
+    position: absolute;
+    top: 30px;
+    height: 25px;
+    width: 100px;
+    margin: 5px;
+    font-size: 10px;
+    color: #a7a7a7;
+}
+
+.lm-music p{
+    margin: 5px;
+ }
+
+.lm-music i{
+   margin-right: 10px;
+}
+
+.lm-gaming{
+    position: absolute;
+    top: 60px;
+    height: 25px;
+    width: 100px;
+    margin: 5px;
+    font-size: 10px;
+    color: #a7a7a7;
+}
+
+.lm-gaming p{
+    margin: 5px;
+ }
+
+.lm-gaming i{
+   margin-right: 10px;
+}
+
+.lm-educat{
+    position: absolute;
+    top: 90px;
+    height: 25px;
+    width: 100px;
+    margin: 5px;
+    font-size: 10px;
+    color: #a7a7a7;
+}
+
+.lm-educat p{
+    margin: 5px;
+ }
+
+.lm-educat i{
+   margin-right: 10px;
+}
+
+.lm-science{
+    position: absolute;
+    top: 120px;
+    height: 25px;
+    width: 100px;
+    margin: 5px;
+    font-size: 10px;
+    color: #a7a7a7;
+}
+
+.lm-science p{
+    margin: 5px;
+ }
+
+.lm-science i{
+   margin-right: 10px;
+}
+
+.lm-entertain{
+    position: absolute;
+    top: 150px;
+    height: 25px;
+    width: 100px;
+    margin: 5px;
+    font-size: 10px;
+    color: #a7a7a7;
+}
+
+.lm-entertain p{
+    margin: 5px;
+ }
+
+.lm-entertain i{
+   margin-right: 10px;
+}
+
+.lm-student{
+    position: absolute;
+    top: 180px;
+    margin: 5px;
+    height: 25px;
+    width: 100px;
+    font-size: 10px;
+    color: #a7a7a7;
+}
+
+.lm-student p{
+    margin: 5px;
+ }
+
+.lm-student i{
+   margin-right: 10px;
+}
+
 .left-music{
     position: absolute;
     overflow: hidden;
@@ -294,6 +422,7 @@ body {
     left: 150px;
     height:420px;
     width: 400px;
+    background-color: rgba(0, 0, 0, 0.288);
     border-top: 0.5px solid rgba(170, 170, 170, 0.3);
     border-right: 0.5px solid  rgba(170, 170, 170, 0.3);
 }
@@ -344,12 +473,12 @@ body {
     width: 260px;
     border-radius: 3px;
     border: 0.5px solid  rgba(255, 255, 255, 0.3);
-    background-color: rgba(0, 0, 0, 0.185);
+    background-color: rgba(0, 0, 0, 0.288);
 }
 
 .explore-search p{
-    font-size: 11.5px;
-    margin-top: 2px;
+    font-size: 11px;
+    margin-top: 1px;
     color: #a7a7a7;
 }
 
