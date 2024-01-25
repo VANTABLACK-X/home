@@ -67,7 +67,7 @@ body {
     width: 100%;
 }
 
-.blob{
+.blob {
     overflow: hidden;
 }
 
@@ -95,7 +95,7 @@ body {
     width: 550px;
 }
 
-.screen{
+.screen {
     position: absolute;
     overflow: hidden;
     z-index: 1;
@@ -109,38 +109,38 @@ body {
     box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.3);
     -webkit-backdrop-filter: blur(12px);
-    animation: 2s skewani ease-out forwards;
-   
+    /*animation: 2s skewani ease-out forwards;*/
+
 }
 
 @keyframes skewani {
-    to{
-        transform: skew(7deg);
+    to {
+        transform: skew(8deg);
     }
 }
 
-.left-main{
+.left-main {
     position: absolute;
     overflow: hidden;
     top: 30px;
     left: 40px;
-    height:420px;
+    height: 420px;
     width: 110px;
     border-top: 0.5px solid rgba(170, 170, 170, 0.3);
-    border-right: 0.5px solid  rgba(170, 170, 170, 0.3);
+    border-right: 0.5px solid rgba(170, 170, 170, 0.3);
 }
 
-.left-icons{
+.left-icons {
     position: absolute;
     overflow: hidden;
     top: 0;
     left: 0;
-    height:369px;
+    height: 369px;
     width: 40px;
-    border-right: 0.5px solid  rgba(170, 170, 170, 0.3);
+    border-right: 0.5px solid rgba(170, 170, 170, 0.3);
 }
 
-.three-dots{
+.three-dots {
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -149,7 +149,7 @@ body {
     height: 30px;
 }
 
-.red-dot{
+.red-dot {
     position: absolute;
     top: 10px;
     left: 5px;
@@ -159,7 +159,7 @@ body {
     background-color: rgb(204, 0, 0);
 }
 
-.yellow-dot{
+.yellow-dot {
     position: absolute;
     top: 10px;
     left: 17px;
@@ -169,7 +169,7 @@ body {
     background-color: rgb(196, 176, 0);
 }
 
-.green-dot{
+.green-dot {
     position: absolute;
     top: 10px;
     right: 5px;
@@ -179,7 +179,7 @@ body {
     background-color: rgb(0, 204, 10);
 }
 
-.ethereum{
+.ethereum {
     position: absolute;
     text-align: center;
     top: 40px;
@@ -188,16 +188,16 @@ body {
     width: 25px;
     font-size: 20px;
     border-radius: 50%;
-    background: rgb(147,193,255);
-    background: linear-gradient(135deg, rgba(147,193,255,1) 0%, rgba(255,0,249,1) 100%);
+    background: rgb(147, 193, 255);
+    background: linear-gradient(135deg, rgba(147, 193, 255, 1) 0%, rgba(255, 0, 249, 1) 100%);
 }
 
-.ethereum i{
+.ethereum i {
     color: rgb(31, 31, 110);
     margin-top: 2.5px;
 }
 
-.cube{
+.cube {
     position: absolute;
     text-align: center;
     top: 75px;
@@ -206,16 +206,16 @@ body {
     width: 25px;
     font-size: 18px;
     border-radius: 50%;
-    background: rgb(147,193,255);
+    background: rgb(147, 193, 255);
     background: linear-gradient(135deg, rgb(255, 238, 84) 0%, rgb(92, 78, 0) 100%);
 }
 
-.cube i{
+.cube i {
     color: rgb(36, 34, 10);
     margin-top: 2.5px;
 }
 
-.unity{
+.unity {
     position: absolute;
     text-align: center;
     top: 110px;
@@ -224,16 +224,16 @@ body {
     width: 25px;
     font-size: 18px;
     border-radius: 50%;
-    background: rgb(147,193,255);
+    background: rgb(147, 193, 255);
     background: linear-gradient(135deg, rgb(109, 109, 109) 0%, rgb(10, 10, 10) 100%);
 }
 
-.unity i{
+.unity i {
     color: rgb(126, 126, 126);
     margin-top: 2.5px;
 }
 
-.compass{
+.compass {
     position: absolute;
     text-align: center;
     top: 145px;
@@ -245,12 +245,12 @@ body {
     background: rgba(255, 9, 255, 0.226);
 }
 
-.compass i{
+.compass i {
     color: rgb(233, 0, 221);
     margin-top: 2.5px;
 }
 
-.plus{
+.plus {
     position: absolute;
     text-align: center;
     top: 180px;
@@ -262,12 +262,12 @@ body {
     background: rgba(102, 0, 102, 0.274);
 }
 
-.plus i{
+.plus i {
     color: rgba(233, 0, 221, 0.459);
     margin-top: 2.5px;
 }
 
-.lm-home{
+.lm-home {
     position: absolute;
     top: 0;
     height: 25px;
@@ -279,15 +279,15 @@ body {
     background-color: #00000086;
 }
 
-.lm-home p{
+.lm-home p {
     margin: 5px;
- }
-
-.lm-home i{
-   margin-right: 10px;
 }
 
-.lm-music{
+.lm-home i {
+    margin-right: 10px;
+}
+
+.lm-music {
     position: absolute;
     top: 30px;
     height: 25px;
@@ -297,15 +297,15 @@ body {
     color: #a7a7a7;
 }
 
-.lm-music p{
+.lm-music p {
     margin: 5px;
- }
-
-.lm-music i{
-   margin-right: 10px;
 }
 
-.lm-gaming{
+.lm-music i {
+    margin-right: 10px;
+}
+
+.lm-gaming {
     position: absolute;
     top: 60px;
     height: 25px;
@@ -315,15 +315,15 @@ body {
     color: #a7a7a7;
 }
 
-.lm-gaming p{
+.lm-gaming p {
     margin: 5px;
- }
-
-.lm-gaming i{
-   margin-right: 10px;
 }
 
-.lm-educat{
+.lm-gaming i {
+    margin-right: 10px;
+}
+
+.lm-educat {
     position: absolute;
     top: 90px;
     height: 25px;
@@ -333,15 +333,15 @@ body {
     color: #a7a7a7;
 }
 
-.lm-educat p{
+.lm-educat p {
     margin: 5px;
- }
-
-.lm-educat i{
-   margin-right: 10px;
 }
 
-.lm-science{
+.lm-educat i {
+    margin-right: 10px;
+}
+
+.lm-science {
     position: absolute;
     top: 120px;
     height: 25px;
@@ -351,15 +351,15 @@ body {
     color: #a7a7a7;
 }
 
-.lm-science p{
+.lm-science p {
     margin: 5px;
- }
-
-.lm-science i{
-   margin-right: 10px;
 }
 
-.lm-entertain{
+.lm-science i {
+    margin-right: 10px;
+}
+
+.lm-entertain {
     position: absolute;
     top: 150px;
     height: 25px;
@@ -369,15 +369,15 @@ body {
     color: #a7a7a7;
 }
 
-.lm-entertain p{
+.lm-entertain p {
     margin: 5px;
- }
-
-.lm-entertain i{
-   margin-right: 10px;
 }
 
-.lm-student{
+.lm-entertain i {
+    margin-right: 10px;
+}
+
+.lm-student {
     position: absolute;
     top: 180px;
     margin: 5px;
@@ -387,43 +387,43 @@ body {
     color: #a7a7a7;
 }
 
-.lm-student p{
+.lm-student p {
     margin: 5px;
- }
-
-.lm-student i{
-   margin-right: 10px;
 }
 
-.left-music{
+.lm-student i {
+    margin-right: 10px;
+}
+
+.left-music {
     position: absolute;
     overflow: hidden;
     bottom: 0;
     left: 0;
-    height:40px;
+    height: 40px;
     width: 150px;
     background-color: rgba(0, 0, 0, 0.411);
-    border-top: 0.5px solid  rgba(170, 170, 170, 0.3);
+    border-top: 0.5px solid rgba(170, 170, 170, 0.3);
 }
 
-.dp1{
+.dp1 {
     position: absolute;
     overflow: hidden;
-    margin: 10px;
-    height: 20px;
-    width: 20px;
+    margin: 12px;
+    height: 15px;
+    width: 15px;
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
 }
 
-.dp1 img{
+.dp1 img {
     overflow: hidden;
     height: 150%;
     width: 100%;
 }
 
-.left-music p{
+.left-music p {
     position: absolute;
-    left: 20px;
+    left: 15px;
     margin: 14px;
     font-size: 10px;
     color: #a7a7a7;
@@ -453,66 +453,66 @@ body {
     font-size: 10px;
 }
 
-.left-sound{
+.left-sound {
     position: absolute;
     overflow: hidden;
     bottom: 40px;
     left: 0;
-    height:40px;
+    height: 40px;
     width: 150px;
     background-color: rgba(0, 0, 0, 0.24);
-    border-top: 0.5px solid  rgba(170, 170, 170, 0.3);
+    border-top: 0.5px solid rgba(170, 170, 170, 0.3);
 }
 
-.left-sound img{
+.left-sound img {
     position: absolute;
     height: 100%;
     left: 10%;
     width: 80%;
 }
 
-.center-main{
+.center-main {
     position: absolute;
     overflow: hidden;
     top: 30px;
     left: 150px;
-    height:420px;
+    height: 420px;
     width: 400px;
     background-color: rgba(0, 0, 0, 0.288);
     border-top: 0.5px solid rgba(170, 170, 170, 0.3);
-    border-right: 0.5px solid  rgba(170, 170, 170, 0.3);
+    border-right: 0.5px solid rgba(170, 170, 170, 0.3);
 }
 
-.right-main{
+.right-main {
     position: absolute;
     overflow: hidden;
     top: 0;
     right: 0;
-    height:450px;
+    height: 450px;
     width: 150px;
 }
 
-.right-top-icons{
+.right-top-icons {
     position: absolute;
     overflow: hidden;
     top: 0;
     right: -1px;
-    height:31px;
+    height: 31px;
     width: 150px;
-    border-left: 0.5px solid  rgba(170, 170, 170, 0.3);
-    border-bottom: 0.5px solid  rgba(170, 170, 170, 0.3);
+    border-left: 0.5px solid rgba(170, 170, 170, 0.3);
+    border-bottom: 0.5px solid rgba(170, 170, 170, 0.3);
 }
 
-.explore{
+.explore {
     position: absolute;
     overflow: hidden;
     top: 0;
     left: 40px;
-    height:30px;
+    height: 30px;
     width: 510px;
 }
 
-.explore p{
+.explore p {
     font-size: 12px;
     margin-top: 6px;
     margin-left: 12px;
@@ -528,17 +528,17 @@ body {
     height: 18px;
     width: 260px;
     border-radius: 3px;
-    border: 0.5px solid  rgba(255, 255, 255, 0.3);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
     background-color: rgba(0, 0, 0, 0.288);
 }
 
-.explore-search p{
+.explore-search p {
     font-size: 11px;
     margin-top: 1px;
     color: #a7a7a7;
 }
 
-.explore-search i{
+.explore-search i {
     color: #a7a7a7;
     margin-right: 10px;
 }
@@ -1049,7 +1049,7 @@ body {
     box-shadow: 0 0 25px rgba(139, 139, 139, 0.5);
 }
 
-.web-des:hover{
+.web-des:hover {
     border: 1px solid #161616;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
