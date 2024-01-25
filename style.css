@@ -23,10 +23,11 @@ body {
     width: 98%;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border-radius: 10px;
     box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    -webkit-backdrop-filter: blur(12px);
+   
 }
 
 .nav img {
@@ -103,6 +104,7 @@ body {
     right: 80px;
     height: 450px;
     width: 700px;
+    font-family: 'Roboto', sans-serif;
     background: rgba(53, 53, 53, 0.2);
     backdrop-filter: blur(32px);
     border-radius: 15px;
@@ -481,6 +483,199 @@ body {
     background-color: rgba(0, 0, 0, 0.288);
     border-top: 0.5px solid rgba(170, 170, 170, 0.3);
     border-right: 0.5px solid rgba(170, 170, 170, 0.3);
+}
+
+.center-main1{
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+    top: 10px;
+    left: 10px;
+    width: 380px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.center-main1 img{
+    position: absolute;
+    overflow: hidden;
+    top: -95%;
+    height: 200%;
+    width: 100%;
+}
+
+.main11 p{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 30px;
+    height: 50%;
+    width: 100%;
+    color: white;
+}
+
+.main12 p{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 50px;
+    height: 50%;
+    width: 100%;
+    color: #ffffff;
+}
+
+.center-main2{
+    position: absolute;
+    top: 130px;
+    width: 380px;
+    left: 10px;
+    height: 140px;
+}
+
+.center-main21 p{
+    margin-left: 6px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.center-main22{
+    position: absolute;
+    overflow: hidden;
+    top: 20px;
+    left: 5px;
+    height: 110px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #707070;
+    box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
+}
+
+.center-main22-img img{
+    position: absolute;
+    overflow: hidden;
+    top: -32px;
+    height: 125%;
+    width: 100%;
+}
+
+.center-main22-cnt{
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    height: 60px;
+    border-radius: 17px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: rgba(0, 0, 0, 0.452);
+    backdrop-filter: blur(5px);
+}
+
+.center-main22-cnt1{
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    height: 110px;
+}
+
+.main22-cnt-title {
+    position: absolute;
+    font-size: 12px;
+    top: 57px;
+    left: 10px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.main22-cnt-ph{
+    position: absolute;
+    font-size: 8px;
+    top: 74px;
+    left: 10px;
+    width: 160px;
+    color: #999999;
+}
+
+.main22-cnt-online{
+    position: absolute;
+    font-size: 7px;
+    top: 98px;
+    left: 10px;
+    width: 160px;
+    color: #747474;
+}
+
+.main22-cnt-members{
+    position: absolute;
+    text-align: right;
+    font-size: 7px;
+    top: 98px;
+    right: 10px;
+    width: 160px;
+    color: #747474;
+}
+
+.center-main23{
+    position: absolute;
+    overflow: hidden;
+    top: 20px;
+    right: 5px;
+    height: 110px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #707070;
+    box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
+}
+
+.center-main23-img img{
+    position: absolute;
+    overflow: hidden;
+    top: -160px;
+    height: 250%;
+    width: 100%;
+}
+
+.center-main3{
+    position: absolute;
+    top: 280px;
+    width: 380px;
+    left: 10px;
+    height: 120px;
+    background-color: #a7a7a7;
+}
+
+.center-main31 p{
+    margin-left: 6px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.center-main32{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    height: 90px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #707070;
+    box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.center-main33{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    height: 90px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #707070;
+    box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
 }
 
 .right-main {
