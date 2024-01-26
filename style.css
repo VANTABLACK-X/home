@@ -27,7 +27,7 @@ body {
     border-radius: 10px;
     box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.1);
-   
+
 }
 
 .nav img {
@@ -111,7 +111,7 @@ body {
     box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.3);
     -webkit-backdrop-filter: blur(12px);
-    /*animation: 2s skewani ease-out forwards;*/
+    animation: 2s skewani ease-out forwards;
 
 }
 
@@ -475,7 +475,7 @@ body {
 
 .center-main {
     position: absolute;
-    overflow: hidden;
+   
     top: 30px;
     left: 150px;
     height: 420px;
@@ -485,7 +485,7 @@ body {
     border-right: 0.5px solid rgba(170, 170, 170, 0.3);
 }
 
-.center-main1{
+.center-main1 {
     position: absolute;
     overflow: hidden;
     z-index: 2;
@@ -497,7 +497,7 @@ body {
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
 }
 
-.center-main1 img{
+.center-main1 img {
     position: absolute;
     overflow: hidden;
     top: -95%;
@@ -505,7 +505,7 @@ body {
     width: 100%;
 }
 
-.main11 p{
+.main11 p {
     position: absolute;
     text-align: center;
     font-weight: bold;
@@ -516,7 +516,7 @@ body {
     color: white;
 }
 
-.main12 p{
+.main12 p {
     position: absolute;
     text-align: center;
     font-weight: bold;
@@ -527,7 +527,7 @@ body {
     color: #ffffff;
 }
 
-.center-main2{
+.center-main2 {
     position: absolute;
     top: 130px;
     width: 380px;
@@ -535,13 +535,13 @@ body {
     height: 140px;
 }
 
-.center-main21 p{
+.center-main21 p {
     margin-left: 6px;
     font-size: 13px;
     color: #ffffff;
 }
 
-.center-main22{
+.center-main22 {
     position: absolute;
     overflow: hidden;
     top: 20px;
@@ -551,17 +551,25 @@ body {
     border-radius: 10px;
     background-color: #707070;
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
+    animation: cm22 2s ease-out forwards;
 }
 
-.center-main22-img img{
+@keyframes cm22 {
+    to{
+        transform: translate(5px, -5px);
+        box-shadow: -7px 7px 12px rgba(0, 0, 0, 0.644);
+    }
+}
+
+.center-main22-img img {
     position: absolute;
     overflow: hidden;
     top: -32px;
-    height: 125%;
+    height: 130%;
     width: 100%;
 }
 
-.center-main22-cnt{
+.center-main22-cnt {
     position: absolute;
     overflow: hidden;
     bottom: 0;
@@ -575,7 +583,7 @@ body {
     backdrop-filter: blur(5px);
 }
 
-.center-main22-cnt1{
+.center-main22-cnt1 {
     position: absolute;
     overflow: hidden;
     bottom: 0;
@@ -586,14 +594,14 @@ body {
 
 .main22-cnt-title {
     position: absolute;
-    font-size: 12px;
+    font-size: 11px;
     top: 57px;
     left: 10px;
     width: 100%;
     color: #ffffff;
 }
 
-.main22-cnt-ph{
+.main22-cnt-ph {
     position: absolute;
     font-size: 8px;
     top: 74px;
@@ -602,7 +610,7 @@ body {
     color: #999999;
 }
 
-.main22-cnt-online{
+.main22-cnt-online {
     position: absolute;
     font-size: 7px;
     top: 98px;
@@ -611,7 +619,7 @@ body {
     color: #747474;
 }
 
-.main22-cnt-members{
+.main22-cnt-members {
     position: absolute;
     text-align: right;
     font-size: 7px;
@@ -621,7 +629,25 @@ body {
     color: #747474;
 }
 
-.center-main23{
+.main22-icon {
+    position: absolute;
+    text-align: center;
+    top: 33px;
+    right: 30px;
+    height: 35px;
+    width: 30px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: rgb(0, 18, 255);
+    background: linear-gradient(45deg, rgba(0, 18, 255, 1) 0%, rgba(0, 255, 239, 1) 100%);
+}
+
+.main22-icon i {
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 11px;
+}
+
+.center-main23 {
     position: absolute;
     overflow: hidden;
     top: 20px;
@@ -631,9 +657,18 @@ body {
     border-radius: 10px;
     background-color: #707070;
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
+    z-index: 20;
+    animation: cm23 2s ease-out forwards;
 }
 
-.center-main23-img img{
+@keyframes cm23 {
+    to{
+        transform: translate(25px, -15px);
+        box-shadow: -14px 14px 25px rgba(0, 0, 0, 0.644);
+    }
+}
+
+.center-main23-img img {
     position: absolute;
     overflow: hidden;
     top: -160px;
@@ -641,34 +676,216 @@ body {
     width: 100%;
 }
 
-.center-main3{
+.center-main23-cnt {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    height: 60px;
+    border-radius: 17px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: rgba(0, 0, 0, 0.315);
+    backdrop-filter: blur(5px);
+}
+
+.center-main23-cnt1 {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    height: 110px;
+}
+
+.main23-cnt-title {
+    position: absolute;
+    font-size: 11px;
+    top: 7px;
+    left: 10px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.main23-cnt-ph {
+    position: absolute;
+    font-size: 8px;
+    top: 24px;
+    left: 10px;
+    width: 160px;
+    color: #999999;
+}
+
+.main23-cnt-online {
+    position: absolute;
+    font-size: 7px;
+    top: 48px;
+    left: 10px;
+    width: 160px;
+    color: #747474;
+}
+
+.main23-cnt-members {
+    position: absolute;
+    text-align: right;
+    font-size: 7px;
+    top: 48px;
+    right: 10px;
+    width: 160px;
+    color: #747474;
+}
+
+.main23-icon {
+    position: absolute;
+    text-align: center;
+    top: 33px;
+    right: 30px;
+    height: 35px;
+    width: 30px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: rgb(0, 18, 255);
+    background: linear-gradient(45deg, rgba(0, 18, 255, 1) 0%, rgba(255, 0, 228, 1) 100%);
+}
+
+.main23-icon i {
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 11px;
+}
+
+.center-main3 {
     position: absolute;
     top: 280px;
     width: 380px;
     left: 10px;
     height: 120px;
-    background-color: #a7a7a7;
 }
 
-.center-main31 p{
+.center-main31 p {
     margin-left: 6px;
     font-size: 13px;
     color: #ffffff;
 }
 
-.center-main32{
+.center-main32 {
     position: absolute;
+    overflow: hidden;
     top: 20px;
     left: 5px;
     height: 90px;
     width: 180px;
     border-radius: 10px;
     background-color: #707070;
-    box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
+    animation: cm32 2s ease-out forwards;
 }
 
-.center-main33{
+@keyframes cm32 {
+    to{
+        transform: translate(5px, -5px);
+        box-shadow: -7px 7px 12px rgba(0, 0, 0, 0.644);
+    }
+}
+
+.center-main32-img img {
     position: absolute;
+    overflow: hidden;
+    top: -8px;
+    left: -67px;
+    height: 110%;
+    width: 100%;
+}
+
+.center-main32-cnt {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: -10px;
+    width: 130px;
+    height: 90px;
+    border-radius: 17px;
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
+    background-color: rgb(29, 29, 36);
+
+}
+
+.center-main32-cnt1 {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    height: 110px;
+}
+
+.main32-cover {
+    position: absolute;
+    overflow: hidden;
+    top: -20px;
+    left: -130px;
+    width: 140px;
+    height: 140px;
+    border-top-right-radius: 35px;
+    background: rgb(0, 18, 255);
+    background: linear-gradient(-60deg, rgba(0, 18, 255, 1) 0%, rgba(0, 255, 239, 1) 100%);
+    transform: rotate(45deg);
+}
+
+.main32-cnt-title {
+    position: absolute;
+    font-size: 11px;
+    top: 15px;
+    left: 30px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.main32-cnt-ph {
+    position: absolute;
+    font-size: 8px;
+    top: 30px;
+    left: 30px;
+    width: 80px;
+    color: #999999;
+}
+
+.main32-cnt-members {
+    position: absolute;
+    font-size: 7px;
+    bottom: 4px;
+    right: 0;
+    width: 160px;
+    color: #747474;
+}
+
+.main32-cnt-members p {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.main32-icon {
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    left: 45px;
+    height: 35px;
+    width: 30px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: rgb(0,5,78);
+    background: linear-gradient(45deg, rgba(0,5,78,1) 0%, rgba(0,56,255,1) 100%);
+}
+
+.main32-icon i {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 8px;
+}
+
+.center-main33 {
+    position: absolute;
+    overflow: hidden;
     top: 20px;
     right: 5px;
     height: 90px;
@@ -676,11 +893,113 @@ body {
     border-radius: 10px;
     background-color: #707070;
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
+    animation: cm33 2s ease-out forwards;
+}
+
+@keyframes cm33 {
+    to{
+        transform: translate(25px, -15px);
+        box-shadow: -14px 14px 25px rgba(0, 0, 0, 0.644);
+    }
+}
+
+.center-main33-img img {
+    position: absolute;
+    overflow: hidden;
+    top: -8px;
+    left: -60px;
+    height: 110%;
+    width: 100%;
+}
+
+.center-main33-cnt {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: -10px;
+    width: 130px;
+    height: 90px;
+    border-radius: 17px;
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
+    background-color: rgb(29, 29, 36);
+
+}
+
+.center-main33-cnt1 {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    height: 110px;
+}
+
+.main33-cover {
+    position: absolute;
+    overflow: hidden;
+    top: -20px;
+    left: -130px;
+    width: 140px;
+    height: 140px;
+    border-top-right-radius: 35px;
+    background: rgb(0, 18, 255);
+    background: linear-gradient(-60deg, rgba(0, 18, 255, 1) 0%, rgba(0, 255, 239, 1) 100%);
+    transform: rotate(45deg);
+}
+
+.main33-cnt-title {
+    position: absolute;
+    font-size: 11px;
+    top: 15px;
+    left: 30px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.main33-cnt-ph {
+    position: absolute;
+    font-size: 8px;
+    top: 30px;
+    left: 30px;
+    width: 80px;
+    color: #999999;
+}
+
+.main33-cnt-members {
+    position: absolute;
+    font-size: 7px;
+    bottom: 4px;
+    right: 0;
+    width: 160px;
+    color: #747474;
+}
+
+.main33-cnt-members p {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.main33-icon {
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    left: 45px;
+    height: 35px;
+    width: 30px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: rgb(38,38,38);
+    background: linear-gradient(45deg, rgb(15, 15, 15) 0%, rgba(176,176,176,1) 100%);
+}
+
+.main33-icon i {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 8px;
 }
 
 .right-main {
     position: absolute;
-    overflow: hidden;
     top: 0;
     right: 0;
     height: 450px;
@@ -696,6 +1015,62 @@ body {
     width: 150px;
     border-left: 0.5px solid rgba(170, 170, 170, 0.3);
     border-bottom: 0.5px solid rgba(170, 170, 170, 0.3);
+}
+
+.r-icon-bell{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 31px;
+    width: 50px;
+}
+
+.r-icon-chat{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    height: 31px;
+    width: 50px;
+}
+
+.r-icon-gear{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    height: 31px;
+    width: 50px;
+}
+
+.right-top-icons i{
+    margin: 9px;
+    margin-left: 17px;
+    font-size: 12px;
+    color: #707070;
+}
+
+.r-main-user{
+    position: absolute;
+    top: 31px;
+    left: 0;
+    height: 150px;
+    width: 150px;
+    background-color: #707070;
+}
+
+.r-user-dp {
+    position: absolute;
+    overflow: hidden;
+    top: 31px;
+    left: 50px;
+    height: 70px;
+    width: 70px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+}
+
+.r-user-dp img{
+    overflow: hidden;
+    height: 70px;
+    width: 100%;
 }
 
 .explore {
