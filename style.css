@@ -111,7 +111,7 @@ body {
     box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.3);
     -webkit-backdrop-filter: blur(12px);
-    animation: 2s skewani ease-out forwards;
+    animation: 3s skewani ease-out 4s forwards;
 
 }
 
@@ -551,7 +551,7 @@ body {
     border-radius: 10px;
     background-color: #707070;
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
-    animation: cm22 2s ease-out forwards;
+    animation: cm22 3s ease-out 5s forwards;
 }
 
 @keyframes cm22 {
@@ -658,7 +658,7 @@ body {
     background-color: #707070;
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
     z-index: 20;
-    animation: cm23 2s ease-out forwards;
+    animation: cm23 3s ease-out 5s forwards;
 }
 
 @keyframes cm23 {
@@ -778,7 +778,7 @@ body {
     border-radius: 10px;
     background-color: #707070;
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
-    animation: cm32 2s ease-out forwards;
+    animation: cm32 3s ease-out 5s forwards;
 }
 
 @keyframes cm32 {
@@ -893,7 +893,7 @@ body {
     border-radius: 10px;
     background-color: #707070;
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
-    animation: cm33 2s ease-out forwards;
+    animation: cm33 3s ease-out 5s forwards;
 }
 
 @keyframes cm33 {
@@ -1054,23 +1054,55 @@ body {
     left: 0;
     height: 150px;
     width: 150px;
-    background-color: #707070;
 }
 
 .r-user-dp {
     position: absolute;
     overflow: hidden;
     top: 31px;
-    left: 50px;
+    left: 40px;
     height: 70px;
     width: 70px;
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    animation: userdp 3s ease-out 5s forwards;
+}
+
+@keyframes userdp {
+    to{
+        transform: translate(15px, -15px);
+    }
 }
 
 .r-user-dp img{
     overflow: hidden;
     height: 70px;
     width: 100%;
+}
+
+.r-user-name{
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+}
+
+.r-user-name p{
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.r-user-name1{
+    position: absolute;
+    top: 125px;
+    left: 0;
+    width: 100%;
+}
+
+.r-user-name1 p{
+    text-align: center;
+    font-size: 10px;
+    color: #7c7c7c;
 }
 
 .explore {
@@ -1769,16 +1801,6 @@ body {
         transform: rotate(0);
     }
 
-}
-
-@keyframes slideup {
-    0% {
-        transform: translate(0px, 100px) rotate(0.001deg);
-    }
-
-    100% {
-        transform: translate(0px, 0px) rotate(0.001deg);
-    }
 }
 
 @media screen and (max-width: 1090px) {
