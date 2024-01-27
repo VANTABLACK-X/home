@@ -551,7 +551,7 @@ body {
     border-radius: 10px;
     background-color: #707070;
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
-    animation: cm22 3s ease-out 5s forwards;
+    animation: cm22 2s ease-out 5s forwards;
 }
 
 @keyframes cm22 {
@@ -658,7 +658,7 @@ body {
     background-color: #707070;
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
     z-index: 20;
-    animation: cm23 3s ease-out 5s forwards;
+    animation: cm23 2s ease-out 6s forwards;
 }
 
 @keyframes cm23 {
@@ -778,7 +778,7 @@ body {
     border-radius: 10px;
     background-color: #707070;
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
-    animation: cm32 3s ease-out 5s forwards;
+    animation: cm32 2s ease-out 5.5s forwards;
 }
 
 @keyframes cm32 {
@@ -893,7 +893,7 @@ body {
     border-radius: 10px;
     background-color: #707070;
     box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
-    animation: cm33 3s ease-out 5s forwards;
+    animation: cm33 2s ease-out 6.5s forwards;
 }
 
 @keyframes cm33 {
@@ -1056,27 +1056,36 @@ body {
     width: 150px;
 }
 
-.r-user-dp {
+.r-dp-container{
     position: absolute;
-    overflow: hidden;
     top: 31px;
     left: 40px;
+    animation: userdp 2s ease-in-out 7s forwards;
+    filter: drop-shadow(-3px 3px 1px rgba(0, 0, 0, 0.644));
+}
+
+.r-user-john {
+    position: absolute;
+    overflow: hidden;
     height: 70px;
     width: 70px;
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-    animation: userdp 3s ease-out 5s forwards;
+}
+
+.r-user-dp img{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: -4px;
+    height: 120px;
+    width: 80px;
 }
 
 @keyframes userdp {
     to{
         transform: translate(15px, -15px);
+        filter: drop-shadow(-16px 16px 8px rgba(0, 0, 0, 0.774));
     }
-}
-
-.r-user-dp img{
-    overflow: hidden;
-    height: 70px;
-    width: 100%;
 }
 
 .r-user-name{
