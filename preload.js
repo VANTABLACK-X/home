@@ -12,10 +12,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const mem2 = document.getElementById('member2');
     const mem3 = document.getElementById('member3');
     const mem4 = document.getElementById('member4');
+    const htitle = document.getElementById('hometitle');
+    const htitlep = htitle.querySelector('p');
+    const hservice = document.getElementById('homeservice');
+    const hservicep = hservice.querySelector('p');
 
     window.addEventListener('load', function () {
         preloader.style.display = "none";
-        navi.style.display = "block";
+        navi.classList.add('navani');
         sr.classList.add('sranimation');
         cm22.classList.add('cm22');
         cm23.classList.add('cm23');
@@ -26,6 +30,8 @@ document.addEventListener("DOMContentLoaded", function () {
         mem2.classList.add('mem2');
         mem3.classList.add('mem3');
         mem4.classList.add('mem4');
+        htitlep.classList.add('htitle');
+        hservicep.classList.add('hservice');
     });
 });
 

@@ -17,7 +17,8 @@ body {
     position: fixed;
     display: flex;
     z-index: 5;
-    top: 2%;
+    opacity: 0;
+    top: -20%;
     left: 1%;
     height: 50px;
     width: 98%;
@@ -27,7 +28,17 @@ body {
     border-radius: 10px;
     box-shadow: -20px 20px 30px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.1);
+}
 
+.navani{
+animation: 1s navanimation 0.5s ease-out forwards;
+}
+
+@keyframes navanimation {
+    to{
+        opacity: 1;
+        top: 2%;
+    }
 }
 
 #nav img {
@@ -1599,12 +1610,25 @@ body {
     left: 5%;
     width: 90%;
     margin-top: 50px;
+    
 }
 
 #hometitle p {
+    overflow: hidden;
     font-size: 70px;
     width: 500px;
     color: #ffffff;
+    transform: translate(0, 150px);
+}
+
+.htitle{
+    animation: 1.5s htitle ease-out 1s forwards;
+}
+
+@keyframes  htitle{
+    to{
+        transform: translate(0, 0);
+    }
 }
 
 #homeservice {
@@ -1621,6 +1645,17 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 500px;
     color: #ffffff;
+    transform: translate(0, 80px);
+}
+
+.hservice{
+    animation: 1.5s hservice ease-out 1.5s forwards;
+}
+
+@keyframes  hservice{
+    to{
+        transform: translate(0, 0);
+    }
 }
 
 .message {
