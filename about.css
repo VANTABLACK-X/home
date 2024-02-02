@@ -513,7 +513,7 @@ header {
     }
     
     #arc{ 
-        margin-left: 70vh;
+        margin-left: 15px;
         margin-top: 22vh;
         width: 400px;
         height: 400px;
@@ -536,7 +536,7 @@ header {
         animation-iteration-count: infinite;
         animation-direction: alternate;
         animation-timing-function: cubic-bezier(.7, 0, .3, 1);
-        z-index: 52;
+        z-index: 72;
     }
     
     @keyframes spinit {
