@@ -67,14 +67,26 @@ header {
     color: rgb(0, 0, 0);
 }
 
-.title1 {
+#abouttitle {
     position: absolute;
     overflow: hidden;
     top: 462px;
     left: 10%;
     width: 80%;
+}
+
+#abouttitle p{
+    overflow: hidden;
     font-size: 66px;
     color: rgb(255, 255, 255);
+    transform: translate(0, 100px);
+    animation: 1s atitle1 ease-out 0.5s forwards;
+}
+
+@keyframes atitle1 {
+    to{
+        transform: translate(0, 0);
+    }
 }
 
 #loader{
@@ -89,6 +101,7 @@ header {
 }
 
 #arc{ 
+    overflow: hidden;
     margin-left: 70vh;
     margin-top: 22vh;
     width: 400px;
@@ -97,6 +110,7 @@ header {
 }
 
 #arc span{
+    overflow: hidden;
     display: block;
     width: 100%;
     height: 100%;

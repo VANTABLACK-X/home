@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Hide preloader and show content when the page is fully loaded
     const preloader = document.getElementById('loader');
     const navi = document.getElementById('nav');
+    document.body.style.overflow= 'hidden';
     const sr = document.getElementById('screen');
     const cm22 = document.getElementById('center-main22');
     const cm23 = document.getElementById('center-main23');
@@ -16,6 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const htitlep = htitle.querySelector('p');
     const hservice = document.getElementById('homeservice');
     const hservicep = hservice.querySelector('p');
+
+    setTimeout(() => {
+        document.body.style.overflow= 'auto';
+    }, 500);
 
     window.addEventListener('load', function () {
         preloader.style.display = "none";
