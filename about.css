@@ -494,15 +494,27 @@ header {
         height: 480px;
     }
 
-    .title1 {
+    #abouttitle {
         position: absolute;
         overflow: hidden;
         text-align: center;
         top: 412px;
         left: 5%;
         width: 90%;
+    }
+
+    #abouttitle p{
+        overflow: hidden;
         font-size: 50px;
         color: rgb(255, 255, 255);
+        transform: translate(0, 100px);
+        animation: 1s atitle1 ease-out 0.5s forwards;
+    }
+    
+    @keyframes atitle1 {
+        to{
+            transform: translate(0, 0);
+        }
     }
     
     @keyframes section1 {
