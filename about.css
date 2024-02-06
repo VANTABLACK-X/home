@@ -508,6 +508,10 @@ header {
         font-size: 50px;
         color: rgb(255, 255, 255);
         transform: translate(0, 100px);
+       
+    }
+
+    .htitle{
         animation: 1s atitle1 ease-out 0.5s forwards;
     }
     
