@@ -39,7 +39,3 @@ document.addEventListener("DOMContentLoaded", function () {
         hservicep.classList.add('hservice');
     });
 });
-
-
-
-
