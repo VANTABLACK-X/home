@@ -10,7 +10,7 @@ body {
     display: flex;
     scroll-behavior: smooth;
     font-family: 'Belleza', sans-serif;
-    background-color: rgb(1, 0, 15);
+    background-color: #0d1117;
 }
 
 #nav {
@@ -420,6 +420,7 @@ body {
     left: 0;
     height: 40px;
     width: 150px;
+    border-bottom-left-radius: 13px;
     background-color: rgba(0, 0, 0, 0.411);
     border-top: 0.5px solid rgba(170, 170, 170, 0.3);
 }
@@ -1831,6 +1832,7 @@ body {
     color: #5f5f5fa9;
     margin: 15px 0;
     cursor: pointer;
+    box-shadow: -2px 5px 10px rgba(0, 0, 0);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -1846,8 +1848,9 @@ body {
 
 .clickableDiv.run {
     color: rgb(255, 255, 255);
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(139, 139, 139, 0.5);
+    transform: scale(0.95);
+    box-shadow: inset -2px 5px 10px rgb(0, 0, 0);
+   
 }
 
 .nich {
