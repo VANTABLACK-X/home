@@ -31,7 +31,7 @@ body {
     height: 70px;
     border-radius: 6px;
     background-color: rgb(32, 32, 32);
-    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.301);
+    box-shadow: 7px 7px 1px rgba(0, 0, 0, 0.301);
 }
 
 .cover2 {
@@ -42,7 +42,7 @@ body {
     height: 200px;
     border-radius: 10px;
     background-color: rgb(38, 38, 38);
-    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.301);
+    box-shadow: 7px 7px 1px rgba(0, 0, 0, 0.301);
 }
 
 #cover3 {
@@ -60,21 +60,117 @@ body {
     background-color: rgb(38, 38, 38);
 }
 
+.tape-cover3-rdot1{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #0e0e0e;
+}
+
+.tape-cover3-rdot2{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #0e0e0e;
+}
+
+.tape-cover3-rdot3{
+    position: absolute;
+    top: 3px;
+    left: 120px;
+    border-radius: 50%;
+}
+
+.tape-cover3-rdot3 i{
+    font-size: 10px;
+    color: rgb(134, 134, 134);
+}
+
+.tape-cover3-sdot1{
+    position: absolute;
+    top: 25px;
+    left: 70px;
+    height: 15px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #0e0e0e;
+}
+
+.tape-cover3-sdot2{
+    position: absolute;
+    top: 25px;
+    right: 70px;
+    height: 15px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #0e0e0e;
+}
+
+.tape-cover2-rdot1{
+    position: absolute;
+    top: 0;
+    left: 1px;
+}
+
+.tape-cover2-rdot1 i{
+    font-size: 10px;
+    color: rgb(134, 134, 134);
+}
+
+.tape-cover2-rdot2{
+    position: absolute;
+    top: 0;
+    right: 1px;
+}
+
+.tape-cover2-rdot2 i{
+    font-size: 10px;
+    color: rgb(134, 134, 134);
+}
+
+.tape-cover2-rdot3{
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+}
+
+.tape-cover2-rdot3 i{
+    font-size: 10px;
+    color: rgb(134, 134, 134);
+}
+
+.tape-cover2-rdot4{
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+}
+
+.tape-cover2-rdot4 i{
+    font-size: 10px;
+    color: rgb(134, 134, 134);
+}
+
 .tapes {
     position: absolute;
     overflow: hidden;
-    top: 38vh;
-    left: 39.48vw;
-    width: 280px;
-    height: 120px;
+    top: 37vh;
+    left: 38.68vw;
+    width: 300px;
+    height: 133px;
     border-radius: 8px;
     background-color: rgb(100, 100, 100);
 }
 
 .tape-line1 {
     position: absolute;
-    top: 15px;
-    left: 65px;
+    top: 20px;
+    left: 67px;
     height: 3px;
     width: 150px;
     background-color: rgb(0, 0, 0);
@@ -97,6 +193,7 @@ body {
 
 .rotate1 {
     position: absolute;
+    top: 5px;
     left: 10px;
     height: 120px;
     width: 120px;
@@ -165,6 +262,7 @@ body {
 
 .rotate2 {
     position: absolute;
+    top: 5px;
     right: 10px;
     height: 120px;
     width: 120px;
@@ -235,16 +333,20 @@ body {
 .tape-name{
     position: absolute;
     overflow: hidden;
-    top: 80px;
+    top: 90px;
     left: -20px;
     width: 340px;
-    height: 40px;
+    height: 50px;
     border-radius: 8px;
-    background-color: orange;
+    background-color: rgb(211, 120, 0);
 }
 
 .tape-name p{
-    margin-top: 10px;
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: 400;
+    font-size: 26px;
+    font-style: normal;
+    margin-top: 8px;
     text-align: center;
 }
 
