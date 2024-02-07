@@ -12,19 +12,242 @@ body {
     font-family: 'Belleza', sans-serif;
     background-color: #0d1117;
 }
-#tape{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+
+#tape {
+    position: absolute;
+    top: 0;
+    left: 0;
     overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: #0d1117;
 }
-.cover1{
-    width: 200px;
+
+.cover1 {
+    position: absolute;
+    top: 52vh;
+    left: 37.6vw;
+    width: 330px;
+    height: 70px;
+    border-radius: 6px;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.301);
+}
+
+.cover2 {
+    position: absolute;
+    top: 35vh;
+    left: 38vw;
+    width: 320px;
     height: 200px;
-    background-color: aliceblue;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-    border: 2px solid #030303;
+    border-radius: 10px;
+    background-color: rgb(38, 38, 38);
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.301);
 }
+
+#cover3 {
+    position: absolute;
+    top: 57.6vh;
+    left: 40.5vw;
+    filter: drop-shadow(0 -3px 1px rgba(0, 0, 0));
+}
+
+.cover3 {
+    width: 250px;
+    height: 160px;
+    border-radius: 8px;
+    clip-path: polygon(10% 0, 90% 0, 100% 30%, 0 30%);
+    background-color: rgb(38, 38, 38);
+}
+
+.tapes {
+    position: absolute;
+    overflow: hidden;
+    top: 38vh;
+    left: 39.48vw;
+    width: 280px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: rgb(100, 100, 100);
+}
+
+.tape-line1 {
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    height: 3px;
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    animation: tape-line1 3s linear infinite;
+}
+
+@keyframes tape-line1 {
+    0% {
+        transform: rotate(9deg);
+    }
+
+    50% {
+        transform: rotate(-9deg);
+    }
+
+    100% {
+        transform: rotate(9deg);
+    }
+}
+
+.rotate1 {
+    position: absolute;
+    left: 10px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: none;
+    animation: rotate1 3s linear infinite;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(1800deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.rotate11 {
+    position: absolute;
+    overflow: hidden;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #222222;
+    animation: rotate11 3s linear infinite;
+}
+
+@keyframes rotate11 {
+    0% {
+        top: 0;
+        left: 0;
+        height: 120px;
+        width: 120px;
+    }
+
+    50% {
+        top: 25px;
+        left: 25px;
+        height: 70px;
+        width: 70px;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        height: 120px;
+        width: 120px;
+    }
+}
+
+.rotate12 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    overflow: hidden;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+}
+
+.rotate2 {
+    position: absolute;
+    right: 10px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: none;
+    animation: rotate2 3s linear infinite;
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-1800deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.rotate21 {
+    position: absolute;
+    overflow: hidden;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #222222;
+    animation: rotate21 3s linear infinite;
+}
+
+@keyframes rotate21 {
+    0% {
+        top: 25px;
+        left: 25px;
+        height: 70px;
+        width: 70px;
+
+    }
+
+    50% {
+        top: 0;
+        left: 0;
+        height: 120px;
+        width: 120px;
+    }
+
+    100% {
+        top: 25px;
+        left: 25px;
+        height: 70px;
+        width: 70px;
+    }
+}
+
+.rotate22 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    overflow: hidden;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+}
+
+.tape-name{
+    position: absolute;
+    overflow: hidden;
+    top: 80px;
+    left: -20px;
+    width: 340px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: orange;
+}
+
+.tape-name p{
+    margin-top: 10px;
+    text-align: center;
+}
+
 .nav {
     position: fixed;
     display: flex;
