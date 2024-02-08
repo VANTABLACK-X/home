@@ -1722,8 +1722,8 @@ body {
     height: 400px;
     width: 1.5px;
     border-radius: 1px;
-    background: rgb(0, 62, 142);
-    background: linear-gradient(180deg,  rgb(1, 0, 35) 0%, rgba(95, 0, 142, 1) 100%);
+    background: rgb(14, 14, 25);
+    background: linear-gradient(180deg,  rgb(14, 14, 26) 0%, rgba(95, 0, 142, 1) 100%);
 }
 
 .hero-circle i {

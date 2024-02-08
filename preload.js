@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setTimeout(() => {
         document.body.style.overflow= 'auto';
-    }, 500);
+    });
 
     window.addEventListener('load', function () {
         preloader.style.display = "none";
