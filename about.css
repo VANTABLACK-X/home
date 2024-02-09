@@ -29,11 +29,11 @@ header {
     height: 50px;
     width: 98%;
     background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     border-radius: 10px;
     box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    -webkit-backdrop-filter: blur(12px);
 }
 
 .nav img{
@@ -379,6 +379,7 @@ header {
 }
 
 .number a {
+    text-decoration: none;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -426,11 +427,11 @@ header {
         height: 50px;
         width: 94%;
         background: rgba(255, 255, 255, 0.2);
+        -webkit-backdrop-filter: blur(12px);
         backdrop-filter: blur(12px);
         border-radius: 10px;
         box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.5);
         border: 1px solid rgba(255, 255, 255, 0.1);
-        -webkit-backdrop-filter: blur(12px);
     }
 
     .nav img{
