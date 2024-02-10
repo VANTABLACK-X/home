@@ -10,7 +10,7 @@ body {
     display: flex;
     scroll-behavior: smooth;
     font-family: 'Belleza', sans-serif;
-    background-color: #000000;
+    background-color: #0c0c0c;
 }
 
 #nav {
@@ -22,7 +22,7 @@ body {
     left: 1%;
     height: 50px;
     width: 98%;
-    background: rgba(128, 128, 128, 0.2);
+    background: rgba(214, 214, 214, 0.2);
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     border-radius: 10px;
@@ -1606,7 +1606,7 @@ body {
 .home-hero-content {
     position: absolute;
     z-index: 2;
-    top: 10vh;
+    top: 20vh;
     left: 0;
     height: 70vh;
     width: 50vw;
@@ -1614,10 +1614,9 @@ body {
 
 #hometitle {
     position: absolute;
-    text-align: center;
     overflow: hidden;
-    left: 0;
-    width: 100%;
+    left: 10%;
+    width: 90%;
     margin-top: 80px;
 }
 
@@ -1641,15 +1640,13 @@ body {
 
 #homeservice {
     position: absolute;
-    text-align: center;
     overflow: hidden;
-    left: 0;
-    width: 100%;
+    left: 10%;
+    width: 80%;
     margin-top: 160px;
 }
 
 #homeservice p {
-    text-align: center;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     width: 100%;
@@ -1675,18 +1672,15 @@ body {
 #home-hero-contact {
     position: absolute;
     opacity: 0;
-    top: 330px;
-    left: 15vw;
+    top: 53.5vh;
+    left: 8vw;
     width: 10vw;
     height: 20px;
-    border-radius: 9px;
-    background-color: #ffffff;
-    box-shadow: -7px 7px 6px rgba(0, 0, 0);
-    transition: transform 0.5s, box-shadow 0.5s;
+    border-radius: 10px;
+    box-shadow: 7px 7px 6px rgba(0, 0, 0);
 }
 
 #home-hero-contact:hover {
-    border: 1px solid black;
     box-shadow: 0 0 0 rgba(0, 0, 0);
 }
 
@@ -1699,38 +1693,27 @@ body {
 }
 
 #home-hero-contact p {
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     font-size: 12px;
-    height: 16px;
-    width: 9.7vw;
-    padding-top: 1.7px;
-    padding-left: 14px;
+    height: 100%;
+    width: 100%;
+    padding-top: 3px;
     margin: 2px;
-    border-radius: 6px;
+    border-radius: 10px;
     color: #000000;
     background-color: #ffffff;
-}
-
-#home-hero-contact i {
-    position: absolute;
-    font-size: 12px;
-    top: 3.8px;
-    margin-right: 16px;
-    right: 0;
-    color: red;
 }
 
 #message {
     position: absolute;
     display: grid;
-    text-align: center;
     opacity: 0;
-    top: 7.5vh;
-    left: 5%;
-    width: 90%;
+    top: 7vh;
+    left: 10%;
+    width: 70%;
     margin-top: 150px;
-    font-size: 20px;
+    font-size: 23px;
     font-family: 'Roboto', sans-serif;
     color: #6d6d6d;
 }
@@ -1751,7 +1734,7 @@ body {
 
 #hero-line {
     position: absolute;
-    top: 330px;
+    top: 77vh;
     left: 60px;
     width: 3px;
     border-radius: 1px;
@@ -1776,7 +1759,7 @@ body {
 .hero-circle i {
     position: absolute;
     z-index: 2;
-    top: 312px;
+    top: 74vh;
     left: 53.5px;
     color: #ffffff;
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
