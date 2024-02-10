@@ -10,7 +10,7 @@ body {
     display: flex;
     scroll-behavior: smooth;
     font-family: 'Belleza', sans-serif;
-    background-color: #0d1117;
+    background-color: #000000;
 }
 
 #nav {
@@ -1606,10 +1606,10 @@ body {
 .home-hero-content {
     position: absolute;
     z-index: 2;
-    top: 20vh;
-    left: 5vw;
-    height: 75vh;
-    width: 40vw;
+    top: 10vh;
+    left: 0;
+    height: 70vh;
+    width: 50vw;
 }
 
 #hometitle {
@@ -1682,6 +1682,7 @@ body {
     border-radius: 9px;
     background-color: #ffffff;
     box-shadow: -7px 7px 6px rgba(0, 0, 0);
+    transition: transform 0.5s, box-shadow 0.5s;
 }
 
 #home-hero-contact:hover {
@@ -1755,7 +1756,7 @@ body {
     width: 3px;
     border-radius: 1px;
     background: rgb(14, 14, 25);
-    background: linear-gradient(180deg, rgb(14, 14, 26) 0%, rgb(214, 132, 255) 100%);
+    background: linear-gradient(180deg, rgb(14, 14, 26) 0%, rgb(238, 238, 238) 100%);
 }
 
 .hline1 {
@@ -1774,16 +1775,18 @@ body {
 
 .hero-circle i {
     position: absolute;
+    z-index: 2;
     top: 312px;
     left: 53.5px;
-    color: #707070;
+    color: #ffffff;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
 }
 
 .section1 {
     position: absolute;
     top: 100vh;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 }
 
 .sec1-title {
@@ -1803,12 +1806,12 @@ body {
     padding: 0;
     width: 100%;
     font-size: 25px;
-    color: #fde1ff;
+    color: #ffffff;
 }
 
 .sec1-text {
     position: absolute;
-    top: 105px;
+    top: 175px;
     left: 5%;
     width: 90%;
     height: 150px;
@@ -1816,9 +1819,9 @@ body {
 
 .sec1-text p {
     overflow: hidden;
-   
-    margin-left: 5%;
-    width: 90%;
+    text-align: center;
+    width: 100%;
+    margin-top: 7px;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     color: #686868;
@@ -1869,7 +1872,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-items: space-evenly;
-    bottom: 5%;
+    bottom: 0;
     left: 5vw;
     height: 60vh;
     width: 40vw;
@@ -1885,7 +1888,7 @@ body {
     color: #5f5f5fa9;
     margin: 15px 0;
     cursor: pointer;
-    box-shadow: -2px 5px 10px rgba(0, 0, 0);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -1902,7 +1905,8 @@ body {
 .clickableDiv.run {
     color: rgb(255, 255, 255);
     transform: scale(0.95);
-    box-shadow: inset -2px 5px 10px rgb(0, 0, 0);
+    border: 1px solid black;
+    box-shadow: 0 0 1px rgb(0, 0, 0);
 }
 
 .nich {
@@ -1986,9 +1990,9 @@ body {
     width: 20%;
     background: rgba(122, 122, 122, 0.2);
     border-radius: 16px;
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    -webkit-backdrop-filter: blur(12px);
 }
 
 .sec2-cnt {
@@ -2155,7 +2159,7 @@ body {
 .section3 {
     position: absolute;
     display: flex;
-    top: 200vh;
+    top: 220vh;
     height: 90vh;
     width: 100%;
 }
