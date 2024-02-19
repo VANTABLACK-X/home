@@ -38,3 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         hline1.classList.add('hline1');
     });
 });
+
+document.getElementById('home-hero-contact').addEventListener('click', function(){
+    document.getElementById('section3').scrollIntoView({ behavior: 'smooth', block: 'start'}); 
+});
