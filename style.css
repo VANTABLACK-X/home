@@ -92,7 +92,6 @@ body {
     height: 650px;
     width: 700px;
     opacity: 1;
-    stop-color: linear-gradient(135deg, rgba(147, 193, 255, 1) 0%, rgba(255, 0, 249, 1) 100%);
 }
 
 .blob2 {
@@ -2257,6 +2256,175 @@ body {
     width: 100%;
     font-size: 45px;
     color: #ffff;
+}
+
+.contact-container{
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    height: 75vh;
+    width: 100%;
+}
+
+.contact-right {
+    position: absolute;
+    top: 20vh;
+    right: 23vw;
+}
+
+.contact-right p{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 5px;
+    background-color: #0c0c0c;
+}
+
+.social-icons a i{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-right: 15px;
+    color: #ffff;
+}
+
+.contact-left{
+    position: absolute;
+    top: 7vh;
+    left: 10vw;
+    height: 60vh;
+    width: 40vw;
+}
+
+.contact-left form{
+    width: 100%;
+}
+
+.form-name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.form-name p{
+    position: absolute;
+    bottom: 0;
+    width: 135px;
+    height: 100%;
+    padding-top: 14px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+}
+
+.form-name input{
+    position: absolute;
+    bottom: 0;
+    left: 135px;
+    width: 300px;
+    height: 100%;
+    border-top: #0c0c0c;
+    border-left: #0c0c0c;
+    border-right: #0c0c0c;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    outline: none;
+    background: #0c0c0c;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-email{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.form-email p{
+    position: absolute;
+    bottom: 0;
+    width: 135px;
+    height: 100%;
+    padding-top: 14px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+}
+
+.form-email input{
+    position: absolute;
+    left: 135px;
+    width: 300px;
+    height: 100%;
+    border-top: #0c0c0c;
+    border-left: #0c0c0c;
+    border-right: #0c0c0c;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    outline: none;
+    background: #0c0c0c;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-message{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    height: 205px;
+    width: 100%;
+}
+
+.form-message p{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 14px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+}
+
+.form-message textarea{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    border-top: #0c0c0c;
+    border-left: #0c0c0c;
+    border-right: #0c0c0c;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    outline: none;
+    background: #0c0c0c;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-left button{
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    bottom: 30px;
+    height: 30px;
+    width: 100px;
 }
 
 #loader {
