@@ -330,7 +330,7 @@
                 <p>DEVELOPER<span>.</span>DESIGNER<span>.</span>ARTIST</p>
             </div>
             <div id="home-hero-contact">
-                <p>CONTACT NOW</p>
+                <button type="button">contact</button>
             </div>
             <div id="message">
                 <p>Expand <span>your territory</span> by building <span>your website.</span></p>
@@ -340,7 +340,6 @@
                 </p>
             </div>
         </div>
-        <div class="hero-contact"><i class="fa-regular fa-comment-dots"></i></div>
     </div>
 
     <div id="section1">
@@ -444,22 +443,23 @@
         <div class="sec3-for-you">
             <p>Why him ?</p>
         </div>
-        <img src="images/screen/kight.png" alt="whyhim" data-aos="fade-in">
+        <div class="sec3-icon1"><i class="fa-solid fa-user-tie"></i></div>
+        <div class="sec3-icon2"><i class="fa-solid fa-check"></i></div>
         <div class="sec3-cnt">
             <p data-aos="fade-right">VantaBlack believe that he can help you to create <span>your future.</span> The way
                 he helps you to create your future is by creating <span>your website</span> that <span>beautifully
                     designed</span> and <span>simple to use</span> and <span>works on any device.</span> He just happens
                 to make great websites.</p>
-            <p>The best way to predict <span>the future</span> is to create it.</p>
-            <p>Are you ready to <span>create it together</span> with him? just scroll down a bit.</p>
+            <p data-aos="fade-right">The best way to predict <span>the future</span> is to create it.</p>
+            <p data-aos="fade-right">Are you ready to <span>create it together</span> with him? just scroll down a bit.</p>
             <p data-aos="fade-right">Tailored Solutions:</p>
             <p data-aos="fade-right">He don't believe in one-size-fits-all. His solutions are <span>tailored</span> to
                 meet your <span>specific</span> business goals and requirements.</p>
             <p data-aos="fade-right">Cutting-Edge Technology:</p>
             <p data-aos="fade-right">Stay ahead of the curve with our use of the <span>latest technologies.</span> He
                 implement <span>cutting-edge solutions</span> to keep your website at the forefront of innovation.</p>
-            <p data-aos="fade-right">Transparent Process:</p>
-            <p data-aos="fade-right">His <span>transparent process</span> ensures you are involved at every stage. He
+            <p>Transparent Process:</p>
+            <p>His <span>transparent process</span> ensures you are involved at every stage. He
                 believe in clear communication and collaboration for <span>successful project</span> outcomes.</p>
 
         </div>
@@ -485,14 +485,16 @@
                 </div>
             </div>
             <div class="contact-left">
-               <form>
-                <div class="form-name"><p>Hi, My name is</p><input type="text" name="Name" placeholder="your name" required></div>
-                <div class="form-email"><p>Contact me on</p><input type="email" name="Email" placeholder="your email" required></div>
-                <div class="form-message"><p>I have project idea. which is,</p><textarea name="message" rows="10" placeholder="short project description..."></textarea></div>
-                <button type="submit">Send</button>
+               <form name="submit-to-google-sheet">
+                <div class="form-name"><p>Hi, My name is</p><input type="text" name="Name" placeholder="your name" autocomplete="off" required></div>
+                <div class="form-email"><p>Contact me on</p><input type="email" name="Email" placeholder="your email" autocomplete="off" required></div>
+                <div class="form-message"><p>I have project idea. which is,</p><textarea name="Message" rows="10" placeholder="short project description..." autocomplete="off" ></textarea></div>
+                <button type="submit" class="btn btn2">send</button>
                </form>
+               <span id="confermation-message"></span>
             </div>
         </div>
+        <div class="copy-right"><p><i class="fa-regular fa-copyright"></i> VantaBlack - All rights reserved. Content, design, and code on this site are the property of VantaBlack, protected by copyright laws. With <i class="fa-solid fa-heart"></i> unauthorized use is strictly prohibited.</p></div>
     </div>
 
     <div id="nav">
@@ -544,6 +546,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.32/dist/lenis.min.js"></script>
     <script src="smooth_scroll.js"></script>
+    <script src="form.js"></script>
     <script src="https://unpkg.com/split-type"></script>
     <script src="home.js"></script>
     <script src="preload.js"></script>

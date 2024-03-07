@@ -40,5 +40,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.getElementById('home-hero-contact').addEventListener('click', function(){
-    document.getElementById('section3').scrollIntoView({ behavior: 'smooth', block: 'start'}); 
+    document.getElementById('section4').scrollIntoView({ behavior: 'smooth', block: 'start'}); 
 });

@@ -1672,25 +1672,31 @@ body {
     position: absolute;
     cursor: pointer;
     opacity: 0;
-    top: 53.5vh;
-    left: 8vw;
-    width: 10vw;
-    height: 20px;
-    border-radius: 10px;
-    box-shadow: 7px 7px 5px rgba(0, 0, 0);
+    top: 52vh;
+    left: 5vw;
 }
 
-#home-hero-contact:hover {
-    transform: scale(0.98);
-    transition: 0.3s linear;
-    box-shadow: 0 0 0 rgba(0, 0, 0);
+#home-hero-contact button{
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    background-color: #0c0c0c;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    color: #ffff;
+}
+
+#home-hero-contact button:hover {
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    color: #000000;
 }
 
 .contact {
     animation: 0.5s message linear 2.7s forwards;
 }
 
-#home-hero-contact p {
+.home-hero-contact p {
     text-align: center;
     cursor: pointer;
     font-weight: bold;
@@ -1699,10 +1705,10 @@ body {
     width: 100%;
     padding-top: 3px;
     margin: 2px;
-    border-radius: 10px;
-    color: #000000;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgb(128, 128, 128) 100%);
+    background-color: #0c0c0c;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    color: #ffff;
 }
 
 #message {
@@ -1730,15 +1736,6 @@ body {
     to {
         opacity: 1;
     }
-}
-
-.hero-contact i {
-    position: absolute;
-    z-index: 2;
-    top: 74vh;
-    left: 70px;
-    color: #ffffff;
-    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
 }
 
 #section1 {
@@ -1787,7 +1784,7 @@ body {
 
 .sec1-text1 {
     position: absolute;
-    top: 300px;
+    top: 330px;
     left: 5%;
     width: 90%;
     height: 100px;
@@ -2180,11 +2177,35 @@ body {
     width: 100%;
 }
 
-#section3 img{
+.sec3-icon1 i{
     position: absolute;
-    top: 28vh;
-    left: 15vw;
-    height: 83vh;
+    top: 45vh;
+    left: 12vw;
+    font-size: 300px;
+    color: rgb(49, 49, 49);
+}
+
+.sec3-icon2 i{
+    position: absolute;
+    top: 55vh;
+    left: 29vw;
+    font-size: 100px;
+    color: rgb(49, 49, 49);
+    animation: sec3iconfloat 5s infinite ease-in-out;
+}
+
+@keyframes sec3iconfloat {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 10px);
+    }
+
+    100% {
+        transform: translate(0, 0px)
+    }
 }
 
 .sec3-for-you {
@@ -2235,7 +2256,7 @@ body {
     position: absolute;
     top: 450vh;
     left: 0;
-    height: 100vh;
+    height: 103vh;
     width: 100%;
 }
 
@@ -2421,10 +2442,48 @@ body {
 .contact-left button{
     position: absolute;
     cursor: pointer;
+    background-color: #0c0c0c;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    color: #ffff;
     right: 10px;
     bottom: 30px;
     height: 30px;
     width: 100px;
+}
+
+.btn2:hover{
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    color: #000000;
+}
+
+#confermation-message {
+    position: absolute;
+    display: block;
+    text-align: center;
+    bottom: -5px;
+    left: 0;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.copy-right{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.copy-right p{
+    font-size: 12px;
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #686868;
 }
 
 #loader {
