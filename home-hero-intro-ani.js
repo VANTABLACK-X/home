@@ -42,3 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
 document.getElementById('home-hero-contact').addEventListener('click', function(){
     document.getElementById('section4').scrollIntoView({ behavior: 'smooth', block: 'start'}); 
 });
+
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "1vh";
+}
+function closemenu(){
+    sidemenu.style.right = "-25vh";
+}

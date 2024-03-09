@@ -16,13 +16,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#icon').click(function () {
-                $('ul').toggleClass('show')
-            });
-        });
-    </script>
 </head>
 
 <body>
@@ -451,7 +444,8 @@
                     designed</span> and <span>simple to use</span> and <span>works on any device.</span> He just happens
                 to make great websites.</p>
             <p data-aos="fade-right">The best way to predict <span>the future</span> is to create it.</p>
-            <p data-aos="fade-right">Are you ready to <span>create it together</span> with him? just scroll down a bit.</p>
+            <p data-aos="fade-right">Are you ready to <span>create it together</span> with him? just scroll down a bit.
+            </p>
             <p data-aos="fade-right">Tailored Solutions:</p>
             <p data-aos="fade-right">He don't believe in one-size-fits-all. His solutions are <span>tailored</span> to
                 meet your <span>specific</span> business goals and requirements.</p>
@@ -485,25 +479,43 @@
                 </div>
             </div>
             <div class="contact-left">
-               <form name="submit-to-google-sheet">
-                <div class="form-name"><p>Hi, My name is</p><input type="text" name="Name" placeholder="your name" autocomplete="off" required></div>
-                <div class="form-email"><p>Contact me on</p><input type="email" name="Email" placeholder="your email" autocomplete="off" required></div>
-                <div class="form-message"><p>I have project idea. which is,</p><textarea name="Message" rows="10" placeholder="short project description..." autocomplete="off" ></textarea></div>
-                <button type="submit" class="btn btn2">send</button>
-               </form>
-               <span id="confermation-message"></span>
+                <form name="submit-to-google-sheet">
+                    <div class="form-name">
+                        <p>Hi, My name is</p><input type="text" name="Name" placeholder="your name" autocomplete="off"
+                            required>
+                    </div>
+                    <div class="form-email">
+                        <p>Contact me on</p><input type="email" name="Email" placeholder="your email" autocomplete="off"
+                            required>
+                    </div>
+                    <div class="form-message">
+                        <p>I have project idea. which is,</p><textarea name="Message" rows="10"
+                            placeholder="short project description..." autocomplete="off"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn2">send</button>
+                </form>
+                <span id="confermation-message"></span>
             </div>
         </div>
-        <div class="copy-right"><p><i class="fa-regular fa-copyright"></i> VantaBlack - All rights reserved. Content, design, and code on this site are the property of VantaBlack, protected by copyright laws. With <i class="fa-solid fa-heart"></i> unauthorized use is strictly prohibited.</p></div>
+        <div class="copy-right">
+            <p><i class="fa-regular fa-copyright"></i> VantaBlack - All rights reserved. Content, design, and code on
+                this site are the property of VantaBlack, protected by copyright laws. With <i
+                    class="fa-solid fa-heart"></i> unauthorized use is strictly prohibited.</p>
+        </div>
     </div>
 
     <div id="nav">
-        <img src="images/vbw.png" alt="vb">
-        <div id="links">
-            <a href="art.html" aria-label="VantaBlack Art" class="techlink" data-aos="zoom-in" data-aos-delay="1600">
-                <div class="tech"><i class="fa-solid fa-palette"></i></div>
-            </a>
-        </div>
+        <nav>
+            <img src="images/vbw.png" alt="vb">
+            <ul id="sidemenu">
+                <li><a href="#section1">about</a></li>
+                <li><a href="#section2">services</a></li>
+                <li><a href="#section3">why him</a></li>
+                <li><a href="#section4">contact</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
     </div>
 
     <div id="loader">
