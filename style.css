@@ -2567,7 +2567,7 @@ nav ul li a:hover{
         display: flex;
         scroll-behavior: smooth;
         font-family: 'Belleza', sans-serif;
-        background-color: rgb(255, 255, 255);
+        background-color: #0c0c0c;
     }
 
     #nav {
