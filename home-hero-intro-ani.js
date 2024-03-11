@@ -39,14 +39,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-document.getElementById('home-hero-contact').addEventListener('click', function(){
-    document.getElementById('section4').scrollIntoView({ behavior: 'smooth', block: 'start'}); 
-});
-
+var bars = document.getElementById("bars");
 var sidemenu = document.getElementById("sidemenu");
-function openmenu(){
-    sidemenu.style.right = "1vh";
+function openmenu() {
+    sidemenu.style.right = "0";
+    bars.classList.toggle('active');
 }
-function closemenu(){
-    sidemenu.style.right = "-25vh";
+function closemenu() {
+    sidemenu.style.right = "-35vh";
+    bars.classList.remove('active');
 }
