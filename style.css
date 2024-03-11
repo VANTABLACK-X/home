@@ -495,9 +495,12 @@ nav ul li a i{
 }
 
 .dp1 img {
+    position: absolute;
     overflow: hidden;
-    height: 150%;
-    width: 100%;
+    top: 0;
+    left: -2px;
+    height: 15px;
+    width: 20px;
 }
 
 .left-music p {
@@ -645,8 +648,8 @@ nav ul li a i{
 .center-main22-img img {
     position: absolute;
     overflow: hidden;
-    top: -32px;
-    height: 130%;
+    top: -15px;
+    height: 110%;
     width: 100%;
 }
 
@@ -757,8 +760,8 @@ nav ul li a i{
 .center-main23-img img {
     position: absolute;
     overflow: hidden;
-    top: -160px;
-    height: 250%;
+    top: -8px;
+    height: 100%;
     width: 100%;
 }
 
@@ -881,10 +884,10 @@ nav ul li a i{
 .center-main32-img img {
     position: absolute;
     overflow: hidden;
-    top: -8px;
-    left: -67px;
-    height: 110%;
-    width: 100%;
+    top: 0;
+    left: 0;
+    height: 120%;
+    width: 40%;
 }
 
 .center-main32-cnt {
@@ -1179,9 +1182,9 @@ nav ul li a i{
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: -4px;
-    height: 120px;
-    width: 80px;
+    left: -20px;
+    height: 100%;
+    width: 110px;
 }
 
 .r-user-name {
