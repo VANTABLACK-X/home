@@ -90,6 +90,7 @@ nav ul .fa-x{
 nav ul li a{
     position: absolute;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
     left: 12%;
     padding-top: 5px;
     text-align: left;
@@ -2201,9 +2202,115 @@ nav ul li a i{
     font-size: 19px;
 }
 
-#section3 {
+#reviews-projects{
     position: absolute;
     top: 330vh;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+
+.reviewsection{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    width: 100%;
+    background-color: pink;
+}
+
+.reviews-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.reviews-wrapper{
+    position: absolute;
+    overflow: hidden;
+    overflow-x: auto;
+    display: flex;
+    top: 50px;
+    height: 350px;
+    left: 2%;
+    width: 96%;
+    background-color: red;
+}
+
+.reviews-wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.reviews{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 0;
+    margin: 25px;
+    height: 300px;
+    min-width: 275px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    box-shadow: -8px 8px 7px rgba(0, 0, 0, 0.5);
+    background-color: #686868;
+}
+
+#reviews-scroll-left{
+    position: absolute;
+    text-align: center;
+    height: 350px;
+    padding-top: 150px;
+    top: 50px;
+    left: 0;
+    width: 2%;
+    background-color: #000000;
+    color: #ffff;
+    margin: 0;
+    cursor: pointer;
+}
+
+#reviews-scroll-right{
+    position: absolute;
+    text-align: center;
+    height: 350px;
+    padding-top: 150px;
+    top: 50px;
+    right: 0;
+    width: 2%;
+    background-color: #000000;
+    color: #ffff;
+    margin: 0;
+    cursor: pointer;
+}
+
+.projectssection{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40vh;
+    width: 100%;
+}
+
+.projects-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    font-size: 45px;
+    color: #ffff;
+}
+
+#section3 {
+    position: absolute;
+    top: 430vh;
     left: 0;
     height: 100vh;
     width: 100%;
@@ -2385,7 +2492,7 @@ nav ul li a i{
 
 #section4{
     position: absolute;
-    top: 430vh;
+    top: 530vh;
     left: 0;
     height: 103vh;
     width: 100%;

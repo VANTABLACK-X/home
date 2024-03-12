@@ -49,3 +49,54 @@ function closemenu() {
     sidemenu.style.right = "-35vh";
     bars.classList.remove('active');
 }
+
+
+document.querySelectorAll('#scrollLink').forEach(function (link){
+    link.addEventListener('click', function(event){
+        event.preventDefault();
+        var targetId = this.getAttribute('data-target');
+        document.getElementById(targetId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function(){
+    var container = document.querySelector('.reviews-wrapper');
+    var scrollRightButton = document.getElementById('reviews-scroll-right');
+    var scrollLeftButton = document.getElementById('reviews-scroll-left');
+    var scrollAmount = 300;
+
+    function smoothScroll(direction) {
+      var scrollDirection = direction === 'right' ? scrollAmount : -scrollAmount;
+      var targetScroll = container.scrollLeft + scrollDirection;
+      var startScroll = container.scrollLeft;
+      var startTime = performance.now();
+  
+      function animation(currentTime) {
+        var elapsed = currentTime - startTime;
+        container.scrollLeft = easeInOut(elapsed, startScroll, scrollDirection, 500);
+  
+        if (elapsed < 500) {
+          requestAnimationFrame(animation);
+        }
+      }
+  
+      requestAnimationFrame(animation);
+    }
+  
+    function easeInOut(t, b, c, d) {
+      t /= d / 2;
+      if (t < 1) return c / 2 * t * t + b;
+      t--;
+      return -c / 2 * (t * (t - 2) - 1) + b;
+    }
+  
+    scrollRightButton.addEventListener('click', function () {
+      smoothScroll('right');
+    });
+  
+    scrollLeftButton.addEventListener('click', function () {
+      smoothScroll('left');
+    });
+});
