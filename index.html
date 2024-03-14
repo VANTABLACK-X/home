@@ -435,17 +435,38 @@
         </div>
     </div>
 
-    <div id="reviews-projects">
+    <div id="reviews-projects" onclick="closemenu()">
         <div class="reviewsection">
             <p class="reviews-title">Reviews</p>
             <div class="reviews-wrapper">
-                <div class="reviews">card1</div>
-                <div class="reviews">card2</div>
-                <div class="reviews">card3</div>
-                <div class="reviews">card4</div>
-                <div class="reviews">card5</div>
-                <div class="reviews">card4</div>
-                <div class="reviews">card5</div>
+                <div class="reviews">
+                    <div class="rev-img"></div>
+                    <div class="rev-name"><p>Jack Alexander</p></div>
+                    <div class="rev-rev"><p>"Exceptional web development service! His attention to detail and commitment to delivering a polished website exceeded my expectations. Highly recommend his expertise."</p></div>
+                    <div class="rev-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                </div>
+                <div class="reviews">
+                    <div class="rev-img"></div>
+                    <div class="rev-name"><p>Emily Eloise</p></div>
+                    <div class="rev-rev"><p>"Exceptional web development service! His attention to detail and commitment to delivering a polished website exceeded my expectations. Highly recommend his expertise."</p></div>
+                    <div class="rev-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                </div>
+                <div class="reviews">
+                    <div class="rev-img"></div>
+                    <div class="rev-name"><p>Ryan Davis</p></div>
+                    <div class="rev-rev"><p>"Working with this web development professional was a breeze! From conceptualization to execution, he demonstrated professionalism and creativity. Impressed with his technical skills and dedication to client satisfaction."
+                    </p></div>
+                    <div class="rev-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                </div>
+                <div class="reviews">
+                    <div class="rev-img"></div>
+                    <div class="rev-name"><p>Arthur</p></div>
+                    <div class="rev-rev"><p>"Thrilled with the website developed by him. He seamlessly translated my ideas into a visually stunning and functional site. Grateful for his expertise in web development."</p></div>
+                    <div class="rev-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                </div>
+                <div class="reviews">
+                 
+                </div>
             </div>
             <i class="fa-solid fa-less-than" id="reviews-scroll-left"></i>
             <i class="fa-solid fa-greater-than" id="reviews-scroll-right"></i>
@@ -453,14 +474,32 @@
         <div class="projectssection">
             <p class="projects-title">Projects</p>
             <div class="projects-wrapper">
-                <div class="projects">card1</div>
-                <div class="projects">card2</div>
-                <div class="projects">card3</div>
-                <div class="projects">card4</div>
-                <div class="projects">card5</div>
+                <div class="projects">
+                    <div class="proj-img"></div>
+                    <div class="proj-name"><p>Uber</p></div>
+                    <div class="proj-ovr"><p>"Electronic Products selling E-Commerce Store."</p></div>
+                </div>
+                <div class="projects">
+                    <div class="proj-img"></div>
+                    <div class="proj-name"><p>Insove</p></div>
+                    <div class="proj-ovr"><p>"Health Care Center."</p></div>
+                </div>
+                <div class="projects">
+                    <div class="proj-img"></div>
+                    <div class="proj-name"><p>Ryan Davis</p></div>
+                    <div class="proj-ovr"><p>"Web Developer Protfolio."</p></div>
+                </div>
+                <div class="projects">
+                    <div class="proj-img"></div>
+                    <div class="proj-name"><p>The Void Tattoo</p></div>
+                    <div class="proj-ovr"><p>"Micro Realism Tattoo Studio."</p></div>
+                </div>
+                <div class="projects">
+                    
+                </div>
             </div>
-            <i class="fa-solid fa-less-than"></i>
-            <i class="fa-solid fa-greater-than"></i>
+            <i class="fa-solid fa-less-than" id="projects-scroll-left"></i>
+            <i class="fa-solid fa-greater-than" id="projects-scroll-right"></i>
         </div>
     </div>
 
@@ -553,6 +592,7 @@
                 <li><a id="scrollLink" data-target="hero"><i class="fa-solid fa-house"></i>Home</a></li>
                 <li><a id="scrollLink" data-target="section1"><i class="fa-solid fa-address-card"></i>About</a></li>
                 <li><a id="scrollLink" data-target="section2"><i class="fa-solid fa-gears"></i>Services</a></li>
+                <li><a id="scrollLink" data-target="reviews-projects"><i class="fa-solid fa-code"></i>Proj / Rev</a></li>
                 <li><a id="scrollLink" data-target="section3"><i class="fa-regular fa-user"></i>Why him</a></li>
                 <li><a id="scrollLink" data-target="section4"><i class="fa-regular fa-comment"></i>Contact</a></li>
                 <i class="fa-solid fa-x" onclick="closemenu()"></i>
@@ -598,7 +638,6 @@
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.32/dist/lenis.min.js"></script>
     <script src="smooth_scroll.js"></script>
     <script src="form.js"></script>
-    <script src="https://unpkg.com/split-type"></script>
     <script src="home.js"></script>
     <script src="preload.js"></script>
     <script src="home-hero-intro-ani.js"></script>

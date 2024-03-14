@@ -100,3 +100,43 @@ document.addEventListener('DOMContentLoaded', function(){
       smoothScroll('left');
     });
 });
+
+document.addEventListener('DOMContentLoaded', function(){
+  var container1 = document.querySelector('.projects-wrapper');
+  var scrollRightButton1 = document.getElementById('projects-scroll-right');
+  var scrollLeftButton1 = document.getElementById('projects-scroll-left');
+  var scrollAmount = 300;
+
+  function smoothScroll(direction) {
+    var scrollDirection = direction === 'right' ? scrollAmount : -scrollAmount;
+    var targetScroll = container1.scrollLeft + scrollDirection;
+    var startScroll = container1.scrollLeft;
+    var startTime = performance.now();
+
+    function animation(currentTime) {
+      var elapsed = currentTime - startTime;
+      container1.scrollLeft = easeInOut(elapsed, startScroll, scrollDirection, 500);
+
+      if (elapsed < 500) {
+        requestAnimationFrame(animation);
+      }
+    }
+
+    requestAnimationFrame(animation);
+  }
+
+  function easeInOut(t, b, c, d) {
+    t /= d / 2;
+    if (t < 1) return c / 2 * t * t + b;
+    t--;
+    return -c / 2 * (t * (t - 2) - 1) + b;
+  }
+
+  scrollRightButton1.addEventListener('click', function () {
+    smoothScroll('right');
+  });
+
+  scrollLeftButton1.addEventListener('click', function () {
+    smoothScroll('left');
+  });
+});
