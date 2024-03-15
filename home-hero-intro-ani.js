@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const cm32 = document.getElementById('center-main32');
     const cm33 = document.getElementById('center-main33');
     const rdp = document.getElementById('r-dp-container');
-    const mem1 = document.getElementById('member1');
-    const mem2 = document.getElementById('member2');
+    const mem1 = document.getElementById('member2');
+    const mem2 = document.getElementById('member1');
     const mem3 = document.getElementById('member3');
     const mem4 = document.getElementById('member4');
     const htitle = document.getElementById('hometitle');
@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
         cm32.classList.add('cm32');
         cm33.classList.add('cm33');
         rdp.classList.add('rdp');
-        mem1.classList.add('mem1');
-        mem2.classList.add('mem2');
+        mem1.classList.add('mem2');
+        mem2.classList.add('mem1');
         mem3.classList.add('mem3');
         mem4.classList.add('mem4');
         htitlep.classList.add('htitle');
