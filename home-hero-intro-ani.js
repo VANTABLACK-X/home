@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener('load', function () {
         navi.classList.add('navani');
-        sr.classList.add('sranimation');
+        sr.classList.add('sranimation1');
         cm22.classList.add('cm22');
         cm23.classList.add('cm23');
         cm32.classList.add('cm32');
@@ -46,7 +46,7 @@ function openmenu() {
     bars.classList.toggle('active');
 }
 function closemenu() {
-    sidemenu.style.right = "-35vh";
+    sidemenu.style.right = "-45vh";
     bars.classList.remove('active');
 }
 
