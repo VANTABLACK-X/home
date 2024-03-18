@@ -46,7 +46,7 @@ function openmenu() {
     bars.classList.toggle('active');
 }
 function closemenu() {
-    sidemenu.style.right = "-45vh";
+    sidemenu.style.right = "-47vh";
     bars.classList.remove('active');
 }
 
