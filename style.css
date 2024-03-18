@@ -699,25 +699,6 @@ nav ul li a i{
     color: #999999;
 }
 
-.main22-cnt-online {
-    position: absolute;
-    font-size: 7px;
-    top: 98px;
-    left: 10px;
-    width: 160px;
-    color: #747474;
-}
-
-.main22-cnt-members {
-    position: absolute;
-    text-align: right;
-    font-size: 7px;
-    top: 98px;
-    right: 10px;
-    width: 160px;
-    color: #747474;
-}
-
 .main22-icon {
     position: absolute;
     text-align: center;
@@ -3292,7 +3273,7 @@ nav ul li a i{
         overflow: hidden;
         top: 0;
         left: 0;
-        height: 369px;
+        height: 209px;
         width: 20px;
         border-right: 0.5px solid rgba(170, 170, 170, 0.3);
     }
@@ -3436,8 +3417,8 @@ nav ul li a i{
     .lm-home {
         position: absolute;
         top: 0;
-        height: 25px;
-        width: 100px;
+        height: 10px;
+        width: 50px;
         margin: 5px;
         font-size: 10px;
         color: #a7a7a7;
@@ -3446,119 +3427,120 @@ nav ul li a i{
     }
     
     .lm-home p {
-        margin: 5px;
+        font-size: 5px;
+        margin: 2.5px;
     }
     
     .lm-home i {
-        margin-right: 10px;
+        margin-right: 5px;
     }
     
     .lm-music {
         position: absolute;
-        top: 30px;
-        height: 25px;
-        width: 100px;
+        top: 12px;
+        height: 10px;
+        width: 50px;
         margin: 5px;
-        font-size: 10px;
         color: #a7a7a7;
     }
     
     .lm-music p {
-        margin: 5px;
+        font-size: 5px;
+        margin: 2.5px;
     }
     
     .lm-music i {
-        margin-right: 10px;
+        margin-right: 5px;
     }
     
     .lm-gaming {
         position: absolute;
-        top: 60px;
-        height: 25px;
-        width: 100px;
+        top: 24px;
+        height: 10px;
+        width: 50px;
         margin: 5px;
-        font-size: 10px;
         color: #a7a7a7;
     }
     
     .lm-gaming p {
-        margin: 5px;
+        font-size: 5px;
+        margin: 2.5px;
     }
     
     .lm-gaming i {
-        margin-right: 10px;
+        margin-right: 5px;
     }
     
     .lm-educat {
         position: absolute;
-        top: 90px;
-        height: 25px;
-        width: 100px;
+        top: 36px;
+        height: 10px;
+        width: 50px;
         margin: 5px;
-        font-size: 10px;
         color: #a7a7a7;
     }
     
     .lm-educat p {
-        margin: 5px;
+        font-size: 5px;
+        margin: 2.5px;
     }
     
     .lm-educat i {
-        margin-right: 10px;
+        margin-right: 5px;
     }
     
     .lm-science {
         position: absolute;
-        top: 120px;
-        height: 25px;
-        width: 100px;
+        top: 48px;
+        height: 10px;
+        width: 50px;
         margin: 5px;
-        font-size: 10px;
         color: #a7a7a7;
     }
     
     .lm-science p {
-        margin: 5px;
+        font-size: 5px;
+        margin: 2.5px;
     }
     
     .lm-science i {
-        margin-right: 10px;
+        margin-right: 5px;
     }
     
     .lm-entertain {
         position: absolute;
-        top: 150px;
-        height: 25px;
-        width: 100px;
+        top: 60px;
+        height: 10px;
+        width: 50px;
         margin: 5px;
-        font-size: 10px;
         color: #a7a7a7;
     }
     
     .lm-entertain p {
-        margin: 5px;
+        font-size: 5px;
+        margin: 2.5px;
     }
     
     .lm-entertain i {
-        margin-right: 10px;
+        margin-right: 5px;
     }
     
     .lm-student {
         position: absolute;
-        top: 180px;
+        top: 72px;
         margin: 5px;
-        height: 25px;
-        width: 100px;
-        font-size: 10px;
+        height: 10px;
+        width: 50px;
         color: #a7a7a7;
     }
     
     .lm-student p {
-        margin: 5px;
+        font-size: 5px;
+        margin: 2.5px;
     }
     
     .lm-student i {
-        margin-right: 10px;
+        margin-right: 5px;
     }
     
     .left-music {
@@ -3566,9 +3548,9 @@ nav ul li a i{
         overflow: hidden;
         bottom: 0;
         left: 0;
-        height: 40px;
-        width: 150px;
-        border-bottom-left-radius: 13px;
+        height: 20px;
+        width: 80px;
+        border-bottom-left-radius: 7px;
         background-color: rgba(0, 0, 0, 0.411);
         border-top: 0.5px solid rgba(170, 170, 170, 0.3);
     }
@@ -3576,9 +3558,9 @@ nav ul li a i{
     .dp1 {
         position: absolute;
         overflow: hidden;
-        margin: 12px;
-        height: 15px;
-        width: 15px;
+        margin: 5px;
+        height: 10px;
+        width: 10px;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     }
     
@@ -3586,50 +3568,50 @@ nav ul li a i{
         position: absolute;
         overflow: hidden;
         top: 0;
-        left: -2px;
-        height: 15px;
-        width: 20px;
+        left: -4px;
+        height: 12px;
+        width: 18px;
     }
     
     .left-music p {
         position: absolute;
-        left: 15px;
-        margin: 14px;
-        font-size: 10px;
+        left: 5px;
+        margin-top: 7px;
+        font-size: 5px;
         color: #a7a7a7;
     }
     
     .mic {
         position: absolute;
-        left: 80px;
-        margin-top: 15px;
+        left: 48px;
+        margin-top: 7px;
         color: #a7a7a7;
-        font-size: 10px;
+        font-size: 5px;
     }
     
     .headphone {
         position: absolute;
-        left: 100px;
-        margin-top: 15px;
+        left: 57px;
+        margin-top: 7px;
         color: #a7a7a7;
-        font-size: 10px;
+        font-size: 5px;
     }
     
     .user-check {
         position: absolute;
-        left: 125px;
-        margin-top: 15px;
+        left: 67px;
+        margin-top: 7px;
         color: #a7a7a7;
-        font-size: 10px;
+        font-size: 5px;
     }
     
     .left-sound {
         position: absolute;
         overflow: hidden;
-        bottom: 40px;
+        bottom: 20px;
         left: 0;
-        height: 40px;
-        width: 150px;
+        height: 20px;
+        width: 80px;
         background-color: rgba(0, 0, 0, 0.24);
         border-top: 0.5px solid rgba(170, 170, 170, 0.3);
     }
@@ -3643,11 +3625,10 @@ nav ul li a i{
     
     .center-main {
         position: absolute;
-    
-        top: 30px;
-        left: 150px;
-        height: 420px;
-        width: 400px;
+        top: 20px;
+        left: 80px;
+        height: 229px;
+        width: 230px;
         background-color: rgba(0, 0, 0, 0.288);
         border-top: 0.5px solid rgba(170, 170, 170, 0.3);
         border-right: 0.5px solid rgba(170, 170, 170, 0.3);
@@ -3657,10 +3638,10 @@ nav ul li a i{
         position: absolute;
         overflow: hidden;
         z-index: 2;
-        top: 10px;
-        left: 10px;
-        width: 380px;
-        height: 100px;
+        top: 5px;
+        left: 5px;
+        width: 220px;
+        height: 55px;
         border-radius: 10px;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
     }
@@ -3668,8 +3649,8 @@ nav ul li a i{
     .center-main1 img {
         position: absolute;
         overflow: hidden;
-        top: -95%;
-        height: 200%;
+        top: -135%;
+        height: 240%;
         width: 100%;
     }
     
@@ -3677,8 +3658,8 @@ nav ul li a i{
         position: absolute;
         text-align: center;
         font-weight: bold;
-        font-size: 14px;
-        margin-top: 30px;
+        font-size: 10px;
+        margin-top: 10px;
         height: 50%;
         width: 100%;
         color: white;
@@ -3688,8 +3669,8 @@ nav ul li a i{
         position: absolute;
         text-align: center;
         font-weight: bold;
-        font-size: 14px;
-        margin-top: 50px;
+        font-size: 10px;
+        margin-top: 22px;
         height: 50%;
         width: 100%;
         color: #ffffff;
@@ -3697,29 +3678,28 @@ nav ul li a i{
     
     .center-main2 {
         position: absolute;
-        top: 130px;
-        width: 380px;
-        left: 10px;
-        height: 140px;
+        top: 65px;
+        width: 230px;
+        left: 0;
+        height: 90px;
     }
     
     .center-main21 p {
         margin-left: 6px;
-        font-size: 13px;
+        font-size: 8px;
         color: #ffffff;
     }
     
     #center-main22 {
         position: absolute;
         overflow: hidden;
-        top: 20px;
+        top: 13px;
         left: 5px;
-        height: 110px;
-        width: 180px;
-        border-radius: 10px;
+        height: 65px;
+        width: 105px;
+        border-radius: 6px;
         background-color: #707070;
-        box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
-    
+        box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.644);
     }
     
     .cm22 {
@@ -3728,8 +3708,8 @@ nav ul li a i{
     
     @keyframes cm22 {
         to {
-            transform: translate(5px, -5px);
-            box-shadow: -7px 7px 12px rgba(0, 0, 0, 0.644);
+            transform: translate( 5px, -5px);
+            box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.644);
         }
     }
     
@@ -3746,11 +3726,11 @@ nav ul li a i{
         overflow: hidden;
         bottom: 0;
         left: 0;
-        width: 180px;
-        height: 60px;
-        border-radius: 17px;
-        border-bottom-left-radius: 9px;
-        border-bottom-right-radius: 9px;
+        width: 105px;
+        height: 35px;
+        border-radius: 6px;
+        border-bottom-left-radius: 1px;
+        border-bottom-right-radius: 1px;
         background-color: rgba(0, 0, 0, 0.452);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
@@ -3761,77 +3741,59 @@ nav ul li a i{
         overflow: hidden;
         bottom: 0;
         left: 0;
-        width: 180px;
-        height: 110px;
+        width: 110px;
+        height: 35px;
     }
     
     .main22-cnt-title {
         position: absolute;
-        font-size: 11px;
-        top: 57px;
-        left: 10px;
+        font-size: 6px;
+        top: 4px;
+        left: 5px;
         width: 100%;
         color: #ffffff;
     }
     
     .main22-cnt-ph {
         position: absolute;
-        font-size: 8px;
-        top: 74px;
-        left: 10px;
-        width: 160px;
+        font-size: 4px;
+        top: 15px;
+        left: 5px;
+        width: 90px;
         color: #999999;
-    }
-    
-    .main22-cnt-online {
-        position: absolute;
-        font-size: 7px;
-        top: 98px;
-        left: 10px;
-        width: 160px;
-        color: #747474;
-    }
-    
-    .main22-cnt-members {
-        position: absolute;
-        text-align: right;
-        font-size: 7px;
-        top: 98px;
-        right: 10px;
-        width: 160px;
-        color: #747474;
     }
     
     .main22-icon {
         position: absolute;
         text-align: center;
-        top: 33px;
-        right: 30px;
-        height: 35px;
-        width: 30px;
+        top: 22px;
+        right: 13px;
+        height: 17px;
+        width: 15px;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
         background: rgb(0, 18, 255);
         background: linear-gradient(45deg, rgba(0, 18, 255, 1) 0%, rgba(0, 255, 239, 1) 100%);
     }
     
     .main22-icon i {
-        font-size: 13px;
+        position: absolute;
+        font-size: 6px;
         color: #ffffff;
-        margin-top: 11px;
+        margin-top: 5px;
+        left: 4px;
     }
     
     #center-main23 {
         position: absolute;
         overflow: hidden;
-        top: 20px;
+        top: 13px;
         right: 5px;
-        height: 110px;
-        width: 180px;
-        border-radius: 10px;
+        height: 65px;
+        width: 105px;
+        border-radius: 6px;
         background-color: #707070;
-        box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
+        box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.644);
         z-index: 20;
-    
     }
     
     .cm23 {
@@ -3840,8 +3802,8 @@ nav ul li a i{
     
     @keyframes cm23 {
         to {
-            transform: translate(25px, -15px);
-            box-shadow: -14px 14px 25px rgba(0, 0, 0, 0.644);
+            transform: translate(12px, -8px);
+            box-shadow: -7px 7px 15px rgba(0, 0, 0, 0.644);
         }
     }
     
@@ -3858,11 +3820,11 @@ nav ul li a i{
         overflow: hidden;
         bottom: 0;
         left: 0;
-        width: 180px;
-        height: 60px;
-        border-radius: 17px;
-        border-bottom-left-radius: 9px;
-        border-bottom-right-radius: 9px;
+        width: 105px;
+        height: 35px;
+        border-radius: 6px;
+        border-bottom-left-radius: 1px;
+        border-bottom-right-radius: 1px;
         background-color: rgba(0, 0, 0, 0.315);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
@@ -3873,87 +3835,71 @@ nav ul li a i{
         overflow: hidden;
         bottom: 0;
         left: 0;
-        width: 180px;
-        height: 110px;
+        width: 105px;
+        height: 35px;
     }
     
     .main23-cnt-title {
         position: absolute;
-        font-size: 11px;
-        top: 7px;
-        left: 10px;
+        font-size: 6px;
+        top: 5px;
+        left: 5px;
         width: 100%;
         color: #ffffff;
     }
     
     .main23-cnt-ph {
         position: absolute;
-        font-size: 8px;
-        top: 24px;
-        left: 10px;
-        width: 160px;
+        font-size: 4px;
+        top: 15px;
+        left: 5px;
+        width: 90px;
         color: #999999;
-    }
-    
-    .main23-cnt-online {
-        position: absolute;
-        font-size: 7px;
-        top: 48px;
-        left: 10px;
-        width: 160px;
-        color: #747474;
-    }
-    
-    .main23-cnt-members {
-        position: absolute;
-        text-align: right;
-        font-size: 7px;
-        top: 48px;
-        right: 10px;
-        width: 160px;
-        color: #747474;
     }
     
     .main23-icon {
         position: absolute;
         text-align: center;
-        top: 33px;
-        right: 30px;
-        height: 35px;
-        width: 30px;
+        top: 22px;
+        right: 13px;
+        height: 17px;
+        width: 15px;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
         background: rgb(0, 18, 255);
         background: linear-gradient(45deg, rgba(0, 18, 255, 1) 0%, rgba(255, 0, 228, 1) 100%);
     }
     
     .main23-icon i {
-        font-size: 13px;
+        position: absolute;
+        top: -6px;
+        left: 3.5px;
+        font-size: 7px;
         color: #ffffff;
         margin-top: 11px;
     }
     
     .center-main3 {
         position: absolute;
-        top: 280px;
-        width: 380px;
-        left: 10px;
-        height: 120px;
+        top: 155px;
+        width: 230px;
+        left: 0;
+        height: 73px;
     }
     
     .center-main31 p {
         margin-left: 6px;
-        font-size: 13px;
+        font-size: 7px;
         color: #ffffff;
     }
     
     #center-main32 {
         position: absolute;
         overflow: hidden;
-        top: 20px;
+        top: 14px;
         left: 5px;
-        height: 90px;
-        width: 180px;
-        border-radius: 10px;
+        height: 55px;
+        width: 105px;
+        border-radius: 6px;
         background-color: #707070;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
     }
@@ -3982,33 +3928,23 @@ nav ul li a i{
         position: absolute;
         overflow: hidden;
         top: 0;
-        right: -10px;
-        width: 130px;
-        height: 90px;
-        border-radius: 17px;
-        border-bottom-left-radius: 9px;
-        border-top-left-radius: 9px;
+        right: 0;
+        width: 70px;
+        height: 55px;
+        border-radius: 6px;
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
         background-color: rgb(32, 32, 32);
-    
-    }
-    
-    .center-main32-cnt1 {
-        position: absolute;
-        overflow: hidden;
-        bottom: 0;
-        left: 0;
-        width: 180px;
-        height: 110px;
     }
     
     .main32-cover {
         position: absolute;
         overflow: hidden;
-        top: -20px;
-        left: -130px;
-        width: 140px;
-        height: 140px;
-        border-top-right-radius: 35px;
+        top: 1px;
+        left: -45px;
+        width: 40px;
+        height: 100px;
+        border-top-right-radius: 30px;
         background: rgb(0, 18, 255);
         background: linear-gradient(-60deg, rgba(0, 18, 255, 1) 0%, rgba(0, 255, 239, 1) 100%);
         transform: rotate(45deg);
@@ -4016,64 +3952,52 @@ nav ul li a i{
     
     .main32-cnt-title {
         position: absolute;
-        font-size: 11px;
-        top: 15px;
-        left: 30px;
+        font-size: 6px;
+        top: 14px;
+        left: 15px;
         width: 100%;
         color: #ffffff;
     }
     
     .main32-cnt-ph {
         position: absolute;
-        font-size: 8px;
-        top: 30px;
-        left: 30px;
-        width: 80px;
+        font-size: 4px;
+        top: 25px;
+        left: 15px;
+        width: 50px;
         color: #999999;
-    }
-    
-    .main32-cnt-members {
-        position: absolute;
-        font-size: 7px;
-        bottom: 4px;
-        right: 0;
-        width: 160px;
-        color: #747474;
-    }
-    
-    .main32-cnt-members p {
-        text-align: right;
-        margin-right: 20px;
     }
     
     .main32-icon {
         position: absolute;
         text-align: center;
-        top: 30px;
-        left: 45px;
-        height: 35px;
-        width: 30px;
+        top: 20px;
+        left: 28px;
+        height: 17px;
+        width: 15px;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
         background: rgb(0, 5, 78);
         background: linear-gradient(45deg, rgba(0, 5, 78, 1) 0%, rgba(0, 56, 255, 1) 100%);
     }
     
     .main32-icon i {
-        font-size: 18px;
+        position: absolute;
+        top: -4px;
+        left: 5px;
+        font-size: 8px;
         color: #ffffff;
-        margin-top: 8px;
     }
     
     #center-main33 {
         position: absolute;
         overflow: hidden;
-        top: 20px;
+        top: 14px;
         right: 5px;
-        height: 90px;
-        width: 180px;
-        border-radius: 10px;
+        height: 55px;
+        width: 105px;
+        border-radius: 6px;
         background-color: #707070;
-        box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
+        box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.5);
     }
     
     .cm33 {
@@ -4082,16 +4006,16 @@ nav ul li a i{
     
     @keyframes cm33 {
         to {
-            transform: translate(25px, -15px);
-            box-shadow: -14px 14px 25px rgba(0, 0, 0, 0.644);
+            transform: translate(12px, -9px);
+            box-shadow: -7px 7px 15px rgba(0, 0, 0, 0.644);
         }
     }
     
     .center-main33-img img {
         position: absolute;
         overflow: hidden;
-        top: -8px;
-        left: -60px;
+        top: 0;
+        left: -35px;
         height: 110%;
         width: 100%;
     }
@@ -4101,32 +4025,23 @@ nav ul li a i{
         overflow: hidden;
         top: 0;
         right: -10px;
-        width: 130px;
-        height: 90px;
-        border-radius: 17px;
-        border-bottom-left-radius: 9px;
-        border-top-left-radius: 9px;
+        width: 80px;
+        height: 55px;
+        border-radius: 4px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
         background-color: rgb(32, 32, 32);
     
-    }
-    
-    .center-main33-cnt1 {
-        position: absolute;
-        overflow: hidden;
-        bottom: 0;
-        left: 0;
-        width: 180px;
-        height: 110px;
     }
     
     .main33-cover {
         position: absolute;
         overflow: hidden;
-        top: -20px;
-        left: -130px;
-        width: 140px;
-        height: 140px;
-        border-top-right-radius: 35px;
+        top: 1px;
+        left: -45px;
+        width: 40px;
+        height: 100px;
+        border-top-right-radius: 30px;
         background: rgb(0, 18, 255);
         background: linear-gradient(-60deg, rgba(0, 18, 255, 1) 0%, rgba(0, 255, 239, 1) 100%);
         transform: rotate(45deg);
@@ -4134,52 +4049,40 @@ nav ul li a i{
     
     .main33-cnt-title {
         position: absolute;
-        font-size: 11px;
+        font-size: 6px;
         top: 15px;
-        left: 30px;
+        left: 15px;
         width: 100%;
         color: #ffffff;
     }
     
     .main33-cnt-ph {
         position: absolute;
-        font-size: 8px;
-        top: 30px;
-        left: 30px;
-        width: 80px;
+        font-size: 4px;
+        top: 25px;
+        left: 15px;
+        width: 50px;
         color: #999999;
     }
-    
-    .main33-cnt-members {
-        position: absolute;
-        font-size: 7px;
-        bottom: 4px;
-        right: 0;
-        width: 160px;
-        color: #747474;
-    }
-    
-    .main33-cnt-members p {
-        text-align: right;
-        margin-right: 20px;
-    }
-    
+
     .main33-icon {
         position: absolute;
         text-align: center;
-        top: 30px;
-        left: 45px;
-        height: 35px;
-        width: 30px;
+        top: 20px;
+        left: 27px;
+        height: 17px;
+        width: 15px;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
         background: rgb(38, 38, 38);
         background: linear-gradient(45deg, rgb(15, 15, 15) 0%, rgba(176, 176, 176, 1) 100%);
     }
     
     .main33-icon i {
-        font-size: 18px;
+        position: absolute;
+        top: -3px;
+        left: 5px;
+        font-size: 8px;
         color: #ffffff;
-        margin-top: 8px;
     }
     
     .right-main {
@@ -4805,7 +4708,7 @@ nav ul li a i{
         position: absolute;
         cursor: pointer;
         opacity: 0;
-        top: 30vh;
+        top: 26vh;
         left: 0;
         width: 100%;
     }
