@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener('load', function () {
         navi.classList.add('navani');
-        sr.classList.add('sranimation1');
+        sr.classList.add('sranimation');
         cm22.classList.add('cm22');
         cm23.classList.add('cm23');
         cm32.classList.add('cm32');
