@@ -512,7 +512,7 @@ nav ul li a i{
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: -0.13rem;
+    left: -0.15rem;
     height: 0.9375rem;
     width: 1.25rem;
 }
@@ -3166,6 +3166,7 @@ nav ul li a i{
     
     #hero {
         position: absolute;
+        overflow: hidden;
         top: 0;
         left: 0;
         height: 100vh;
@@ -3209,11 +3210,10 @@ nav ul li a i{
     
     #screen {
         position: absolute;
-        overflow: hidden;
         z-index: 1;
         top: 40%;
         right: 6%;
-        height: 30%;
+        height: 28%;
         width: 88%;
         font-family: 'Roboto', sans-serif;
         background: rgba(53, 53, 53, 0.2);
@@ -3320,7 +3320,7 @@ nav ul li a i{
         left: 18%;
         height: 7%;
         width: 64%;
-        font-size: 1.2rem;
+        font-size: 0.6rem;
         border-radius: 50%;
         background: rgb(147, 193, 255);
         background: linear-gradient(135deg, rgb(255, 238, 84) 0%, rgb(92, 78, 0) 100%);
@@ -3338,7 +3338,7 @@ nav ul li a i{
         left: 18%;
         height: 7%;
         width: 64%;
-        font-size: 1rem;
+        font-size: 0.6rem;
         border-radius: 50%;
         background: rgb(147, 193, 255);
         background: linear-gradient(135deg, rgb(109, 109, 109) 0%, rgb(10, 10, 10) 100%);
@@ -3346,7 +3346,7 @@ nav ul li a i{
     
     .unity i {
         color: rgb(126, 126, 126);
-        margin-top: 4px;
+        margin-top: 2.5px;
     }
     
     .compass {
@@ -3356,14 +3356,14 @@ nav ul li a i{
         left: 18%;
         height: 7%;
         width: 64%;
-        font-size: 1.2rem;
+        font-size: 0.6rem;
         border-radius: 50%;
         background: rgba(255, 9, 255, 0.226);
     }
     
     .compass i {
         color: rgb(233, 0, 221);
-        margin-top: 3.5px;
+        margin-top: 3px;
     }
     
     .plus {
@@ -3373,14 +3373,14 @@ nav ul li a i{
         left: 18%;
         height: 7%;
         width: 64%;
-        font-size: 1.2rem;
+        font-size: 0.6rem;
         border-radius: 50%;
         background: rgba(102, 0, 102, 0.274);
     }
     
     .plus i {
         color: rgba(233, 0, 221, 0.459);
-        margin-top: 2.5px;
+        margin: 3px;
     }
     
     .lm-home {
@@ -3389,9 +3389,9 @@ nav ul li a i{
         height: 7%;
         width: 96%;
         margin: 0.2em;
-        font-size: 0.625rem;
+        font-size: 0.375rem;
         color: #a7a7a7;
-        border-radius: 3px;
+        border-radius: 2px;
         background-color: #00000086;
     }
     
@@ -3410,7 +3410,7 @@ nav ul li a i{
         height: 7%;
         width: 96%;
         margin: 0.2em;
-        font-size: 0.625rem;
+        font-size: 0.375rem;
         color: #a7a7a7;
     }
     
@@ -3429,7 +3429,7 @@ nav ul li a i{
         height: 7%;
         width: 96%;
         margin: 0.2em;
-        font-size: 0.625rem;
+        font-size: 0.375rem;
         color: #a7a7a7;
     }
     
@@ -3448,7 +3448,7 @@ nav ul li a i{
         height: 7%;
         width: 96%;
         margin: 0.2em;
-        font-size: 0.625rem;
+        font-size: 0.375rem;
         color: #a7a7a7;
     }
     
@@ -3467,7 +3467,7 @@ nav ul li a i{
         height: 7%;
         width: 96%;
         margin: 0.2em;
-        font-size: 0.625rem;
+        font-size: 0.375rem;
         color: #a7a7a7;
     }
     
@@ -3486,7 +3486,7 @@ nav ul li a i{
         height: 7%;
         width: 96%;
         margin: 0.2em;
-        font-size: 0.625rem;
+        font-size: 0.375rem;
         color: #a7a7a7;
     }
     
@@ -3505,7 +3505,7 @@ nav ul li a i{
         height: 7%;
         width: 96%;
         margin: 0.2em;
-        font-size: 0.625rem;
+        font-size: 0.375rem;
         color: #a7a7a7;
     }
     
@@ -3534,9 +3534,9 @@ nav ul li a i{
     .dp1 {
         position: absolute;
         overflow: hidden;
-        margin: 0.75rem;
-        height: 0.9375rem;
-        width: 0.9375rem;
+        margin: 0.25rem;
+        height: 0.8375rem;
+        width: 0.8375rem;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     }
     
@@ -3544,42 +3544,42 @@ nav ul li a i{
         position: absolute;
         overflow: hidden;
         top: 0;
-        left: -0.13rem;
+        left: -0.19rem;
         height: 0.9375rem;
         width: 1.25rem;
     }
     
     .left-music p {
         position: absolute;
-        left: 0.9375rem;
-        margin: 0.75rem;
+        left: 0.3375rem;
+        margin: 0.50rem;
         margin-left: 0.95rem;
-        font-size: 0.625rem;
+        font-size: 0.325rem;
         color: #a7a7a7;
     }
     
     .mic {
         position: absolute;
-        left: 58%;
-        margin-top: 0.75rem;
+        left: 65%;
+        margin-top: 0.50rem;
         color: #a7a7a7;
-        font-size: 0.625rem;
+        font-size: 0.325rem;
     }
     
     .headphone {
         position: absolute;
-        left: 70%;
-        margin-top: 0.75rem;
+        left: 77%;
+        margin-top: 0.50rem;
         color: #a7a7a7;
-        font-size: 0.625rem;
+        font-size: 0.325rem;
     }
     
     .user-check {
         position: absolute;
-        left: 85%;
-        margin-top: 0.75rem;
+        left: 90%;
+        margin-top: 0.50rem;
         color: #a7a7a7;
-        font-size: 0.625rem;
+        font-size: 0.325rem;
     }
     
     .left-sound {
@@ -3620,7 +3620,7 @@ nav ul li a i{
         left: 2%;
         width: 96%;
         height: 25%;
-        border-radius: 10px;
+        border-radius: 7px;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
     }
     
@@ -3636,7 +3636,7 @@ nav ul li a i{
         position: absolute;
         text-align: center;
         font-weight: bold;
-        font-size: 0.875rem;
+        font-size: 0.475rem;
         margin-top: 8%;
         height: 50%;
         width: 100%;
@@ -3647,7 +3647,7 @@ nav ul li a i{
         position: absolute;
         text-align: center;
         font-weight: bold;
-        font-size: 0.875rem;
+        font-size: 0.475rem;
         margin-top: 13%;
         height: 50%;
         width: 100%;
@@ -3664,7 +3664,7 @@ nav ul li a i{
     
     .center-main21 p {
         margin-left: 2%;
-        font-size: 0.8125rem;
+        font-size: 0.4225rem;
         color: #ffffff;
     }
     
@@ -3675,7 +3675,7 @@ nav ul li a i{
         left: 2%;
         height: 75%;
         width: 46%;
-        border-radius: 10px;
+        border-radius: 6px;
         background-color: #707070;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
     
@@ -3707,9 +3707,9 @@ nav ul li a i{
         left: 0;
         width: 100%;
         height: 55%;
-        border-radius: 17px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+        border-radius: 7px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
         background-color: rgba(0, 0, 0, 0.452);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
@@ -3726,7 +3726,7 @@ nav ul li a i{
     
     .main22-cnt-title {
         position: absolute;
-        font-size: 0.6875rem;
+        font-size: 0.3875rem;
         top: 10%;
         left: 8%;
         width: 100%;
@@ -3735,7 +3735,7 @@ nav ul li a i{
     
     .main22-cnt-ph {
         position: absolute;
-        font-size: 0.5rem;
+        font-size: 0.27rem;
         top: 40%;
         left: 8%;
         width: 84%;
@@ -3755,9 +3755,11 @@ nav ul li a i{
     }
     
     .main22-icon i {
-        font-size: 0.8125rem;
+        position: absolute;
+        top: -5px;
+        left: 4px;
+        font-size: 0.4125rem;
         color: #ffffff;
-        margin-top: 0.687rem;
     }
     
     #center-main23 {
@@ -3767,7 +3769,7 @@ nav ul li a i{
         right: 2%;
         height: 75%;
         width: 46%;
-        border-radius: 10px;
+        border-radius: 6px;
         background-color: #707070;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
         z-index: 20;
@@ -3800,9 +3802,9 @@ nav ul li a i{
         left: 0;
         width: 100%;
         height: 55%;
-        border-radius: 17px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+        border-radius: 8px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
         background-color: rgba(0, 0, 0, 0.315);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
@@ -3819,7 +3821,7 @@ nav ul li a i{
     
     .main23-cnt-title {
         position: absolute;
-        font-size: 0.6875rem;
+        font-size: 0.3875rem;
         top: 10%;
         left: 8%;
         width: 86%;
@@ -3828,7 +3830,7 @@ nav ul li a i{
     
     .main23-cnt-ph {
         position: absolute;
-        font-size: 0.5rem;
+        font-size: 0.27rem;
         top: 40%;
         left: 8%;
         width: 84%;
@@ -3848,9 +3850,11 @@ nav ul li a i{
     }
     
     .main23-icon i {
-        font-size: 0.8125rem;
+        position: absolute;
+        top: -5px;
+        left: 4px;
+        font-size: 0.4125rem;
         color: #ffffff;
-        margin-top: 0.687rem;
     }
     
     .center-main3 {
@@ -3863,7 +3867,7 @@ nav ul li a i{
     
     .center-main31 p {
         margin-left: 2%;
-        font-size: 0.8125rem;
+        font-size: 0.4225rem;
         color: #ffffff;
     }
     
@@ -3874,7 +3878,7 @@ nav ul li a i{
         left: 2%;
         height: 70%;
         width: 46%;
-        border-radius: 10px;
+        border-radius: 6px;
         background-color: #707070;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
     }
@@ -3906,16 +3910,16 @@ nav ul li a i{
         right: 0;
         width: 65%;
         height: 100%;
-        border-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px;
+        border-radius: 6px;
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
         background-color: rgb(32, 32, 32);
     }
     
     .main32-cover {
         position: absolute;
         overflow: hidden;
-        top: -20%;
+        top: -13%;
         left: -110%;
         width: 120%;
         height: 130%;
@@ -3927,17 +3931,17 @@ nav ul li a i{
     
     .main32-cnt-title {
         position: absolute;
-        font-size: 0.6875rem;
+        font-size: 0.3875rem;
         top: 20%;
-        left: 25%;
+        left: 22%;
         width: 75%;
         color: #ffffff;
     }
     
     .main32-cnt-ph {
         position: absolute;
-        font-size: 0.5rem;
-        top: 35%;
+        font-size: 0.27rem;
+        top: 37%;
         left: 25%;
         width: 65%;
         color: #999999;
@@ -3956,9 +3960,9 @@ nav ul li a i{
     }
     
     .main32-icon i {
-        font-size: 1.125rem;
+        font-size: 0.625rem;
         color: #ffffff;
-        margin-top: 0.5rem;
+        margin-top: 0.2rem;
     }
     
     #center-main33 {
@@ -3968,7 +3972,7 @@ nav ul li a i{
         right: 2%;
         height: 70%;
         width: 46%;
-        border-radius: 10px;
+        border-radius: 6px;
         background-color: #707070;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
     }
@@ -4000,16 +4004,16 @@ nav ul li a i{
         right: 0;
         width: 65%;
         height: 100%;
-        border-radius: 10px;
-        border-bottom-left-radius: 12px;
-        border-top-left-radius: 12px;
+        border-radius: 6px;
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
         background-color: rgb(32, 32, 32);
     }
     
     .main33-cover {
         position: absolute;
         overflow: hidden;
-        top: -20%;
+        top: -10%;
         left: -110%;
         width: 120%;
         height: 130%;
@@ -4021,17 +4025,17 @@ nav ul li a i{
     
     .main33-cnt-title {
         position: absolute;
-        font-size: 0.6875rem;
+        font-size: 0.3875rem;
         top: 20%;
         left: 25%;
-        width: 75%;
+        width: 77%;
         color: #ffffff;
     }
     
     .main33-cnt-ph {
         position: absolute;
-        font-size: 0.5rem;
-        top: 35%;
+        font-size: 0.27rem;
+        top: 50%;
         left: 25%;
         width: 72%;
         color: #999999;
@@ -4050,9 +4054,9 @@ nav ul li a i{
     }
     
     .main33-icon i {
-        font-size: 1.125rem;
+        font-size: 0.625rem;
         color: #ffffff;
-        margin-top: 0.5rem;
+        margin-top: 0.2rem;
     }
     
     .right-main {
@@ -4061,7 +4065,7 @@ nav ul li a i{
         right: 0;
         height: 93%;
         width: 22%;
-        border-bottom-right-radius: 15px;
+        border-bottom-right-radius: 8px;
     }
     
     .right-top-icons {
@@ -4071,7 +4075,7 @@ nav ul li a i{
         right: 0;
         height: 7%;
         width: 22%;
-        border-top-right-radius: 15px;
+        border-top-right-radius: 8px;
         border-left: 0.5px solid rgba(170, 170, 170, 0.3);
         border-bottom: 0.5px solid rgba(170, 170, 170, 0.3);
     }
@@ -4101,9 +4105,10 @@ nav ul li a i{
     }
     
     .right-top-icons i {
-        margin: 0.5625rem;
-        margin-left: 1.0624rem;
-        font-size: 0.75rem;
+        position: absolute;
+        top: -4px;
+        left: -10px;
+        font-size: 0.60rem;
         color: #707070;
     }
     
@@ -4117,8 +4122,8 @@ nav ul li a i{
     
     #r-dp-container {
         position: absolute;
-        top: 1.5625rem;
-        left: 2.8125rem;
+        top: 1.1625rem;
+        left: 1.49rem;
         filter: drop-shadow(-3px 3px 1px rgba(0, 0, 0, 0.644));
     }
     
@@ -4136,8 +4141,8 @@ nav ul li a i{
     .r-user-john {
         position: absolute;
         overflow: hidden;
-        height: 4.375rem;
-        width: 4.0625rem;
+        height: 2.275rem;
+        width: 2.125rem;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     }
     
@@ -4145,34 +4150,34 @@ nav ul li a i{
         position: absolute;
         overflow: hidden;
         top: 0;
-        left: -34%;
-        height: 100%;
-        width: 110px;
+        left: -81%;
+        height: 125%;
+        width: 90px;
     }
     
     .r-user-name {
         position: absolute;
-        top: 75%;
+        top: 77%;
         left: 0;
         width: 100%;
     }
     
     .r-user-name p {
         text-align: center;
-        font-size: 0.6875rem;
+        font-size: 0.3875rem;
         color: #ffffff;
     }
     
     .r-user-name1 {
         position: absolute;
-        top: 85%;
+        top: 87%;
         left: 0;
         width: 100%;
     }
     
     .r-user-name1 p {
         text-align: center;
-        font-size: 0.625rem;
+        font-size: 0.325rem;
         color: #afafaf;
     }
     
@@ -4187,17 +4192,17 @@ nav ul li a i{
     .nm-title p {
         position: absolute;
         text-align: left;
-        font-size: 0.6875rem;
-        margin: 0.3125rem;
-        margin-left: 0.75rem;
+        font-size: 0.3875rem;
+        margin: 0.2125rem;
+        margin-left: 0.37rem;
         color: #cfcfcf;
     }
     
     .nm-see-all p {
         position: absolute;
         text-align: right;
-        font-size: 0.6875rem;
-        margin: 0.3125rem;
+        font-size: 0.3875rem;
+        margin: 0.2125rem;
         width: 90%;
         color: #747474;
     }
@@ -4207,7 +4212,7 @@ nav ul li a i{
         top: 15%;
         left: 5%;
         height: 17%;
-        border-radius: 6px;
+        border-radius: 3px;
         width: 90%;
         background: rgb(38, 38, 38);
         background: linear-gradient(180deg, rgb(38, 38, 38) 0%, rgb(20, 20, 20) 100%);
@@ -4249,7 +4254,7 @@ nav ul li a i{
         overflow: hidden;
         top: 18%;
         left: 25%;
-        font-size: 0.5rem;
+        font-size: 0.27rem;
         color: #c0c0c0;
     }
     
@@ -4258,7 +4263,7 @@ nav ul li a i{
         overflow: hidden;
         top: 55%;
         left: 25%;
-        font-size: 0.4375rem;
+        font-size: 0.25rem;
         color: #808080;
     }
     
@@ -4268,7 +4273,7 @@ nav ul li a i{
         top: 34%;
         left: 5%;
         height: 17%;
-        border-radius: 6px;
+        border-radius: 3px;
         width: 90%;
         background: rgb(38, 38, 38);
         background: linear-gradient(180deg, rgb(38, 38, 38) 0%, rgb(20, 20, 20) 100%);
@@ -4311,7 +4316,7 @@ nav ul li a i{
         overflow: hidden;
         top: 18%;
         left: 25%;
-        font-size: 0.5rem;
+        font-size: 0.27rem;
         color: #c0c0c0;
     }
     
@@ -4320,7 +4325,7 @@ nav ul li a i{
         overflow: hidden;
         top: 55%;
         left: 25%;
-        font-size: 0.4375rem;
+        font-size: 0.25rem;
         color: #808080;
     }
     
@@ -4330,7 +4335,7 @@ nav ul li a i{
         top: 53.5%;
         left: 5%;
         height: 17%;
-        border-radius: 6px;
+        border-radius: 3px;
         width: 90%;
         background: rgb(38, 38, 38);
         background: linear-gradient(180deg, rgb(38, 38, 38) 0%, rgb(20, 20, 20) 100%);
@@ -4374,7 +4379,7 @@ nav ul li a i{
         overflow: hidden;
         top: 18%;
         left: 25%;
-        font-size: 0.5rem;
+        font-size: 0.27rem;
         color: #c0c0c0;
     }
     
@@ -4383,7 +4388,7 @@ nav ul li a i{
         overflow: hidden;
         top: 55%;
         left: 25%;
-        font-size: 0.4375rem;
+        font-size: 0.25rem;
         color: #808080;
     }
     
@@ -4393,7 +4398,7 @@ nav ul li a i{
         top: 72.5%;
         left: 5%;
         height: 17%;
-        border-radius: 6px;
+        border-radius: 3px;
         width: 90%;
         background: rgb(38, 38, 38);
         background: linear-gradient(180deg, rgb(38, 38, 38) 0%, rgb(20, 20, 20) 100%);
@@ -4435,7 +4440,7 @@ nav ul li a i{
         overflow: hidden;
         top: 18%;
         left: 25%;
-        font-size: 0.5rem;
+        font-size: 0.27rem;
         color: #c0c0c0;
     }
     
@@ -4444,7 +4449,7 @@ nav ul li a i{
         overflow: hidden;
         top: 55%;
         left: 25%;
-        font-size: 0.4375rem;
+        font-size: 0.25rem;
         color: #808080;
     }
     
@@ -4460,16 +4465,16 @@ nav ul li a i{
     .ra-title p {
         position: absolute;
         text-align: left;
-        font-size: 0.6875rem;
-        margin: 0.3125rem;
-        margin-left: 0.75rem;
+        font-size: 0.3875rem;
+        margin: 0.2125rem;
+        margin-left: 0.35rem;
         color: #cfcfcf;
     }
     
     .ra-see-all p {
         position: absolute;
         text-align: right;
-        font-size: 0.6875rem;
+        font-size: 0.3875rem;
         margin: 0.3125rem;
         width: 90%;
         color: #747474;
@@ -4480,7 +4485,7 @@ nav ul li a i{
         top: 25%;
         left: 5%;
         height: 30%;
-        border-radius: 5px;
+        border-radius: 3px;
         width: 90%;
         background-color: rgba(49, 49, 49, 0.795);
     }
@@ -4509,7 +4514,7 @@ nav ul li a i{
         overflow: hidden;
         top: 18%;
         left: 25%;
-        font-size: 0.5rem;
+        font-size: 0.3rem;
         color: #c0c0c0;
     }
     
@@ -4518,7 +4523,7 @@ nav ul li a i{
         overflow: hidden;
         top: 55%;
         left: 25%;
-        font-size: 0.4375rem;
+        font-size: 0.28rem;
         color: #808080;
     }
     
@@ -4527,7 +4532,7 @@ nav ul li a i{
         top: 60%;
         left: 5%;
         height: 30%;
-        border-radius: 5px;
+        border-radius: 3px;
         width: 90%;
         background-color: rgba(49, 49, 49, 0.795);
     }
@@ -4556,7 +4561,7 @@ nav ul li a i{
         overflow: hidden;
         top: 18%;
         left: 25%;
-        font-size: 0.5rem;
+        font-size: 0.3rem;
         color: #b0b1da;
     }
     
@@ -4565,7 +4570,7 @@ nav ul li a i{
         overflow: hidden;
         top: 55%;
         left: 25%;
-        font-size: 0.4375rem;
+        font-size: 0.28rem;
         color: #808080;
     }
     
@@ -4579,9 +4584,9 @@ nav ul li a i{
     }
     
     .explore p {
-        font-size: 0.75rem;
-        margin-top: 0.5rem;
-        margin-left: 0.75rem;
+        font-size: 0.45rem;
+        margin-top: 0.29rem;
+        margin-left: 0.3rem;
         color: #ffffff;
     }
     
@@ -4599,14 +4604,14 @@ nav ul li a i{
     }
     
     .explore-search p {
-        font-size: 0.6875rem;
-        margin-top: 0.125rem;
+        font-size: 0.3575rem;
+        margin-top: 0.11rem;
         color: #a7a7a7;
     }
     
     .explore-search i {
         color: #a7a7a7;
-        margin-right: 0.625rem;
+        margin-right: 0.325rem;
     }
     
     .home-hero-content {
