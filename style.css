@@ -132,10 +132,16 @@ nav ul li a i{
     margin-left: 2%;
 }
 
-#hero {
+#body-container{
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 730vh;
+}
+
+#hero {
+    position: relative;
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(45deg, rgb(12,12,12) 0%,transparent 73%),repeating-linear-gradient(90deg, rgba(127, 127, 127,0.1) 0px, rgba(127, 127, 127,0.1) 1px,transparent 1px, transparent 17px),repeating-linear-gradient(0deg, rgba(127, 127, 127,0.1) 0px, rgba(127, 127, 127,0.1) 1px,transparent 1px, transparent 17px),linear-gradient(0deg, rgb(12,12,12),rgb(12,12,12));
@@ -1698,8 +1704,8 @@ nav ul li a i{
 }
 
 #section1 {
-    position: absolute;
-    top: 100vh;
+    position: relative;
+    top: 10px;
     width: 100%;
     height: 130vh;
     background-image: radial-gradient(circle at 23% 57%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 80% 20%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
@@ -1904,9 +1910,8 @@ nav ul li a i{
 }
 
 #section2 {
-    position: absolute;
-    display: flex;
-    top: 230vh;
+    position: relative;
+    top: 20px;
     height: 100vh;
     width: 100%;
     background-image: radial-gradient(circle at 34% 62%, rgba(217, 217, 217,0.03) 0%, rgba(217, 217, 217,0.03) 21%,transparent 21%, transparent 100%),radial-gradient(circle at 93% 47%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 60% 24%, rgba(115, 115, 115,0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
@@ -2158,8 +2163,8 @@ nav ul li a i{
 }
 
 #offers{
-    position: absolute;
-    top: 330vh;
+    position: relative;
+    top: 20px;
     left: 0;
     height: 55vh;
     width: 100%;
@@ -2279,8 +2284,8 @@ nav ul li a i{
 }
 
 #reviews-projects{
-    position: absolute;
-    top: 390vh;
+    position: relative;
+    top: 100px;
     left: 0;
     height: 120vh;
     width: 100%; 
@@ -2561,8 +2566,8 @@ nav ul li a i{
     cursor: pointer;
 }
 #section3 {
-    position: absolute;
-    top: 510vh;
+    position: relative;
+    top: 110px;
     left: 0;
     height: 100vh;
     width: 100%;
@@ -2743,8 +2748,8 @@ nav ul li a i{
 }
 
 #section4{
-    position: absolute;
-    top: 610vh;
+    position: relative;
+    top: 120px;
     left: 0;
     height: 103vh;
     width: 100%;
@@ -3064,7 +3069,7 @@ nav ul li a i{
         position: fixed;
         z-index: 2;
         top: 0;
-        right: -47vw;
+        right: -47vh;
         width: 200px;
         height: 100vh;
         padding-top: 70px;
@@ -3163,9 +3168,17 @@ nav ul li a i{
         height: 40px;
         margin-left: 20px;
     }
+
+    #body-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 812vh;
+    }
     
     #hero {
-        position: absolute;
+        position: relative;
         overflow: hidden;
         top: 0;
         left: 0;
@@ -4743,10 +4756,10 @@ nav ul li a i{
     }
     
     #section1 {
-        position: absolute;
-        top: 100vh;
+        position: relative;
+        top: 10px;
         width: 100%;
-        height: 155vh;
+        height: 1200px;
         background-image: radial-gradient(circle at 23% 57%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 80% 20%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
 
     }
@@ -4755,7 +4768,7 @@ nav ul li a i{
         top: 0;
         left: 0;
         width: 100%;
-        height: 50%;
+        height: 600px;
     }
     
     .sec1-title {
@@ -4783,7 +4796,7 @@ nav ul li a i{
         display: grid;
         left: 5%;
         width: 90%;
-        height: 55%;
+        height: 40%;
         margin-top: 50px;
     }
     
@@ -4791,7 +4804,7 @@ nav ul li a i{
         overflow: hidden;
         text-align: center;
         width: 100%;
-        font-size: 1.875rem;
+        font-size: 1.4rem;
         font-family: 'Roboto', sans-serif;
         color: #686868;
     }
@@ -4824,14 +4837,14 @@ nav ul li a i{
         position: relative;
         top: 1%;
         left: 0;
-        height: 42%;
+        height: 550px;
     }
     
     .sec1-menu-container{
         position: absolute;
         top: 0;
         right: 0;
-        max-height: 255px;
+        max-height: 42%;
         width: 100%;
     }
     
@@ -4951,10 +4964,9 @@ nav ul li a i{
     
     
     #section2 {
-        position: absolute;
-        display: flex;
-        top: 243vh;
-        height: 181vh;
+        position: relative;
+        top: 20px;
+        height: 1400px;
         left: 0;
         width: 100%;
         background-image: radial-gradient(circle at 34% 62%, rgba(217, 217, 217,0.03) 0%, rgba(217, 217, 217,0.03) 21%,transparent 21%, transparent 100%),radial-gradient(circle at 93% 47%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 60% 24%, rgba(115, 115, 115,0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
@@ -4962,35 +4974,32 @@ nav ul li a i{
     
     .sec2-title {
         position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        top: 0;
         left: 5%;
         width: 90%;
-        top: 8vh;
+        margin: 0;
+        height: 50px;
     }
     
     .sec2-title p {
         overflow: hidden;
         text-align: center;
-        overflow: hidden;
         font-family: 'Tangerine', cursive;
         padding: 0;
-        width: 100%;
         font-size: 2.8125rem;
         color: #ffff;
     }
     
     .sec2-cont {
-        position: absolute;
+        position: relative;
         overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 9%;
-        left: 2%;
+        top: 60px;
+        right: 0%;
         width: 96%;
-        height: 90%;
+        height: 1280px;
         color: #ffffff;
     }
     
@@ -4999,7 +5008,6 @@ nav ul li a i{
         overflow: hidden;
         display: flex;
         top: 10px;
-        margin: 50px;
         min-width: 300px;
         height: 400px;
         border-radius: 15px;
@@ -5071,8 +5079,7 @@ nav ul li a i{
         position: absolute;
         overflow: hidden;
         display: flex;
-        top: 450px;
-        margin: 50px;
+        top: 430px;
         width: 300px;
         height: 400px;
         border-radius: 15px;
@@ -5141,8 +5148,7 @@ nav ul li a i{
         position: absolute;
         overflow: hidden;
         display: flex;
-        top: 890px;
-        margin: 50px;
+        top: 850px;
         width: 300px;
         height: 400px;
         border-radius: 15px;
@@ -5212,10 +5218,10 @@ nav ul li a i{
     }
     
     #offers{
-        position: absolute;
-        top: 425vh;
+        position: relative;
+        top: 10px;
         left: 0;
-        height: 80vh;
+        height: 750px;
         width: 100%;
         color: #ffff;
         background-image: radial-gradient(circle at 25% 27%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 8%,transparent 1%, transparent 100%), radial-gradient(circle at 80% 36%, rgba(205, 205, 205,0.03) 0%, rgba(255, 255, 255, 0.048) 11%,transparent 1%, transparent 20%);
@@ -5335,8 +5341,8 @@ nav ul li a i{
     }
     
     #reviews-projects{
-        position: absolute;
-        top: 510vh;
+        position: relative;
+        top: 20px;
         left: 0;
         height: 100vh;
         width: 100%; 
@@ -5460,35 +5466,11 @@ nav ul li a i{
     }
     
     #reviews-scroll-left{
-        position: absolute;
-        text-align: center;
-        font-size: 1rem;
-        height: 350px;
-        padding-top: 150px;
-        top: 100px;
-        left: 0;
-        width: 2%;
-        box-shadow: 10px 0 20px #0c0c0c;
-        background-color: #0c0c0c;
-        color: #686868;
-        margin: 0;
-        cursor: pointer;
+        display: none;
     }
     
     #reviews-scroll-right{
-        position: absolute;
-        text-align: center;
-        font-size: 1rem;
-        height: 350px;
-        padding-top: 150px;
-        top: 100px;
-        right: 0;
-        width: 2%;
-        box-shadow: -10px 0 20px #0c0c0c;
-        background-color: #0c0c0c;
-        color: #686868;
-        margin: 0;
-        cursor: pointer;
+        display: none;
     }
     
     .projectssection{
@@ -5590,54 +5572,49 @@ nav ul li a i{
     }
     
     #projects-scroll-left{
-        position: absolute;
-        text-align: center;
-        font-size: 1rem;
-        height: 270px;
-        padding-top: 140px;
-        top: 50px;
-        left: 0;
-        width: 2%;
-        box-shadow: 10px 0 15px #0c0c0c;
-        background-color: #0c0c0c;
-        color: #686868;
-        margin: 0;
-        cursor: pointer;
+       display: none;
     }
     
     #projects-scroll-right{
-        position: absolute;
-        text-align: center;
-        font-size: 1rem;
-        height: 270px;
-        padding-top: 140px;
-        top: 50px;
-        right: 0;
-        width: 2%;
-        box-shadow: -10px 0 15px #0c0c0c;
-        background-color: #0c0c0c;
-        color: #686868;
-        margin: 0;
-        cursor: pointer;
+        display: none;
     }
     #section3 {
-        position: absolute;
-        top: 610vh;
+        position: relative;
+        top: 30px;
         left: 0;
-        height: 145vh;
+        height: 1250px;
         width: 100%;
         background-image: radial-gradient(circle at 53% 67%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 40% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
     }
     
     .sec3-icon1{
-        position: absolute;
+        position: relative;
         overflow: hidden;
-        top: 20vh;
+        top: 80px;
         left: 2%;
         height: 400px;
         width: 96%;
         color: rgb(49, 49, 49);
         border: none;
+    }
+
+    .sec3-for-you {
+        position: relative;
+        overflow: hidden;
+        top: 50px;
+        left: 0;
+        width: 100%;
+    }
+    
+    .sec3-for-you p{
+        overflow: hidden;
+        text-align: center;
+        overflow: hidden;
+        font-family: 'Tangerine', cursive;
+        padding: 0;
+        width: 100%;
+        font-size: 2.8125rem;
+        color: #ffff;
     }
     
     .ipads{
@@ -5756,36 +5733,13 @@ nav ul li a i{
         width: 100px;
         background-color: #ffff;
     }
-    
-    .sec3-for-you {
-        position: absolute;
-        overflow: hidden;
-        top: 60px;
-        left: 0;
-        width: 100%;
-    }
-    
-    .sec3-for-you p{
-        overflow: hidden;
-        text-align: center;
-        overflow: hidden;
-        font-family: 'Tangerine', cursive;
-        padding: 0;
-        width: 100%;
-        font-size: 2.8125rem;
-        color: #ffff;
-    }
-    
+
     .sec3-cnt {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: space-evenly;
-        top: 45%;
-        right: 3%;
+        position: relative;
+        top: 90px;
+        left: 3%;
         width: 94%;
-        height: 54%;
+        height: 700px;
     }
     
     .sec3-cnt p{
@@ -5802,8 +5756,8 @@ nav ul li a i{
     }
     
     #section4{
-        position: absolute;
-        top: 750vh;
+        position: relative;
+        top: 40px;
         left: 0;
         height: 103vh;
         width: 100%;
@@ -5860,23 +5814,24 @@ nav ul li a i{
 
     .social-icons{
         position: absolute;
-        left: 29%;
-        width: 50%;
+        left: 25%;
+        width: 56%;
+        padding-left: 12px;
     }
     
     .social-icons a i{
         font-size: 1.5625rem;
         margin-top: 5px;
-        margin-right: 15px;
+        margin-right: 12px;
         color: #ffff;
     }
     
     .contact-left{
         position: absolute;
         top: 25%;
-        left: 10%;
+        left: 5%;
         height: 70%;
-        width: 80%;
+        width: 90%;
     }
     
     .contact-left form{
@@ -5894,10 +5849,10 @@ nav ul li a i{
     .form-name p{
         position: absolute;
         bottom: 0;
-        width: 135px;
+        width: 100%;
         height: 100%;
         padding-top: 14px;
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         font-family: 'Roboto', sans-serif;
         color: #ffff;
     }
@@ -5905,8 +5860,8 @@ nav ul li a i{
     .form-name input{
         position: absolute;
         bottom: 0;
-        left: 135px;
-        width: 200px;
+        left: 39%;
+        width: 61%;
         height: 100%;
         border-top: #0c0c0c;
         border-left: #0c0c0c;
@@ -5932,18 +5887,18 @@ nav ul li a i{
     .form-email p{
         position: absolute;
         bottom: 0;
-        width: 135px;
+        width: 100%;
         height: 100%;
         padding-top: 14px;
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         font-family: 'Roboto', sans-serif;
         color: #ffff;
     }
     
     .form-email input{
         position: absolute;
-        left: 135px;
-        width: 200px;
+        left: 39%;
+        width: 61%;
         height: 100%;
         border-top: #0c0c0c;
         border-left: #0c0c0c;
@@ -6004,9 +5959,9 @@ nav ul li a i{
         border-radius: 5px;
         color: #ffff;
         right: 10px;
-        bottom: 30px;
-        height: 30px;
-        width: 100px;
+        bottom: 10px;
+        height: 8%;
+        width: 35%;
     }
     
     .btn2:hover{
