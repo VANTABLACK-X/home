@@ -903,7 +903,7 @@ nav ul li a i{
     position: absolute;
     font-size: 0.6875rem;
     top: 20%;
-    left: 25%;
+    left: 23%;
     width: 75%;
     color: #ffffff;
 }
@@ -911,9 +911,9 @@ nav ul li a i{
 .main32-cnt-ph {
     position: absolute;
     font-size: 0.5rem;
-    top: 35%;
+    top: 40%;
     left: 25%;
-    width: 65%;
+    width: 75%;
     color: #999999;
 }
 
@@ -1005,7 +1005,7 @@ nav ul li a i{
 .main33-cnt-ph {
     position: absolute;
     font-size: 0.5rem;
-    top: 35%;
+    top: 53%;
     left: 25%;
     width: 72%;
     color: #999999;
