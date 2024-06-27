@@ -2728,16 +2728,16 @@ nav ul li a i{
     flex-direction: column;
     align-items: center;
     justify-items: space-evenly;
-    top: 25%;
+    top: 22%;
     right: 7%;
-    width: 45%;
+    width: 42%;
     height: 78%;
 }
 
 .sec3-cnt p{
     text-align: left;
-    margin-top: 20px;
-    font-size: 1.0625rem;
+    margin-top: 22px;
+    font-size: 1rem;
     color: #858585;
     width: 100%;
     font-family: 'Roboto', sans-serif;
@@ -2749,7 +2749,7 @@ nav ul li a i{
 
 #section4{
     position: relative;
-    top: 120px;
+    top: 150px;
     left: 0;
     height: 103vh;
     width: 100%;
