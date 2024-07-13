@@ -144,7 +144,7 @@ nav ul li a i{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(45deg, rgb(12,12,12) 0%,transparent 73%),repeating-linear-gradient(90deg, rgba(127, 127, 127,0.1) 0px, rgba(127, 127, 127,0.1) 1px,transparent 1px, transparent 17px),repeating-linear-gradient(0deg, rgba(127, 127, 127,0.1) 0px, rgba(127, 127, 127,0.1) 1px,transparent 1px, transparent 17px),linear-gradient(0deg, rgb(12,12,12),rgb(12,12,12));
+    background-image: linear-gradient(45deg, rgb(20,20,20) 0%,transparent 73%),repeating-linear-gradient(90deg, rgba(127, 127, 127,0.1) 0px, rgba(127, 127, 127,0.1) 1px,transparent 1px, transparent 17px),repeating-linear-gradient(0deg, rgba(127, 127, 127,0.1) 0px, rgba(127, 127, 127,0.1) 1px,transparent 1px, transparent 17px),linear-gradient(0deg, rgb(20,20,20),rgb(20,20,20));
 }
 
 .blob {
@@ -1655,12 +1655,13 @@ nav ul li a i{
     opacity: 0;
     margin-top: 20px;
     left: 20%;
+    width: 200px;
 }
 
 #home-hero-contact button{
     cursor: pointer;
     height: 1.875rem;
-    width: 6.250rem;
+    width: 200px;
     background-color: #0c0c0c;
     border: 1px solid rgb(160, 160, 160);
     border-radius: 5px;
@@ -1705,10 +1706,11 @@ nav ul li a i{
 
 #section1 {
     position: relative;
-    top: 10px;
+    top: 0;
     width: 100%;
     height: 130vh;
-    background-image: radial-gradient(circle at 23% 57%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 80% 20%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
+    background-image: radial-gradient(circle at 23% 57%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 80% 20%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, rgb(20, 20, 20),rgb(20, 20, 20));
+    box-shadow: 0 -20px 30px rgb(20, 20, 20);
 }
 .sec1-cnt{
     position: relative;
