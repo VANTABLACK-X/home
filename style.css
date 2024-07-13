@@ -14,7 +14,7 @@ body {
     display: flex;
     scroll-behavior: smooth;
     font-family: 'Belleza', sans-serif;
-    background-color: #0c0c0c;
+    background-color: rgb(20, 20, 20);
 }
 
 #nav {
@@ -185,10 +185,10 @@ nav ul li a i{
 #screen {
     position: absolute;
     z-index: 1;
-    top: 16%;
-    right: 8%;
-    height: 67%;
-    width: 52%;
+    top: 20%;
+    right: 5%;
+    height: 66%;
+    width: 53%;
     font-family: 'Roboto', sans-serif;
     background: rgba(53, 53, 53, 0.2);
     -webkit-backdrop-filter: blur(12px);
@@ -1586,27 +1586,44 @@ nav ul li a i{
 .home-hero-content {
     position: absolute;
     z-index: 2;
-    top: 25%;
+    top: 15%;
     left: 0;
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 55%;
 }
 
 #hometitle {
     position: relative;
     overflow: hidden;
-    left: 20%;
-    width: 80%;
+    left: 10%;
+    width: 90%;
     margin-top: 20px;
 }
 
 #hometitle p {
     overflow: hidden;
-    font-size: 3.75rem;
+    font-size: 3rem;
     width: 100%;
     color: #ffffff;
     transform: translate(0, 150px);
 }
+
+#hometitle1 {
+    position: relative;
+    overflow: hidden;
+    left: 10%;
+    width: 90%;
+    margin-top: 10px;
+}
+
+#hometitle1 p {
+    overflow: hidden;
+    font-size: 3rem;
+    width: 100%;
+    color: #ffffff;
+    transform: translate(0, 150px);
+}
+
 
 .htitle {
     animation: 1.5s htitle ease-out 1s forwards;
@@ -1621,14 +1638,14 @@ nav ul li a i{
 #homeservice {
     position: relative;
     overflow: hidden;
-    left: 20%;
+    left: 10%;
     width: 80%;
     margin-top: 60px;
 }
 
 #homeservice p {
     font-size: 0.625rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif;
     width: 100%;
     color: #c0c0c0;
     transform: translate(0, 80px);
@@ -1637,6 +1654,7 @@ nav ul li a i{
 #homeservice span {
     margin-left: 0.8125rem;
     margin-right: 0.8125rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 .hservice {
@@ -1653,19 +1671,22 @@ nav ul li a i{
     position: relative;
     cursor: pointer;
     opacity: 0;
-    margin-top: 20px;
-    left: 20%;
-    width: 200px;
+    top: 60px;
+    left: 10%;
+    width: 220px;
 }
 
 #home-hero-contact button{
     cursor: pointer;
-    height: 1.875rem;
-    width: 200px;
+    height: 45px;
+    width: 220px;
     background-color: #0c0c0c;
     border: 1px solid rgb(160, 160, 160);
-    border-radius: 5px;
+    border-radius: 8px;
     color: #ffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 
 #home-hero-contact button:hover {
@@ -1678,15 +1699,37 @@ nav ul li a i{
     animation: 0.5s message linear 2.7s forwards;
 }
 
+#home-hero-resume{
+    position: relative;
+    cursor: pointer;
+    opacity: 0;
+    top: 15px;
+    left: 45%;
+    width: 220px;
+}
+
+#home-hero-resume button{
+    cursor: pointer;
+    height: 45px;
+    width: 220px;
+    background-color: #0c0c0c;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 8px;
+    color: #ffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
 #message {
     position: relative;
     display: grid;
     opacity: 0;
-    left: 20%;
-    width: 50%;
+    left: 10%;
+    width: 70%;
     margin-top: 20px;
-    font-size: 0.75rem;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
     color: #6d6d6d;
 }
 
@@ -1732,7 +1775,6 @@ nav ul li a i{
     overflow: hidden;
     text-align: center;
     overflow: hidden;
-    font-family: 'Tangerine', cursive;
     margin-top: 5%;
     padding: 0;
     width: 100%;
@@ -1753,8 +1795,8 @@ nav ul li a i{
     overflow: hidden;
     text-align: center;
     width: 100%;
-    font-size: 1.875rem;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.775rem;
+    font-family: "Montserrat", sans-serif;
     color: #686868;
 }
 
@@ -1778,7 +1820,7 @@ nav ul li a i{
     left: 5%;
     width: 90%;
     font-size: 0.75rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #686868;
 }
 
@@ -1869,7 +1911,7 @@ nav ul li a i{
     color: #5f5f5fa9;
     margin: 2.5% 0;
     cursor: pointer;
-    background-color: #0c0c0c;
+    background-color: rgb(15, 15, 15);
     box-shadow: -5px 5px 10px rgba(0, 0, 0);
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -1879,7 +1921,7 @@ nav ul li a i{
     margin-left: 10%;
     width: 80%;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.25rem;
     font-weight: bolder;
 }
@@ -1906,7 +1948,7 @@ nav ul li a i{
     margin-left: 10%;
     width: 80%;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.357rem;
     font-weight: bolder;
 }
@@ -1916,7 +1958,7 @@ nav ul li a i{
     top: 20px;
     height: 100vh;
     width: 100%;
-    background-image: radial-gradient(circle at 34% 62%, rgba(217, 217, 217,0.03) 0%, rgba(217, 217, 217,0.03) 21%,transparent 21%, transparent 100%),radial-gradient(circle at 93% 47%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 60% 24%, rgba(115, 115, 115,0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
+    background-image: radial-gradient(circle at 34% 62%, rgba(217, 217, 217,0.03) 0%, rgba(217, 217, 217,0.03) 21%,transparent 21%, transparent 100%),radial-gradient(circle at 93% 47%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 60% 24%, rgba(115, 115, 115,0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20));
 }
 
 .sec2-title {
@@ -1933,7 +1975,6 @@ nav ul li a i{
     overflow: hidden;
     text-align: center;
     overflow: hidden;
-    font-family: 'Tangerine', cursive;
     padding: 0;
     width: 100%;
     font-size: 2.8125rem;
@@ -1950,6 +1991,7 @@ nav ul li a i{
     width: 96%;
     height: 85%;
     color: #ffffff;
+    font-family: "Montserrat", sans-serif;
 }
 
 .web-des {
@@ -2003,7 +2045,7 @@ nav ul li a i{
     top: 43%;
     width: 100%;
     height: 5%;
-    font-size: 1.5625rem;
+    font-size: 1.4625rem;
     border-radius: 10px;
     border: 1px solid black;
     -webkit-backdrop-filter: blur(5px);
@@ -2021,7 +2063,7 @@ nav ul li a i{
     text-align: center;
     top: 54%;
     color: rgb(255, 255, 255);
-    font-size: 1.1875rem;
+    font-size: 1rem;
 }
 
 .web-dev {
@@ -2075,7 +2117,7 @@ nav ul li a i{
     top: 43%;
     height: 5%;
     width: 100%;
-    font-size: 1.5625rem;
+    font-size: 1.4625rem;
     border-radius: 10px;
     border: 1px solid black;
     -webkit-backdrop-filter: blur(5px);
@@ -2291,7 +2333,7 @@ nav ul li a i{
     left: 0;
     height: 120vh;
     width: 100%; 
-    background-image: radial-gradient(circle at 73% 67%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 40% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
+    background-image: radial-gradient(circle at 73% 67%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 40% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20));
 }
 
 .reviewsection{
@@ -2418,8 +2460,8 @@ nav ul li a i{
     top: 100px;
     left: 0;
     width: 2%;
-    box-shadow: 10px 0 20px #0c0c0c;
-    background-color: #0c0c0c;
+    box-shadow: 15px 0 10px  rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
     color: #686868;
     margin: 0;
     cursor: pointer;
@@ -2433,8 +2475,8 @@ nav ul li a i{
     top: 100px;
     right: 0;
     width: 2%;
-    box-shadow: -10px 0 20px #0c0c0c;
-    background-color: #0c0c0c;
+    box-shadow: -15px 0 10px  rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
     color: #686868;
     margin: 0;
     cursor: pointer;
@@ -2546,8 +2588,8 @@ nav ul li a i{
     top: 50px;
     left: 0;
     width: 2%;
-    box-shadow: 10px 0 15px #0c0c0c;
-    background-color: #0c0c0c;
+    box-shadow: 15px 0 10px  rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
     color: #686868;
     margin: 0;
     cursor: pointer;
@@ -2561,8 +2603,8 @@ nav ul li a i{
     top: 50px;
     right: 0;
     width: 2%;
-    box-shadow: -10px 0 15px #0c0c0c;
-    background-color: #0c0c0c;
+    box-shadow: -15px 0 10px  rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
     color: #686868;
     margin: 0;
     cursor: pointer;
@@ -2571,9 +2613,9 @@ nav ul li a i{
     position: relative;
     top: 110px;
     left: 0;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
-    background-image: radial-gradient(circle at 53% 67%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 40% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
+    background-image: radial-gradient(circle at 53% 67%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 40% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20));
 }
 
 .sec3-icon1{
@@ -2755,7 +2797,7 @@ nav ul li a i{
     left: 0;
     height: 100vh;
     width: 100%;
-    background-image: radial-gradient(circle at 63% 47%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 70% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
+    background-image: radial-gradient(circle at 63% 47%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 70% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, rgb(20, 20, 20),rgb(20,20,20));
 }
 
 .contact-title {
@@ -2816,7 +2858,7 @@ nav ul li a i{
     position: absolute;
     top: 7%;
     left: 10%;
-    height: 60%;
+    height: 80%;
     width: 40%;
 }
 
@@ -2854,7 +2896,7 @@ nav ul li a i{
     border-right: #0c0c0c;
     border-bottom: 1px solid rgb(160, 160, 160);
     outline: none;
-    background: #0c0c0c;
+    background: rgb(20, 20, 20);
     color: rgb(255, 255, 255);
     padding-top: 15px;
     padding-left: 5px;
@@ -2891,7 +2933,7 @@ nav ul li a i{
     border-right: #0c0c0c;
     border-bottom: 1px solid rgb(160, 160, 160);
     outline: none;
-    background: #0c0c0c;
+    background: rgb(20, 20, 20);
     color: rgb(255, 255, 255);
     padding-top: 15px;
     padding-left: 5px;
@@ -2929,7 +2971,7 @@ nav ul li a i{
     border-right: #0c0c0c;
     border-bottom: 1px solid rgb(160, 160, 160);
     outline: none;
-    background: #0c0c0c;
+    background: rgb(20, 20, 20);
     color: rgb(255, 255, 255);
     padding-top: 15px;
     padding-left: 5px;
@@ -2945,7 +2987,7 @@ nav ul li a i{
     border-radius: 5px;
     color: #ffff;
     right: 10px;
-    bottom: 30px;
+    bottom: 0;
     height: 30px;
     width: 100px;
 }

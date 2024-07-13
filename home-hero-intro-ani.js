@@ -13,11 +13,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const mem4 = document.getElementById('member4');
     const htitle = document.getElementById('hometitle');
     const htitlep = htitle.querySelector('p');
+    const htitle1 = document.getElementById('hometitle1');
+    const htitle1p = htitle1.querySelector('p');
     const hservice = document.getElementById('homeservice');
     const hservicep = hservice.querySelector('p');
     const hmessage = document.getElementById('message');
     const hcontat = document.getElementById('home-hero-contact');
-    const hline1 = document.getElementById('hero-line');
+    const hresume = document.getElementById('home-hero-resume');
 
     window.addEventListener('load', function () {
         navi.classList.add('navani');
@@ -32,11 +34,16 @@ document.addEventListener("DOMContentLoaded", function () {
         mem3.classList.add('mem3');
         mem4.classList.add('mem4');
         htitlep.classList.add('htitle');
+        htitle1p.classList.add('htitle');
         hservicep.classList.add('hservice');
         hmessage.classList.add('message');
         hcontat.classList.add('contact');
-        hline1.classList.add('hline1');
+        hresume.classList.add('contact');
     });
+});
+
+document.getElementById('viewResumeButton').addEventListener('click', function() {
+  window.open('resume/resume.pdf', '_blank');
 });
 
 var bars = document.getElementById("bars");
