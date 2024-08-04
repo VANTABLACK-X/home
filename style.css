@@ -74,7 +74,7 @@ nav ul .fa-x{
 .line1{
     position: absolute;
     top: 30%;
-    height: 6%;
+    height: 7%;
     width:100%;
     background-color: #ffffff;
 }
@@ -142,7 +142,7 @@ nav ul li a i{
 
 #hero {
     position: relative;
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-image: linear-gradient(45deg, rgb(20,20,20) 0%,transparent 73%),repeating-linear-gradient(90deg, rgba(127, 127, 127,0.1) 0px, rgba(127, 127, 127,0.1) 1px,transparent 1px, transparent 17px),repeating-linear-gradient(0deg, rgba(127, 127, 127,0.1) 0px, rgba(127, 127, 127,0.1) 1px,transparent 1px, transparent 17px),linear-gradient(0deg, rgb(20,20,20),rgb(20,20,20));
 }
@@ -154,8 +154,8 @@ nav ul li a i{
 .blob1 {
     position: absolute;
     transform: rotate(180deg);
-    top: 3%;
-    right: 4%;
+    bottom: -5%;
+    left: 16%;
     height: 95%;
     width: 50%;
     opacity: 1;
@@ -164,8 +164,8 @@ nav ul li a i{
 .blob2 {
     position: absolute;
     transform: rotate(70deg);
-    top: 12%;
-    right: 8%;
+    bottom: 0%;
+    right: 14%;
     height: 50%;
     width: 40%;
     opacity: 1;
@@ -174,7 +174,7 @@ nav ul li a i{
 .blob3 {
     position: absolute;
     transform: rotate(-90deg);
-    top: 25%;
+    bottom: 3%;
     right: 23%;
     height: 60%;
     width: 40%;
@@ -185,9 +185,9 @@ nav ul li a i{
 #screen {
     position: absolute;
     z-index: 1;
-    top: 20%;
-    right: 5%;
-    height: 66%;
+    bottom: 5%;
+    left: 23.5%;
+    height: 45%;
     width: 53%;
     font-family: 'Roboto', sans-serif;
     background: rgba(53, 53, 53, 0.2);
@@ -199,7 +199,7 @@ nav ul li a i{
 }
 
 .sranimation {
-    animation: 3s skewani ease-out 3s forwards;
+    animation: 3s skewan ease-out 3s forwards;
 }
 
 @keyframes skewani {
@@ -1586,23 +1586,24 @@ nav ul li a i{
 .home-hero-content {
     position: absolute;
     z-index: 2;
-    top: 15%;
-    left: 0;
-    height: 70%;
-    width: 55%;
+    top: 5%;
+    left: 15%;
+    height: 50%;
+    width: 70%;
 }
 
 #hometitle {
     position: relative;
     overflow: hidden;
-    left: 10%;
-    width: 90%;
+    left: 0;
+    width: 100%;
     margin-top: 20px;
 }
 
 #hometitle p {
     overflow: hidden;
-    font-size: 3rem;
+    text-align: center;
+    font-size: 2rem;
     width: 100%;
     color: #ffffff;
     transform: translate(0, 150px);
@@ -1611,13 +1612,14 @@ nav ul li a i{
 #hometitle1 {
     position: relative;
     overflow: hidden;
-    left: 10%;
-    width: 90%;
+    left: 0;
+    width: 100%;
     margin-top: 10px;
 }
 
 #hometitle1 p {
     overflow: hidden;
+    text-align: center;
     font-size: 3rem;
     width: 100%;
     color: #ffffff;
@@ -1638,12 +1640,13 @@ nav ul li a i{
 #homeservice {
     position: relative;
     overflow: hidden;
-    left: 10%;
-    width: 80%;
+    left: 0;
+    width: 100%;
     margin-top: 60px;
 }
 
 #homeservice p {
+    text-align: center;
     font-size: 0.625rem;
     font-family: "Montserrat", sans-serif;
     width: 100%;
@@ -1671,18 +1674,18 @@ nav ul li a i{
     position: relative;
     cursor: pointer;
     opacity: 0;
-    top: 60px;
-    left: 10%;
+    top: 30px;
+    left: 30%;
     width: 220px;
 }
 
 #home-hero-contact button{
     cursor: pointer;
-    height: 45px;
-    width: 220px;
+    height: 35px;
+    width: 150px;
     background-color: #0c0c0c;
     border: 1px solid rgb(160, 160, 160);
-    border-radius: 8px;
+    border-radius: 20px;
     color: #ffff;
     font-family: "Montserrat", sans-serif;
     font-size: 0.9rem;
@@ -1703,18 +1706,18 @@ nav ul li a i{
     position: relative;
     cursor: pointer;
     opacity: 0;
-    top: 15px;
-    left: 45%;
+    top: -5px;
+    left: 53%;
     width: 220px;
 }
 
 #home-hero-resume button{
     cursor: pointer;
-    height: 45px;
-    width: 220px;
+    height: 35px;
+    width: 150px;
     background-color: #0c0c0c;
     border: 1px solid rgb(160, 160, 160);
-    border-radius: 8px;
+    border-radius: 20px;
     color: #ffff;
     font-family: "Montserrat", sans-serif;
     font-size: 0.9rem;
@@ -1724,9 +1727,10 @@ nav ul li a i{
 #message {
     position: relative;
     display: grid;
+    text-align: center;
     opacity: 0;
-    left: 10%;
-    width: 70%;
+    left: 5%;
+    width: 90%;
     margin-top: 20px;
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
