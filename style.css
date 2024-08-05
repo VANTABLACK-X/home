@@ -29,7 +29,7 @@ body {
     width: 100%;
 }
 
-nav ul{
+nav ul {
     position: fixed;
     z-index: 2;
     top: 0;
@@ -44,12 +44,12 @@ nav ul{
     transition: right 0.5s;
 }
 
-nav ul li{
+nav ul li {
     margin-bottom: 10%;
     color: #0c0c0c00;
 }
 
-nav ul .fa-x{
+nav ul .fa-x {
     position: absolute;
     cursor: pointer;
     top: 3%;
@@ -57,7 +57,7 @@ nav ul .fa-x{
     color: #ffff;
 }
 
-.menubars1{
+.menubars1 {
     position: fixed;
     cursor: pointer;
     opacity: 1;
@@ -67,27 +67,27 @@ nav ul .fa-x{
     width: 4.5%;
 }
 
-.menubars1.active{
+.menubars1.active {
     opacity: 0;
 }
 
-.line1{
+.line1 {
     position: absolute;
     top: 30%;
     height: 7%;
-    width:100%;
+    width: 100%;
     background-color: #ffffff;
 }
 
-.line2{
+.line2 {
     position: absolute;
     top: 60%;
     height: 6%;
-    width:100%;
+    width: 100%;
     background-color: #ffffff;
 }
 
-nav ul li a{
+nav ul li a {
     position: absolute;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
@@ -101,12 +101,12 @@ nav ul li a{
     text-decoration: none;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: rgba(255, 255, 255, 0.5);
     transition: 1s smooth;
 }
 
-nav ul li a i{
+nav ul li a i {
     text-align: center;
     margin-right: 9%;
     font-size: 1rem;
@@ -132,7 +132,7 @@ nav ul li a i{
     margin-left: 2%;
 }
 
-#body-container{
+#body-container {
     position: relative;
     top: 0;
     left: 0;
@@ -144,7 +144,7 @@ nav ul li a i{
     position: relative;
     height: 150vh;
     width: 100%;
-    background: rgb(20,20,20);
+    background: rgb(20, 20, 20);
     background: linear-gradient(0deg, rgba(20, 20, 20, 1) 0%, rgb(0, 0, 0, 1) 100%);
 }
 
@@ -1680,7 +1680,7 @@ nav ul li a i{
     width: 220px;
 }
 
-#home-hero-contact button{
+#home-hero-contact button {
     cursor: pointer;
     height: 35px;
     width: 150px;
@@ -1703,7 +1703,7 @@ nav ul li a i{
     animation: 0.5s message linear 2.7s forwards;
 }
 
-#home-hero-resume{
+#home-hero-resume {
     position: relative;
     cursor: pointer;
     opacity: 0;
@@ -1712,7 +1712,7 @@ nav ul li a i{
     width: 220px;
 }
 
-#home-hero-resume button{
+#home-hero-resume button {
     cursor: pointer;
     height: 35px;
     width: 150px;
@@ -1757,10 +1757,11 @@ nav ul li a i{
     top: 0;
     width: 100%;
     height: 130vh;
-    background-image: radial-gradient(circle at 23% 57%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 80% 20%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, rgb(20, 20, 20),rgb(20, 20, 20));
+    background-image: radial-gradient(circle at 23% 57%, rgba(205, 205, 205, 0.03) 0%, rgba(205, 205, 205, 0.03) 18%, transparent 18%, transparent 100%), radial-gradient(circle at 80% 20%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115, 0.03) 12%, transparent 12%, transparent 100%), linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
     box-shadow: 0 -20px 30px rgb(20, 20, 20);
 }
-.sec1-cnt{
+
+.sec1-cnt {
     position: relative;
     top: 0;
     left: 0;
@@ -1809,9 +1810,7 @@ nav ul li a i{
     color: #ffffff;
 }
 
-.run{
-
-}
+.run {}
 
 .sec1-text1 {
     position: relative;
@@ -1833,14 +1832,14 @@ nav ul li a i{
     color: #686868;
 }
 
-.sec1-menu{
+.sec1-menu {
     position: relative;
     bottom: 0;
     left: 0;
     height: 50%;
 }
 
-.sec1-menu-container{
+.sec1-menu-container {
     position: absolute;
     top: 0;
     right: 0;
@@ -1964,11 +1963,12 @@ nav ul li a i{
 
 #section2 {
     position: relative;
+    overflow: hidden;
     top: 0;
     left: 0;
     height: 100vh;
     width: 100%;
-    background-color: pink;
+    background-color: #141414;
 }
 
 .sec2-title {
@@ -1976,7 +1976,7 @@ nav ul li a i{
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 5%;
+    left: 15%;
     width: 90%;
     top: 5%;
 }
@@ -1984,7 +1984,6 @@ nav ul li a i{
 .sec2-title p {
     overflow: hidden;
     text-align: center;
-    overflow: hidden;
     padding: 0;
     width: 100%;
     font-size: 2.8125rem;
@@ -1992,16 +1991,22 @@ nav ul li a i{
 }
 
 .svg-container {
+    position: relative;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    position: relative;
-    overflow: hidden;
-    top: 17vh;
+    top: 22vh;
     left: 20%;
-    height: 70vh;
+    height: 73vh;
     width: 60%;
-    background-color: red;
+    margin-bottom: 20px;
+    background: rgba(43, 43, 43, 0.409);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(40.6px);
+    -webkit-backdrop-filter: blur(14.6px);
+    border: 1px solid rgba(96, 96, 96, 0.48);
+    box-shadow: -10px 10px 20px rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
 }
 
 .svg-icon {
@@ -2014,48 +2019,88 @@ nav ul li a i{
 #svg1 {
     position: absolute;
     z-index: 3;
-    top: 0;
-    left: 0;
-    height: 50px;
+    top: -40px;
+    left: 3%;
+    height: 40px;
     width: 100px;
-    border: 1px solid green;
-    background-color: yellow;
-    box-shadow: 5px 5px 5px black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid rgba(96, 96, 96, 0.48);
+    border-bottom: none;
+    background: rgba(42, 42, 42, 0.2);
+    backdrop-filter: blur(14.6px);
+    -webkit-backdrop-filter: blur(14.6px);  
+    box-shadow: 0 -5px 10px rgb(0, 0, 0);
+}
+
+#svg1 p{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    margin-top: 12px;
 }
 
 #svg2 {
     position: absolute;
     z-index: 2;
-    top: 0;
-    left: 80px;
-    height: 50px;
+    top: -35px;
+    left: 14%;
+    height: 35px;
     width: 100px;
-    border: 1px solid green;
-    background: blue;
-    box-shadow: 5px 5px 5px black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid rgba(96, 96, 96, 0.48);
+    border-bottom: none;
+    background: rgba(42, 42, 42, 0.2);
+    backdrop-filter: blur(40.6px);
+    -webkit-backdrop-filter: blur(14.6px);  
+    box-shadow: 0 -5px 10px black;
+}
+
+#svg2 p{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    margin-top: 11px;
 }
 
 #svg3 {
     position: absolute;
     z-index: 1;
-    top: 0;
-    left: 180px;
-    height: 50px;
+    top: -30px;
+    left: 25%;
+    height: 30px;
     width: 100px;
-    background-color: rgb(0, 255, 13);
-    border: 1px solid green;
-    box-shadow: 5px 5px 5px black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid rgba(96, 96, 96, 0.48);
+    border-bottom: none;
+    background: rgba(42, 42, 42, 0.2);
+    backdrop-filter: blur(40.6px);
+    -webkit-backdrop-filter: blur(14.6px); 
+    box-shadow: 0 -5px 10px black; 
+}
+
+#svg3 p{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 10px;
+    margin-top: 9px;
 }
 
 .wrapper {
     position: absolute;
     overflow: hidden;
     z-index: 4;
-    top: 50px;
-    left: 0;
-    width: 100%;
-    height: 400px;
+    top: 2%;
+    left: 1%;
+    width: 98%;
+    height: 96%;
     color: white;
+    border-radius: 15px;
     background-color: rgb(57, 55, 55);
 }
 
@@ -2063,27 +2108,28 @@ nav ul li a i{
     display: flex;
     transition: transform 0.5s ease;
     width: 300%;
-    background-color: pink;
+    height: 100%;
 }
 
 .card {
     min-width: 100%;
+    height: 120%;
     box-sizing: border-box;
     padding: 20px;
     transition: transform 0.5s ease;
-    background-color: green;
+    background-color: rgb(0, 0, 0);
 }
 
-#reviews-projects{
+#reviews-projects {
     position: relative;
     top: 0;
     left: 0;
     height: 120vh;
-    width: 100%; 
-   background-color: red;
+    width: 100%;
+    background-color: #141414;
 }
 
-.reviewsection{
+.reviewsection {
     position: absolute;
     top: 0;
     left: 0;
@@ -2102,7 +2148,7 @@ nav ul li a i{
     color: #ffffff;
 }
 
-.reviews-wrapper{
+.reviews-wrapper {
     position: absolute;
     overflow: hidden;
     overflow-x: auto;
@@ -2113,11 +2159,11 @@ nav ul li a i{
     width: 96%;
 }
 
-.reviews-wrapper::-webkit-scrollbar{
+.reviews-wrapper::-webkit-scrollbar {
     display: none;
 }
 
-.reviews{
+.reviews {
     position: relative;
     text-align: center;
     z-index: 0;
@@ -2130,7 +2176,7 @@ nav ul li a i{
     background-color: #0c0c0c;
 }
 
-.rev-img{
+.rev-img {
     position: absolute;
     overflow: hidden;
     height: 60px;
@@ -2142,7 +2188,7 @@ nav ul li a i{
     background-color: #686868;
 }
 
-.rev-img img{
+.rev-img img {
     overflow: hidden;
     top: 0;
     left: 0;
@@ -2150,7 +2196,7 @@ nav ul li a i{
     width: 100%;
 }
 
-.rev-name{
+.rev-name {
     position: absolute;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -2163,7 +2209,7 @@ nav ul li a i{
     left: 0;
 }
 
-.rev-rev{
+.rev-rev {
     position: absolute;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -2180,7 +2226,7 @@ nav ul li a i{
     left: 0;
 }
 
-.rev-stars{
+.rev-stars {
     position: absolute;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -2193,13 +2239,13 @@ nav ul li a i{
     left: 0;
 }
 
-.rev-stars i{
+.rev-stars i {
     margin-left: 3px;
     margin-right: 3px;
     color: gold;
 }
 
-#reviews-scroll-left{
+#reviews-scroll-left {
     position: absolute;
     text-align: center;
     height: 350px;
@@ -2207,14 +2253,14 @@ nav ul li a i{
     top: 100px;
     left: 0;
     width: 2%;
-    box-shadow: 15px 0 10px  rgb(20, 20, 20);
+    box-shadow: 15px 0 10px rgb(20, 20, 20);
     background-color: rgb(20, 20, 20);
     color: #686868;
     margin: 0;
     cursor: pointer;
 }
 
-#reviews-scroll-right{
+#reviews-scroll-right {
     position: absolute;
     text-align: center;
     height: 350px;
@@ -2222,14 +2268,14 @@ nav ul li a i{
     top: 100px;
     right: 0;
     width: 2%;
-    box-shadow: -15px 0 10px  rgb(20, 20, 20);
+    box-shadow: -15px 0 10px rgb(20, 20, 20);
     background-color: rgb(20, 20, 20);
     color: #686868;
     margin: 0;
     cursor: pointer;
 }
 
-.projectssection{
+.projectssection {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -2248,7 +2294,7 @@ nav ul li a i{
     color: #ffff;
 }
 
-.projects-wrapper{
+.projects-wrapper {
     position: absolute;
     overflow: hidden;
     overflow-x: auto;
@@ -2259,11 +2305,11 @@ nav ul li a i{
     width: 96%;
 }
 
-.projects-wrapper::-webkit-scrollbar{
+.projects-wrapper::-webkit-scrollbar {
     display: none;
 }
 
-.projects{
+.projects {
     position: relative;
     z-index: 5;
     text-align: center;
@@ -2277,7 +2323,7 @@ nav ul li a i{
     background-color: #0c0c0c;
 }
 
-.proj-img{
+.proj-img {
     position: absolute;
     overflow: hidden;
     height: 60px;
@@ -2289,7 +2335,7 @@ nav ul li a i{
     background-color: #686868;
 }
 
-.proj-img img{
+.proj-img img {
     overflow: hidden;
     top: 0;
     left: 0;
@@ -2297,7 +2343,7 @@ nav ul li a i{
     width: 100%;
 }
 
-.proj-name{
+.proj-name {
     position: absolute;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -2310,7 +2356,7 @@ nav ul li a i{
     left: 0;
 }
 
-.proj-ovr{
+.proj-ovr {
     position: absolute;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -2327,7 +2373,7 @@ nav ul li a i{
     left: 0;
 }
 
-#projects-scroll-left{
+#projects-scroll-left {
     position: absolute;
     text-align: center;
     height: 270px;
@@ -2335,14 +2381,14 @@ nav ul li a i{
     top: 50px;
     left: 0;
     width: 2%;
-    box-shadow: 15px 0 10px  rgb(20, 20, 20);
+    box-shadow: 15px 0 10px rgb(20, 20, 20);
     background-color: rgb(20, 20, 20);
     color: #686868;
     margin: 0;
     cursor: pointer;
 }
 
-#projects-scroll-right{
+#projects-scroll-right {
     position: absolute;
     text-align: center;
     height: 270px;
@@ -2350,22 +2396,23 @@ nav ul li a i{
     top: 50px;
     right: 0;
     width: 2%;
-    box-shadow: -15px 0 10px  rgb(20, 20, 20);
+    box-shadow: -15px 0 10px rgb(20, 20, 20);
     background-color: rgb(20, 20, 20);
     color: #686868;
     margin: 0;
     cursor: pointer;
 }
+
 #section3 {
     position: relative;
     top: 110px;
     left: 0;
     height: 110vh;
     width: 100%;
-    background-image: radial-gradient(circle at 53% 67%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 40% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20));
+    background-image: radial-gradient(circle at 53% 67%, rgba(205, 205, 205, 0.03) 0%, rgba(205, 205, 205, 0.03) 18%, transparent 18%, transparent 100%), radial-gradient(circle at 40% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115, 0.03) 14%, transparent 14%, transparent 100%), linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
 }
 
-.sec3-icon1{
+.sec3-icon1 {
     position: absolute;
     overflow: hidden;
     top: 26vh;
@@ -2377,7 +2424,7 @@ nav ul li a i{
     border: none;
 }
 
-.ipads{
+.ipads {
     position: absolute;
     top: -80px;
     left: -60px;
@@ -2386,7 +2433,7 @@ nav ul li a i{
     border: none;
 }
 
-.ipads img{
+.ipads img {
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -2404,7 +2451,7 @@ nav ul li a i{
     border: none;
 }
 
-.ipad-frame img{
+.ipad-frame img {
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -2423,7 +2470,7 @@ nav ul li a i{
     border: none;
 }
 
-.whyhim img{
+.whyhim img {
     position: absolute;
     overflow: hidden;
     top: -10px;
@@ -2445,7 +2492,7 @@ nav ul li a i{
     color: #ffff;
 }
 
-.ipadtop i{
+.ipadtop i {
     margin-right: 3px;
     margin-left: 3px;
 }
@@ -2460,7 +2507,7 @@ nav ul li a i{
     color: #ffff;
 }
 
-.ipadtime{
+.ipadtime {
     position: absolute;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -2472,7 +2519,7 @@ nav ul li a i{
     color: #ffff;
 }
 
-.ipaddate{
+.ipaddate {
     position: absolute;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -2484,7 +2531,7 @@ nav ul li a i{
     color: #ffff;
 }
 
-.ipadbottumline{
+.ipadbottumline {
     position: absolute;
     border-radius: 5px;
     bottom: 6px;
@@ -2502,7 +2549,7 @@ nav ul li a i{
     width: 100%;
 }
 
-.sec3-for-you p{
+.sec3-for-you p {
     overflow: hidden;
     text-align: center;
     overflow: hidden;
@@ -2525,7 +2572,7 @@ nav ul li a i{
     height: 78%;
 }
 
-.sec3-cnt p{
+.sec3-cnt p {
     text-align: left;
     margin-top: 22px;
     font-size: 1rem;
@@ -2534,17 +2581,17 @@ nav ul li a i{
     font-family: 'Roboto', sans-serif;
 }
 
-.sec3-cnt span{
+.sec3-cnt span {
     color: #ffff;
 }
 
-#section4{
+#section4 {
     position: relative;
     top: 150px;
     left: 0;
     height: 100vh;
     width: 100%;
-    background-image: radial-gradient(circle at 63% 47%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 70% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, rgb(20, 20, 20),rgb(20,20,20));
+    background-image: radial-gradient(circle at 63% 47%, rgba(205, 205, 205, 0.03) 0%, rgba(205, 205, 205, 0.03) 18%, transparent 18%, transparent 100%), radial-gradient(circle at 70% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115, 0.03) 12%, transparent 12%, transparent 100%), linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
 }
 
 .contact-title {
@@ -2555,7 +2602,7 @@ nav ul li a i{
     width: 100%;
 }
 
-.contact-title p{
+.contact-title p {
     overflow: hidden;
     text-align: center;
     overflow: hidden;
@@ -2566,7 +2613,7 @@ nav ul li a i{
     color: #ffff;
 }
 
-.contact-container{
+.contact-container {
     position: absolute;
     top: 25%;
     left: 0;
@@ -2580,7 +2627,7 @@ nav ul li a i{
     right: 23%;
 }
 
-.contact-right p{
+.contact-right p {
     height: 40px;
     width: 300px;
     font-size: 1.25rem;
@@ -2594,14 +2641,14 @@ nav ul li a i{
     background-color: #0c0c0c;
 }
 
-.social-icons a i{
+.social-icons a i {
     font-size: 1.5625rem;
     margin-top: 5px;
     margin-right: 15px;
     color: #ffff;
 }
 
-.contact-left{
+.contact-left {
     position: absolute;
     top: 7%;
     left: 10%;
@@ -2609,11 +2656,11 @@ nav ul li a i{
     width: 40%;
 }
 
-.contact-left form{
+.contact-left form {
     width: 100%;
 }
 
-.form-name{
+.form-name {
     position: absolute;
     top: 0;
     left: 0;
@@ -2621,7 +2668,7 @@ nav ul li a i{
     width: 100%;
 }
 
-.form-name p{
+.form-name p {
     position: absolute;
     bottom: 0;
     width: 135px;
@@ -2632,7 +2679,7 @@ nav ul li a i{
     color: #ffff;
 }
 
-.form-name input{
+.form-name input {
     position: absolute;
     bottom: 0;
     left: 135px;
@@ -2651,7 +2698,7 @@ nav ul li a i{
     font-family: 'Roboto', sans-serif;
 }
 
-.form-email{
+.form-email {
     position: absolute;
     top: 60px;
     left: 0;
@@ -2659,7 +2706,7 @@ nav ul li a i{
     width: 100%;
 }
 
-.form-email p{
+.form-email p {
     position: absolute;
     bottom: 0;
     width: 135px;
@@ -2670,7 +2717,7 @@ nav ul li a i{
     color: #ffff;
 }
 
-.form-email input{
+.form-email input {
     position: absolute;
     left: 135px;
     width: 300px;
@@ -2688,7 +2735,7 @@ nav ul li a i{
     font-family: 'Roboto', sans-serif;
 }
 
-.form-message{
+.form-message {
     position: absolute;
     top: 120px;
     left: 0;
@@ -2696,7 +2743,7 @@ nav ul li a i{
     width: 100%;
 }
 
-.form-message p{
+.form-message p {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -2707,7 +2754,7 @@ nav ul li a i{
     color: #ffff;
 }
 
-.form-message textarea{
+.form-message textarea {
     position: absolute;
     top: 40px;
     left: 0;
@@ -2726,7 +2773,7 @@ nav ul li a i{
     font-family: 'Roboto', sans-serif;
 }
 
-.contact-left button{
+.contact-left button {
     position: absolute;
     cursor: pointer;
     background-color: #0c0c0c;
@@ -2739,7 +2786,7 @@ nav ul li a i{
     width: 100px;
 }
 
-.btn2:hover{
+.btn2:hover {
     background-color: #ffffff;
     border: 1px solid rgb(0, 0, 0);
     color: #000000;
@@ -2755,14 +2802,14 @@ nav ul li a i{
     width: 100%;
 }
 
-.copy-right{
+.copy-right {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
 }
 
-.copy-right p{
+.copy-right p {
     font-size: 0.75rem;
     height: 50px;
     width: 100%;
@@ -2834,18 +2881,18 @@ nav ul li a i{
         padding: 0;
         box-sizing: border-box;
     }
-    
+
     html {
         scroll-behavior: smooth;
     }
-    
+
     body {
         display: flex;
         scroll-behavior: smooth;
         font-family: 'Belleza', sans-serif;
         background-color: #0c0c0c;
     }
-    
+
     #nav {
         position: fixed;
         z-index: 5;
@@ -2855,8 +2902,8 @@ nav ul li a i{
         height: 50px;
         width: 100%;
     }
-    
-    nav ul{
+
+    nav ul {
         position: fixed;
         z-index: 2;
         top: 0;
@@ -2870,21 +2917,21 @@ nav ul li a i{
         border-left: 1px solid rgba(255, 255, 255, 0.3);
         transition: right 0.5s;
     }
-    
-    nav ul li{
+
+    nav ul li {
         margin-bottom: 30px;
         color: #0c0c0c00;
     }
-    
-    nav ul .fa-x{
+
+    nav ul .fa-x {
         position: fixed;
         cursor: pointer;
         top: 27px;
         right: 28px;
         color: #ffff;
     }
-    
-    .menubars1{
+
+    .menubars1 {
         position: fixed;
         cursor: pointer;
         opacity: 1;
@@ -2893,28 +2940,28 @@ nav ul li a i{
         height: 30px;
         width: 50px;
     }
-    
-    .menubars1.active{
+
+    .menubars1.active {
         opacity: 0;
     }
-    
-    .line1{
+
+    .line1 {
         position: absolute;
         top: 10px;
         height: 2px;
-        width:100%;
+        width: 100%;
         background-color: #ffffff;
     }
-    
-    .line2{
+
+    .line2 {
         position: absolute;
         top: 16.5px;
         height: 2px;
-        width:100%;
+        width: 100%;
         background-color: #ffffff;
     }
-    
-    nav ul li a{
+
+    nav ul li a {
         position: fixed;
         font-family: 'Roboto', sans-serif;
         cursor: pointer;
@@ -2927,30 +2974,30 @@ nav ul li a i{
         color: #ffff;
         text-decoration: none;
     }
-    
-    nav ul li a:hover{
+
+    nav ul li a:hover {
         color: rgba(255, 255, 255, 0.5);
         transition: 1s smooth;
     }
-    
-    nav ul li a i{
+
+    nav ul li a i {
         text-align: center;
         margin-right: 15px;
         font-size: 0.9375rem;
         width: 25px;
     }
-    
+
     .navani {
         animation: 1s navanimation 0.5s ease-out forwards;
     }
-    
+
     @keyframes navanimation {
         to {
             opacity: 1;
             top: 0;
         }
     }
-    
+
     #nav img {
         position: fixed;
         top: 4px;
@@ -2960,14 +3007,14 @@ nav ul li a i{
         margin-left: 20px;
     }
 
-    #body-container{
+    #body-container {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 812vh;
     }
-    
+
     #hero {
         position: relative;
         overflow: hidden;
@@ -2975,13 +3022,13 @@ nav ul li a i{
         left: 0;
         height: 100vh;
         width: 100%;
-        background-image: linear-gradient(45deg, rgb(12,12,12) 0%,transparent 73%),repeating-linear-gradient(90deg, rgba(127, 127, 127,0.1) 0px, rgba(127, 127, 127,0.1) 1px,transparent 1px, transparent 17px),repeating-linear-gradient(0deg, rgba(127, 127, 127,0.1) 0px, rgba(127, 127, 127,0.1) 1px,transparent 1px, transparent 17px),linear-gradient(0deg, rgb(12,12,12),rgb(12,12,12));
+        background-image: linear-gradient(45deg, rgb(12, 12, 12) 0%, transparent 73%), repeating-linear-gradient(90deg, rgba(127, 127, 127, 0.1) 0px, rgba(127, 127, 127, 0.1) 1px, transparent 1px, transparent 17px), repeating-linear-gradient(0deg, rgba(127, 127, 127, 0.1) 0px, rgba(127, 127, 127, 0.1) 1px, transparent 1px, transparent 17px), linear-gradient(0deg, rgb(12, 12, 12), rgb(12, 12, 12));
     }
-    
+
     .blob {
         overflow: hidden;
     }
-    
+
     .blob1 {
         position: absolute;
         transform: rotate(180deg);
@@ -2991,7 +3038,7 @@ nav ul li a i{
         width: 300px;
         opacity: 1;
     }
-    
+
     .blob2 {
         position: absolute;
         transform: rotate(70deg);
@@ -3001,7 +3048,7 @@ nav ul li a i{
         width: 300px;
         opacity: 1;
     }
-    
+
     .blob3 {
         position: absolute;
         transform: rotate(-90deg);
@@ -3011,7 +3058,7 @@ nav ul li a i{
         width: 250px;
         opacity: 1;
     }
-    
+
     #screen {
         position: absolute;
         z-index: 1;
@@ -3027,17 +3074,17 @@ nav ul li a i{
         box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.5);
         border: 1px solid rgba(255, 255, 255, 0.3);
     }
-    
+
     .sranimation {
         animation: 3s skewani ease-out 3s forwards;
     }
-    
+
     @keyframes skewani {
         to {
             transform: skew(8deg);
         }
     }
-    
+
     .left-main {
         position: absolute;
         overflow: hidden;
@@ -3048,7 +3095,7 @@ nav ul li a i{
         border-top: 0.5px solid rgba(170, 170, 170, 0.3);
         border-right: 0.5px solid rgba(170, 170, 170, 0.3);
     }
-    
+
     .left-icons {
         position: absolute;
         overflow: hidden;
@@ -3059,7 +3106,7 @@ nav ul li a i{
         border-top-left-radius: 15px;
         border-right: 0.5px solid rgba(170, 170, 170, 0.3);
     }
-    
+
     .three-dots {
         position: absolute;
         overflow: hidden;
@@ -3068,7 +3115,7 @@ nav ul li a i{
         width: 100%;
         height: 11%;
     }
-    
+
     .red-dot {
         position: absolute;
         top: 25%;
@@ -3078,7 +3125,7 @@ nav ul li a i{
         border-radius: 50%;
         background-color: rgb(204, 0, 0);
     }
-    
+
     .yellow-dot {
         position: absolute;
         top: 25%;
@@ -3088,7 +3135,7 @@ nav ul li a i{
         border-radius: 50%;
         background-color: rgb(196, 176, 0);
     }
-    
+
     .green-dot {
         position: absolute;
         top: 25%;
@@ -3098,7 +3145,7 @@ nav ul li a i{
         border-radius: 50%;
         background-color: rgb(0, 204, 10);
     }
-    
+
     .ethereum {
         position: absolute;
         text-align: center;
@@ -3111,12 +3158,12 @@ nav ul li a i{
         background: rgb(147, 193, 255);
         background: linear-gradient(135deg, rgba(147, 193, 255, 1) 0%, rgba(255, 0, 249, 1) 100%);
     }
-    
+
     .ethereum i {
         color: rgb(31, 31, 110);
         margin-top: 0.2rem;
     }
-    
+
     .cube {
         position: absolute;
         text-align: center;
@@ -3129,12 +3176,12 @@ nav ul li a i{
         background: rgb(147, 193, 255);
         background: linear-gradient(135deg, rgb(255, 238, 84) 0%, rgb(92, 78, 0) 100%);
     }
-    
+
     .cube i {
         color: rgb(36, 34, 10);
         margin-top: 3px;
     }
-    
+
     .unity {
         position: absolute;
         text-align: center;
@@ -3147,12 +3194,12 @@ nav ul li a i{
         background: rgb(147, 193, 255);
         background: linear-gradient(135deg, rgb(109, 109, 109) 0%, rgb(10, 10, 10) 100%);
     }
-    
+
     .unity i {
         color: rgb(126, 126, 126);
         margin-top: 2.5px;
     }
-    
+
     .compass {
         position: absolute;
         text-align: center;
@@ -3164,12 +3211,12 @@ nav ul li a i{
         border-radius: 50%;
         background: rgba(255, 9, 255, 0.226);
     }
-    
+
     .compass i {
         color: rgb(233, 0, 221);
         margin-top: 3px;
     }
-    
+
     .plus {
         position: absolute;
         text-align: center;
@@ -3181,12 +3228,12 @@ nav ul li a i{
         border-radius: 50%;
         background: rgba(102, 0, 102, 0.274);
     }
-    
+
     .plus i {
         color: rgba(233, 0, 221, 0.459);
         margin: 3px;
     }
-    
+
     .lm-home {
         position: absolute;
         top: 0;
@@ -3198,16 +3245,16 @@ nav ul li a i{
         border-radius: 2px;
         background-color: #00000086;
     }
-    
+
     .lm-home p {
         margin: 0.4em;
     }
-    
+
     .lm-home i {
         width: 15%;
         margin-right: 0.625em;
     }
-    
+
     .lm-music {
         position: absolute;
         top: 8%;
@@ -3217,16 +3264,16 @@ nav ul li a i{
         font-size: 0.375rem;
         color: #a7a7a7;
     }
-    
+
     .lm-music p {
         margin: 0.4em;
     }
-    
+
     .lm-music i {
         width: 15%;
         margin-right: 0.625em;
     }
-    
+
     .lm-gaming {
         position: absolute;
         top: 16%;
@@ -3236,16 +3283,16 @@ nav ul li a i{
         font-size: 0.375rem;
         color: #a7a7a7;
     }
-    
+
     .lm-gaming p {
         margin: 0.4em;
     }
-    
+
     .lm-gaming i {
         width: 15%;
         margin-right: 0.625em;
     }
-    
+
     .lm-educat {
         position: absolute;
         top: 24%;
@@ -3255,16 +3302,16 @@ nav ul li a i{
         font-size: 0.375rem;
         color: #a7a7a7;
     }
-    
+
     .lm-educat p {
         margin: 0.4em;
     }
-    
+
     .lm-educat i {
         width: 15%;
         margin-right: 0.625em;
     }
-    
+
     .lm-science {
         position: absolute;
         top: 32%;
@@ -3274,16 +3321,16 @@ nav ul li a i{
         font-size: 0.375rem;
         color: #a7a7a7;
     }
-    
+
     .lm-science p {
         margin: 0.4em;
     }
-    
+
     .lm-science i {
         width: 15%;
         margin-right: 0.625em;
     }
-    
+
     .lm-entertain {
         position: absolute;
         top: 40%;
@@ -3293,16 +3340,16 @@ nav ul li a i{
         font-size: 0.375rem;
         color: #a7a7a7;
     }
-    
+
     .lm-entertain p {
         margin: 0.4em;
     }
-    
+
     .lm-entertain i {
         margin-right: 0.625em;
         width: 15%;
     }
-    
+
     .lm-student {
         position: absolute;
         top: 48%;
@@ -3312,16 +3359,16 @@ nav ul li a i{
         font-size: 0.375rem;
         color: #a7a7a7;
     }
-    
+
     .lm-student p {
         margin: 0.4em;
     }
-    
+
     .lm-student i {
         margin-right: 0.625em;
         width: 15%;
     }
-    
+
     .left-music {
         position: absolute;
         overflow: hidden;
@@ -3334,7 +3381,7 @@ nav ul li a i{
         background-color: rgba(0, 0, 0, 0.411);
         border-top: 0.5px solid rgba(170, 170, 170, 0.3);
     }
-    
+
     .dp1 {
         position: absolute;
         overflow: hidden;
@@ -3343,7 +3390,7 @@ nav ul li a i{
         width: 0.8375rem;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     }
-    
+
     .dp1 img {
         position: absolute;
         overflow: hidden;
@@ -3352,7 +3399,7 @@ nav ul li a i{
         height: 0.9375rem;
         width: 1.25rem;
     }
-    
+
     .left-music p {
         position: absolute;
         left: 0.3375rem;
@@ -3361,7 +3408,7 @@ nav ul li a i{
         font-size: 0.325rem;
         color: #a7a7a7;
     }
-    
+
     .mic {
         position: absolute;
         left: 65%;
@@ -3369,7 +3416,7 @@ nav ul li a i{
         color: #a7a7a7;
         font-size: 0.325rem;
     }
-    
+
     .headphone {
         position: absolute;
         left: 77%;
@@ -3377,7 +3424,7 @@ nav ul li a i{
         color: #a7a7a7;
         font-size: 0.325rem;
     }
-    
+
     .user-check {
         position: absolute;
         left: 90%;
@@ -3385,7 +3432,7 @@ nav ul li a i{
         color: #a7a7a7;
         font-size: 0.325rem;
     }
-    
+
     .left-sound {
         position: absolute;
         overflow: hidden;
@@ -3397,14 +3444,14 @@ nav ul li a i{
         border-right: 0.5px solid rgba(170, 170, 170, 0.3);
         border-top: 0.5px solid rgba(170, 170, 170, 0.3);
     }
-    
+
     .left-sound img {
         position: absolute;
         height: 100%;
         left: 10%;
         width: 80%;
     }
-    
+
     .center-main {
         position: absolute;
         top: 7%;
@@ -3415,7 +3462,7 @@ nav ul li a i{
         border-top: 0.5px solid rgba(170, 170, 170, 0.3);
         border-right: 0.5px solid rgba(170, 170, 170, 0.3);
     }
-    
+
     .center-main1 {
         position: absolute;
         overflow: hidden;
@@ -3427,7 +3474,7 @@ nav ul li a i{
         border-radius: 7px;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
     }
-    
+
     .center-main1 img {
         position: absolute;
         overflow: hidden;
@@ -3435,7 +3482,7 @@ nav ul li a i{
         height: 200%;
         width: 100%;
     }
-    
+
     .main11 p {
         position: absolute;
         text-align: center;
@@ -3446,7 +3493,7 @@ nav ul li a i{
         width: 100%;
         color: white;
     }
-    
+
     .main12 p {
         position: absolute;
         text-align: center;
@@ -3457,7 +3504,7 @@ nav ul li a i{
         width: 100%;
         color: #ffffff;
     }
-    
+
     .center-main2 {
         position: absolute;
         top: 30%;
@@ -3465,13 +3512,13 @@ nav ul li a i{
         left: 0;
         height: 35%;
     }
-    
+
     .center-main21 p {
         margin-left: 2%;
         font-size: 0.4225rem;
         color: #ffffff;
     }
-    
+
     #center-main22 {
         position: absolute;
         overflow: hidden;
@@ -3482,20 +3529,20 @@ nav ul li a i{
         border-radius: 6px;
         background-color: #707070;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
-    
+
     }
-    
+
     .cm22 {
         animation: cm22 2s ease-out 5s forwards;
     }
-    
+
     @keyframes cm22 {
         to {
             transform: translate(5px, -5px);
             box-shadow: -7px 7px 12px rgba(0, 0, 0, 0.644);
         }
     }
-    
+
     .center-main22-img img {
         position: absolute;
         overflow: hidden;
@@ -3503,7 +3550,7 @@ nav ul li a i{
         height: 110%;
         width: 100%;
     }
-    
+
     .center-main22-cnt {
         position: absolute;
         overflow: hidden;
@@ -3518,7 +3565,7 @@ nav ul li a i{
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
     }
-    
+
     .center-main22-cnt1 {
         position: absolute;
         overflow: hidden;
@@ -3527,7 +3574,7 @@ nav ul li a i{
         width: 100%;
         height: 55%;
     }
-    
+
     .main22-cnt-title {
         position: absolute;
         font-size: 0.3875rem;
@@ -3536,7 +3583,7 @@ nav ul li a i{
         width: 100%;
         color: #ffffff;
     }
-    
+
     .main22-cnt-ph {
         position: absolute;
         font-size: 0.27rem;
@@ -3545,7 +3592,7 @@ nav ul li a i{
         width: 84%;
         color: #999999;
     }
-    
+
     .main22-icon {
         position: absolute;
         text-align: center;
@@ -3557,7 +3604,7 @@ nav ul li a i{
         background: rgb(0, 18, 255);
         background: linear-gradient(45deg, rgba(0, 18, 255, 1) 0%, rgba(0, 255, 239, 1) 100%);
     }
-    
+
     .main22-icon i {
         position: absolute;
         top: -5px;
@@ -3565,7 +3612,7 @@ nav ul li a i{
         font-size: 0.4125rem;
         color: #ffffff;
     }
-    
+
     #center-main23 {
         position: absolute;
         overflow: hidden;
@@ -3577,20 +3624,20 @@ nav ul li a i{
         background-color: #707070;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
         z-index: 20;
-    
+
     }
-    
+
     .cm23 {
         animation: cm23 2s ease-out 6s forwards;
     }
-    
+
     @keyframes cm23 {
         to {
             transform: translate(10px, -12px);
             box-shadow: -14px 14px 25px rgba(0, 0, 0, 0.644);
         }
     }
-    
+
     .center-main23-img img {
         position: absolute;
         overflow: hidden;
@@ -3598,7 +3645,7 @@ nav ul li a i{
         height: 100%;
         width: 100%;
     }
-    
+
     .center-main23-cnt {
         position: absolute;
         overflow: hidden;
@@ -3613,7 +3660,7 @@ nav ul li a i{
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
     }
-    
+
     .center-main23-cnt1 {
         position: absolute;
         overflow: hidden;
@@ -3622,7 +3669,7 @@ nav ul li a i{
         width: 100%;
         height: 55%;
     }
-    
+
     .main23-cnt-title {
         position: absolute;
         font-size: 0.3875rem;
@@ -3631,7 +3678,7 @@ nav ul li a i{
         width: 86%;
         color: #ffffff;
     }
-    
+
     .main23-cnt-ph {
         position: absolute;
         font-size: 0.27rem;
@@ -3640,7 +3687,7 @@ nav ul li a i{
         width: 84%;
         color: #999999;
     }
-    
+
     .main23-icon {
         position: absolute;
         text-align: center;
@@ -3652,7 +3699,7 @@ nav ul li a i{
         background: rgb(0, 18, 255);
         background: linear-gradient(45deg, rgba(0, 18, 255, 1) 0%, rgba(255, 0, 228, 1) 100%);
     }
-    
+
     .main23-icon i {
         position: absolute;
         top: -5px;
@@ -3660,7 +3707,7 @@ nav ul li a i{
         font-size: 0.4125rem;
         color: #ffffff;
     }
-    
+
     .center-main3 {
         position: absolute;
         top: 65%;
@@ -3668,13 +3715,13 @@ nav ul li a i{
         left: 0;
         height: 35%;
     }
-    
+
     .center-main31 p {
         margin-left: 2%;
         font-size: 0.4225rem;
         color: #ffffff;
     }
-    
+
     #center-main32 {
         position: absolute;
         overflow: hidden;
@@ -3686,18 +3733,18 @@ nav ul li a i{
         background-color: #707070;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.644);
     }
-    
+
     .cm32 {
         animation: cm32 2s ease-out 5.5s forwards;
     }
-    
+
     @keyframes cm32 {
         to {
             transform: translate(5px, -5px);
             box-shadow: -7px 7px 12px rgba(0, 0, 0, 0.644);
         }
     }
-    
+
     .center-main32-img img {
         position: absolute;
         overflow: hidden;
@@ -3706,7 +3753,7 @@ nav ul li a i{
         height: 120%;
         width: 40%;
     }
-    
+
     .center-main32-cnt {
         position: absolute;
         overflow: hidden;
@@ -3719,7 +3766,7 @@ nav ul li a i{
         border-top-left-radius: 8px;
         background-color: rgb(32, 32, 32);
     }
-    
+
     .main32-cover {
         position: absolute;
         overflow: hidden;
@@ -3732,7 +3779,7 @@ nav ul li a i{
         background: linear-gradient(-60deg, rgba(0, 18, 255, 1) 0%, rgba(0, 255, 239, 1) 100%);
         transform: rotate(45deg);
     }
-    
+
     .main32-cnt-title {
         position: absolute;
         font-size: 0.3875rem;
@@ -3741,7 +3788,7 @@ nav ul li a i{
         width: 75%;
         color: #ffffff;
     }
-    
+
     .main32-cnt-ph {
         position: absolute;
         font-size: 0.27rem;
@@ -3750,7 +3797,7 @@ nav ul li a i{
         width: 65%;
         color: #999999;
     }
-    
+
     .main32-icon {
         position: absolute;
         text-align: center;
@@ -3762,13 +3809,13 @@ nav ul li a i{
         background: rgb(0, 5, 78);
         background: linear-gradient(45deg, rgba(0, 5, 78, 1) 0%, rgba(0, 56, 255, 1) 100%);
     }
-    
+
     .main32-icon i {
         font-size: 0.625rem;
         color: #ffffff;
         margin-top: 0.2rem;
     }
-    
+
     #center-main33 {
         position: absolute;
         overflow: hidden;
@@ -3780,18 +3827,18 @@ nav ul li a i{
         background-color: #707070;
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
     }
-    
+
     .cm33 {
         animation: cm33 2s ease-out 6.5s forwards;
     }
-    
+
     @keyframes cm33 {
         to {
             transform: translate(10px, -12px);
             box-shadow: -14px 14px 25px rgba(0, 0, 0, 0.644);
         }
     }
-    
+
     .center-main33-img img {
         position: absolute;
         overflow: hidden;
@@ -3800,7 +3847,7 @@ nav ul li a i{
         height: 100%;
         width: 100%;
     }
-    
+
     .center-main33-cnt {
         position: absolute;
         overflow: hidden;
@@ -3813,7 +3860,7 @@ nav ul li a i{
         border-top-left-radius: 8px;
         background-color: rgb(32, 32, 32);
     }
-    
+
     .main33-cover {
         position: absolute;
         overflow: hidden;
@@ -3826,7 +3873,7 @@ nav ul li a i{
         background: linear-gradient(-60deg, rgba(0, 18, 255, 1) 0%, rgba(0, 255, 239, 1) 100%);
         transform: rotate(45deg);
     }
-    
+
     .main33-cnt-title {
         position: absolute;
         font-size: 0.3875rem;
@@ -3835,7 +3882,7 @@ nav ul li a i{
         width: 77%;
         color: #ffffff;
     }
-    
+
     .main33-cnt-ph {
         position: absolute;
         font-size: 0.27rem;
@@ -3844,7 +3891,7 @@ nav ul li a i{
         width: 72%;
         color: #999999;
     }
-    
+
     .main33-icon {
         position: absolute;
         text-align: center;
@@ -3856,13 +3903,13 @@ nav ul li a i{
         background: rgb(38, 38, 38);
         background: linear-gradient(45deg, rgb(15, 15, 15) 0%, rgba(176, 176, 176, 1) 100%);
     }
-    
+
     .main33-icon i {
         font-size: 0.625rem;
         color: #ffffff;
         margin-top: 0.2rem;
     }
-    
+
     .right-main {
         position: absolute;
         top: 7%;
@@ -3871,7 +3918,7 @@ nav ul li a i{
         width: 22%;
         border-bottom-right-radius: 8px;
     }
-    
+
     .right-top-icons {
         position: absolute;
         overflow: hidden;
@@ -3883,7 +3930,7 @@ nav ul li a i{
         border-left: 0.5px solid rgba(170, 170, 170, 0.3);
         border-bottom: 0.5px solid rgba(170, 170, 170, 0.3);
     }
-    
+
     .r-icon-bell {
         position: absolute;
         top: 0;
@@ -3891,7 +3938,7 @@ nav ul li a i{
         height: 100%;
         width: 30%;
     }
-    
+
     .r-icon-chat {
         position: absolute;
         top: 0;
@@ -3899,7 +3946,7 @@ nav ul li a i{
         height: 100%;
         width: 30%;
     }
-    
+
     .r-icon-gear {
         position: absolute;
         top: 0;
@@ -3907,7 +3954,7 @@ nav ul li a i{
         height: 100%;
         width: 30%;
     }
-    
+
     .right-top-icons i {
         position: absolute;
         top: -4px;
@@ -3915,7 +3962,7 @@ nav ul li a i{
         font-size: 0.50rem;
         color: #707070;
     }
-    
+
     .r-main-user {
         position: absolute;
         top: 0;
@@ -3923,25 +3970,25 @@ nav ul li a i{
         height: 35%;
         width: 100%;
     }
-    
+
     #r-dp-container {
         position: absolute;
         top: 1.1625rem;
         left: 1.49rem;
         filter: drop-shadow(-3px 3px 1px rgba(0, 0, 0, 0.644));
     }
-    
+
     .rdp {
         animation: userdp 2s ease-in-out 7s forwards;
     }
-    
+
     @keyframes userdp {
         to {
             transform: translate(12px, -12px);
             filter: drop-shadow(-16px 16px 8px rgba(0, 0, 0, 0.774));
         }
     }
-    
+
     .r-user-john {
         position: absolute;
         overflow: hidden;
@@ -3949,7 +3996,7 @@ nav ul li a i{
         width: 2.125rem;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     }
-    
+
     .r-user-dp img {
         position: absolute;
         overflow: hidden;
@@ -3958,33 +4005,33 @@ nav ul li a i{
         height: 105%;
         width: 80px;
     }
-    
+
     .r-user-name {
         position: absolute;
         top: 77%;
         left: 0;
         width: 100%;
     }
-    
+
     .r-user-name p {
         text-align: center;
         font-size: 0.3875rem;
         color: #ffffff;
     }
-    
+
     .r-user-name1 {
         position: absolute;
         top: 87%;
         left: 0;
         width: 100%;
     }
-    
+
     .r-user-name1 p {
         text-align: center;
         font-size: 0.325rem;
         color: #afafaf;
     }
-    
+
     .new-members {
         position: absolute;
         top: 35%;
@@ -3992,7 +4039,7 @@ nav ul li a i{
         height: 42%;
         width: 100%;
     }
-    
+
     .nm-title p {
         position: absolute;
         text-align: left;
@@ -4001,7 +4048,7 @@ nav ul li a i{
         margin-left: 0.37rem;
         color: #cfcfcf;
     }
-    
+
     .nm-see-all p {
         position: absolute;
         text-align: right;
@@ -4010,7 +4057,7 @@ nav ul li a i{
         width: 90%;
         color: #747474;
     }
-    
+
     #member1 {
         position: absolute;
         top: 15%;
@@ -4022,18 +4069,18 @@ nav ul li a i{
         background: linear-gradient(180deg, rgb(38, 38, 38) 0%, rgb(20, 20, 20) 100%);
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.767);
     }
-    
+
     .mem1 {
         animation: m1 2s ease-out 8s forwards;
     }
-    
+
     @keyframes m1 {
         to {
             transform: translate(5px, -5px);
             box-shadow: -7px 7px 12px rgba(0, 0, 0, 0.726);
         }
     }
-    
+
     .m1-dp {
         position: absolute;
         overflow: hidden;
@@ -4043,7 +4090,7 @@ nav ul li a i{
         width: 15%;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     }
-    
+
     .m1-dp img {
         position: absolute;
         overflow: hidden;
@@ -4052,7 +4099,7 @@ nav ul li a i{
         height: 100%;
         width: 100%;
     }
-    
+
     .m1-name p {
         position: absolute;
         overflow: hidden;
@@ -4061,7 +4108,7 @@ nav ul li a i{
         font-size: 0.27rem;
         color: #c0c0c0;
     }
-    
+
     .m1-time p {
         position: absolute;
         overflow: hidden;
@@ -4070,7 +4117,7 @@ nav ul li a i{
         font-size: 0.25rem;
         color: #808080;
     }
-    
+
     #member2 {
         position: absolute;
         overflow: hidden;
@@ -4082,20 +4129,20 @@ nav ul li a i{
         background: rgb(38, 38, 38);
         background: linear-gradient(180deg, rgb(38, 38, 38) 0%, rgb(20, 20, 20) 100%);
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.767);
-    
+
     }
-    
+
     .mem2 {
         animation: m2 2s ease-out 8s forwards;
     }
-    
+
     @keyframes m2 {
         to {
             transform: translate(10px, -10px);
             box-shadow: -18px 15px 12px rgba(0, 0, 0, 0.726);
         }
     }
-    
+
     .m2-dp {
         position: absolute;
         overflow: hidden;
@@ -4105,7 +4152,7 @@ nav ul li a i{
         width: 15%;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     }
-    
+
     .m2-dp img {
         position: absolute;
         overflow: hidden;
@@ -4114,7 +4161,7 @@ nav ul li a i{
         height: 100%;
         width: 100%;
     }
-    
+
     .m2-name p {
         position: absolute;
         overflow: hidden;
@@ -4123,7 +4170,7 @@ nav ul li a i{
         font-size: 0.27rem;
         color: #c0c0c0;
     }
-    
+
     .m2-time p {
         position: absolute;
         overflow: hidden;
@@ -4132,7 +4179,7 @@ nav ul li a i{
         font-size: 0.25rem;
         color: #808080;
     }
-    
+
     #member3 {
         position: absolute;
         overflow: hidden;
@@ -4144,20 +4191,20 @@ nav ul li a i{
         background: rgb(38, 38, 38);
         background: linear-gradient(180deg, rgb(38, 38, 38) 0%, rgb(20, 20, 20) 100%);
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.767);
-    
+
     }
-    
+
     .mem3 {
         animation: m3 2s ease-out 8s forwards;
     }
-    
+
     @keyframes m3 {
         to {
             transform: translate(15px, -15px);
             box-shadow: -22px 22px 16px rgba(0, 0, 0, 0.726);
         }
     }
-    
+
     .m3-dp {
         position: absolute;
         overflow: hidden;
@@ -4168,7 +4215,7 @@ nav ul li a i{
         background-color: rgb(202, 202, 202);
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     }
-    
+
     .m3-dp img {
         position: absolute;
         overflow: hidden;
@@ -4177,7 +4224,7 @@ nav ul li a i{
         height: 100%;
         width: 100%;
     }
-    
+
     .m3-name p {
         position: absolute;
         overflow: hidden;
@@ -4186,7 +4233,7 @@ nav ul li a i{
         font-size: 0.27rem;
         color: #c0c0c0;
     }
-    
+
     .m3-time p {
         position: absolute;
         overflow: hidden;
@@ -4195,7 +4242,7 @@ nav ul li a i{
         font-size: 0.25rem;
         color: #808080;
     }
-    
+
     #member4 {
         position: absolute;
         overflow: hidden;
@@ -4208,18 +4255,18 @@ nav ul li a i{
         background: linear-gradient(180deg, rgb(38, 38, 38) 0%, rgb(20, 20, 20) 100%);
         box-shadow: -3px 3px 1px rgba(0, 0, 0, 0.767);
     }
-    
+
     .mem4 {
         animation: m4 2s ease-out 8s forwards;
     }
-    
+
     @keyframes m4 {
         to {
             transform: translate(20px, -20px);
             box-shadow: -30px 30px 25px rgba(0, 0, 0, 0.726);
         }
     }
-    
+
     .m4-dp {
         position: absolute;
         overflow: hidden;
@@ -4229,7 +4276,7 @@ nav ul li a i{
         width: 15%;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     }
-    
+
     .m4-dp img {
         position: absolute;
         overflow: hidden;
@@ -4238,7 +4285,7 @@ nav ul li a i{
         height: 100%;
         width: 100%;
     }
-    
+
     .m4-name p {
         position: absolute;
         overflow: hidden;
@@ -4247,7 +4294,7 @@ nav ul li a i{
         font-size: 0.27rem;
         color: #c0c0c0;
     }
-    
+
     .m4-time p {
         position: absolute;
         overflow: hidden;
@@ -4256,7 +4303,7 @@ nav ul li a i{
         font-size: 0.25rem;
         color: #808080;
     }
-    
+
     .recent-activity {
         position: absolute;
         top: 77%;
@@ -4265,7 +4312,7 @@ nav ul li a i{
         width: 100%;
         border-bottom-right-radius: 15px;
     }
-    
+
     .ra-title p {
         position: absolute;
         text-align: left;
@@ -4274,7 +4321,7 @@ nav ul li a i{
         margin-left: 0.35rem;
         color: #cfcfcf;
     }
-    
+
     .ra-see-all p {
         position: absolute;
         text-align: right;
@@ -4283,7 +4330,7 @@ nav ul li a i{
         width: 90%;
         color: #747474;
     }
-    
+
     .recent1 {
         position: absolute;
         top: 25%;
@@ -4293,7 +4340,7 @@ nav ul li a i{
         width: 90%;
         background-color: rgba(49, 49, 49, 0.795);
     }
-    
+
     .r1-dp {
         position: absolute;
         overflow: hidden;
@@ -4303,7 +4350,7 @@ nav ul li a i{
         width: 15%;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     }
-    
+
     .r1-dp img {
         position: absolute;
         overflow: hidden;
@@ -4312,7 +4359,7 @@ nav ul li a i{
         height: 100%;
         width: 100%;
     }
-    
+
     .r1-name p {
         position: absolute;
         overflow: hidden;
@@ -4321,7 +4368,7 @@ nav ul li a i{
         font-size: 0.3rem;
         color: #c0c0c0;
     }
-    
+
     .r1-time p {
         position: absolute;
         overflow: hidden;
@@ -4330,7 +4377,7 @@ nav ul li a i{
         font-size: 0.28rem;
         color: #808080;
     }
-    
+
     .recent2 {
         position: absolute;
         top: 60%;
@@ -4340,7 +4387,7 @@ nav ul li a i{
         width: 90%;
         background-color: rgba(49, 49, 49, 0.795);
     }
-    
+
     .r2-dp {
         position: absolute;
         overflow: hidden;
@@ -4350,7 +4397,7 @@ nav ul li a i{
         width: 15%;
         clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     }
-    
+
     .r2-dp img {
         position: absolute;
         overflow: hidden;
@@ -4359,7 +4406,7 @@ nav ul li a i{
         height: 100%;
         width: 100%;
     }
-    
+
     .r2-name p {
         position: absolute;
         overflow: hidden;
@@ -4368,7 +4415,7 @@ nav ul li a i{
         font-size: 0.3rem;
         color: #b0b1da;
     }
-    
+
     .r2-time p {
         position: absolute;
         overflow: hidden;
@@ -4377,7 +4424,7 @@ nav ul li a i{
         font-size: 0.28rem;
         color: #808080;
     }
-    
+
     .explore {
         position: absolute;
         overflow: hidden;
@@ -4386,14 +4433,14 @@ nav ul li a i{
         height: 7%;
         width: 72%;
     }
-    
+
     .explore p {
         font-size: 0.45rem;
         margin-top: 0.29rem;
         margin-left: 0.3rem;
         color: #ffffff;
     }
-    
+
     .explore-search {
         position: absolute;
         overflow: hidden;
@@ -4406,18 +4453,18 @@ nav ul li a i{
         border: 0.5px solid rgba(255, 255, 255, 0.3);
         background-color: rgba(0, 0, 0, 0.288);
     }
-    
+
     .explore-search p {
         font-size: 0.3575rem;
         margin-top: 0.11rem;
         color: #a7a7a7;
     }
-    
+
     .explore-search i {
         color: #a7a7a7;
         margin-right: 0.325rem;
     }
-    
+
     .home-hero-content {
         position: absolute;
         z-index: 2;
@@ -4426,7 +4473,7 @@ nav ul li a i{
         height: 85%;
         width: 90%;
     }
-    
+
     #hometitle {
         position: relative;
         overflow: hidden;
@@ -4434,7 +4481,7 @@ nav ul li a i{
         width: 100%;
         margin-top: 5%;
     }
-    
+
     #hometitle p {
         text-align: center;
         overflow: hidden;
@@ -4443,17 +4490,17 @@ nav ul li a i{
         color: #ffffff;
         transform: translate(0, 150px);
     }
-    
+
     .htitle {
         animation: 1.5s htitle ease-out 1s forwards;
     }
-    
+
     @keyframes htitle {
         to {
             transform: translate(0, 0);
         }
     }
-    
+
     #homeservice {
         position: relative;
         overflow: hidden;
@@ -4462,7 +4509,7 @@ nav ul li a i{
         width: 100%;
         margin-top: 20%;
     }
-    
+
     #homeservice p {
         text-align: center;
         font-size: 0.5625rem;
@@ -4471,22 +4518,22 @@ nav ul li a i{
         color: rgb(209, 209, 209);
         transform: translate(0, 80px);
     }
-    
+
     #homeservice span {
         margin-left: 13px;
         margin-right: 13px;
     }
-    
+
     .hservice {
         animation: 1.5s hservice ease-out 1.5s forwards;
     }
-    
+
     @keyframes hservice {
         to {
             transform: translate(0, 0);
         }
     }
-    
+
     #home-hero-contact {
         position: absolute;
         cursor: pointer;
@@ -4495,8 +4542,8 @@ nav ul li a i{
         left: 0;
         width: 100%;
     }
-    
-    #home-hero-contact button{
+
+    #home-hero-contact button {
         position: absolute;
         cursor: pointer;
         left: 40%;
@@ -4507,17 +4554,17 @@ nav ul li a i{
         border-radius: 5px;
         color: #ffff;
     }
-    
+
     #home-hero-contact button:hover {
         background-color: #ffffff;
         border: 1px solid rgb(0, 0, 0);
         color: #000000;
     }
-    
+
     .contact {
         animation: 0.5s message linear 2.7s forwards;
     }
-    
+
     #message {
         position: relative;
         text-align: center;
@@ -4531,37 +4578,38 @@ nav ul li a i{
         font-family: 'Roboto', sans-serif;
         color: #6d6d6d;
     }
-    
+
     #message span {
         color: #ffffff;
     }
-    
+
     .message {
         animation: 0.5s message linear 3s forwards;
     }
-    
+
     @keyframes message {
         to {
             opacity: 1;
         }
     }
-    
+
     #section1 {
         position: relative;
         top: 10px;
         width: 100%;
         height: 1200px;
-        background-image: radial-gradient(circle at 23% 57%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 80% 20%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
+        background-image: radial-gradient(circle at 23% 57%, rgba(205, 205, 205, 0.03) 0%, rgba(205, 205, 205, 0.03) 18%, transparent 18%, transparent 100%), radial-gradient(circle at 80% 20%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115, 0.03) 12%, transparent 12%, transparent 100%), linear-gradient(90deg, rgb(12, 12, 12), rgb(12, 12, 12));
 
     }
-    .sec1-cnt{
+
+    .sec1-cnt {
         position: relative;
         top: 0;
         left: 0;
         width: 100%;
         height: 600px;
     }
-    
+
     .sec1-title {
         position: relative;
         overflow: hidden;
@@ -4569,7 +4617,7 @@ nav ul li a i{
         left: 5%;
         width: 90%;
     }
-    
+
     .sec1-title p {
         overflow: hidden;
         text-align: center;
@@ -4581,7 +4629,7 @@ nav ul li a i{
         font-size: 2.8125rem;
         color: #ffff;
     }
-    
+
     .sec1-text {
         position: relative;
         display: grid;
@@ -4590,7 +4638,7 @@ nav ul li a i{
         height: 40%;
         margin-top: 50px;
     }
-    
+
     .sec1-text p {
         overflow: hidden;
         text-align: center;
@@ -4599,11 +4647,11 @@ nav ul li a i{
         font-family: 'Roboto', sans-serif;
         color: #686868;
     }
-    
+
     .sec1-text span {
         color: #ffffff;
     }
-    
+
     .sec1-text1 {
         position: relative;
         display: grid;
@@ -4612,7 +4660,7 @@ nav ul li a i{
         height: 20%;
         margin-top: 20px;
     }
-    
+
     .sec1-text1 p {
         position: absolute;
         overflow: hidden;
@@ -4623,22 +4671,22 @@ nav ul li a i{
         font-family: 'Roboto', sans-serif;
         color: #686868;
     }
-    
-    .sec1-menu{
+
+    .sec1-menu {
         position: relative;
         top: 1%;
         left: 0;
         height: 550px;
     }
-    
-    .sec1-menu-container{
+
+    .sec1-menu-container {
         position: absolute;
         top: 0;
         right: 0;
         max-height: 42%;
         width: 100%;
     }
-    
+
     #imageContainer {
         position: absolute;
         display: flex;
@@ -4650,7 +4698,7 @@ nav ul li a i{
         border-radius: 20px;
         background-color: #000000;
     }
-    
+
     .videoDiv {
         display: none;
         text-align: center;
@@ -4659,20 +4707,20 @@ nav ul li a i{
         height: 100%;
         border-radius: 20px;
     }
-    
+
     .videoDiv video {
         height: 100%;
         width: 100%;
     }
-    
+
     .videoDiv.activ {
         display: block;
     }
-    
+
     #video1 {
         display: block;
     }
-    
+
     .macbook {
         position: absolute;
         top: 0;
@@ -4680,7 +4728,7 @@ nav ul li a i{
         height: 100%;
         width: 100%;
     }
-    
+
     .macbook img {
         position: absolute;
         margin: 0;
@@ -4688,7 +4736,7 @@ nav ul li a i{
         height: 95%;
         width: 92%;
     }
-    
+
     .clickableDivs {
         position: absolute;
         display: flex;
@@ -4701,7 +4749,7 @@ nav ul li a i{
         width: 100%;
         border-radius: 20px;
     }
-    
+
     .clickableDiv {
         display: flex;
         align-items: center;
@@ -4715,7 +4763,7 @@ nav ul li a i{
         box-shadow: -5px 5px 10px rgba(0, 0, 0);
         transition: transform 0.3s, box-shadow 0.3s;
     }
-    
+
     .clickableDiv p {
         text-align: center;
         margin-left: 10%;
@@ -4725,14 +4773,14 @@ nav ul li a i{
         font-size: 1.25rem;
         font-weight: bolder;
     }
-    
+
     .clickableDiv.run {
         color: rgb(255, 255, 255);
         transform: scale(0.95);
         border: 1px solid black;
         box-shadow: 0 0 0 rgb(0, 0, 0);
     }
-    
+
     .nich {
         display: flex;
         align-items: center;
@@ -4742,7 +4790,7 @@ nav ul li a i{
         color: #5f5f5fa9;
         margin: 2.5% 0;
     }
-    
+
     .nich p {
         text-align: center;
         margin-left: 10%;
@@ -4752,17 +4800,17 @@ nav ul li a i{
         font-size: 1.357rem;
         font-weight: bolder;
     }
-    
-    
+
+
     #section2 {
         position: relative;
         top: 20px;
         height: 1400px;
         left: 0;
         width: 100%;
-        background-image: radial-gradient(circle at 34% 62%, rgba(217, 217, 217,0.03) 0%, rgba(217, 217, 217,0.03) 21%,transparent 21%, transparent 100%),radial-gradient(circle at 93% 47%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 60% 24%, rgba(115, 115, 115,0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
+        background-image: radial-gradient(circle at 34% 62%, rgba(217, 217, 217, 0.03) 0%, rgba(217, 217, 217, 0.03) 21%, transparent 21%, transparent 100%), radial-gradient(circle at 93% 47%, rgba(205, 205, 205, 0.03) 0%, rgba(205, 205, 205, 0.03) 18%, transparent 18%, transparent 100%), radial-gradient(circle at 60% 24%, rgba(115, 115, 115, 0.03) 0%, rgba(115, 115, 115, 0.03) 14%, transparent 14%, transparent 100%), linear-gradient(90deg, rgb(12, 12, 12), rgb(12, 12, 12));
     }
-    
+
     .sec2-title {
         position: absolute;
         top: 0;
@@ -4771,7 +4819,7 @@ nav ul li a i{
         margin: 0;
         height: 50px;
     }
-    
+
     .sec2-title p {
         overflow: hidden;
         text-align: center;
@@ -4780,7 +4828,7 @@ nav ul li a i{
         font-size: 2.8125rem;
         color: #ffff;
     }
-    
+
     .sec2-cont {
         position: relative;
         overflow: hidden;
@@ -4793,7 +4841,7 @@ nav ul li a i{
         height: 1280px;
         color: #ffffff;
     }
-    
+
     .web-des {
         position: absolute;
         overflow: hidden;
@@ -4807,13 +4855,13 @@ nav ul li a i{
         box-shadow: -8px 8px 7px rgba(0, 0, 0, 0.5);
         transition: 0.5s ease-in-out;
     }
-    
+
     .web-des:hover {
         transform: translateY(-30px);
         border: 1px solid #000000;
         box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
     }
-    
+
     .web-des img {
         position: absolute;
         left: 25%;
@@ -4821,7 +4869,7 @@ nav ul li a i{
         top: 10%;
         height: 85%;
     }
-    
+
     .web-des-cont {
         position: relative;
         overflow: hidden;
@@ -4830,13 +4878,13 @@ nav ul li a i{
         width: 100%;
         transition: 0.5s ease-in-out;
     }
-    
+
     .web-des-cont:hover {
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(7px);
         transform: translateY(-35%);
     }
-    
+
     .des-title {
         position: relative;
         margin: 1em;
@@ -4851,11 +4899,11 @@ nav ul li a i{
         backdrop-filter: blur(15px);
         color: rgb(255, 255, 255);
     }
-    
-    .des-title p{
+
+    .des-title p {
         margin-top: 1px;
     }
-    
+
     .des-cont {
         position: absolute;
         font-family: 'Roboto', sans-serif;
@@ -4865,7 +4913,7 @@ nav ul li a i{
         color: rgb(255, 255, 255);
         font-size: 1.1875rem;
     }
-    
+
     .web-dev {
         position: absolute;
         overflow: hidden;
@@ -4879,13 +4927,13 @@ nav ul li a i{
         box-shadow: -8px 8px 7px rgba(0, 0, 0, 0.5);
         transition: 0.5s ease-in-out;
     }
-    
+
     .web-dev:hover {
         transform: translateY(-30px);
         border: 1px solid #000000;
         box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
     }
-    
+
     .web-dev img {
         position: absolute;
         left: 25%;
@@ -4893,7 +4941,7 @@ nav ul li a i{
         top: 20px;
         height: 350px;
     }
-    
+
     .web-dev-cont {
         position: relative;
         overflow: hidden;
@@ -4902,13 +4950,13 @@ nav ul li a i{
         width: 100%;
         transition: 0.5s ease-in-out;
     }
-    
+
     .web-dev-cont:hover {
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(7px);
         transform: translateY(-35%);
     }
-    
+
     .dev-title {
         position: relative;
         margin: 1em;
@@ -4924,7 +4972,7 @@ nav ul li a i{
         backdrop-filter: blur(15px);
         color: rgb(255, 255, 255);
     }
-    
+
     .dev-cont {
         position: absolute;
         margin: 1em;
@@ -4934,7 +4982,7 @@ nav ul li a i{
         color: rgb(255, 255, 255);
         font-size: 1.1875rem;
     }
-    
+
     .ecom-sol {
         position: absolute;
         overflow: hidden;
@@ -4948,13 +4996,13 @@ nav ul li a i{
         box-shadow: -8px 8px 7px rgba(0, 0, 0, 0.5);
         transition: 0.5s ease-in-out;
     }
-    
+
     .ecom-sol:hover {
         transform: translateY(-30px);
         border: 1px solid #000000;
         box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
     }
-    
+
     .ecom-sol img {
         position: absolute;
         left: 25%;
@@ -4962,7 +5010,7 @@ nav ul li a i{
         top: 20px;
         height: 300px;
     }
-    
+
     .ecom-sol-cont {
         position: relative;
         overflow: hidden;
@@ -4971,13 +5019,13 @@ nav ul li a i{
         width: 100%;
         transition: 0.5s ease-in-out;
     }
-    
+
     .ecom-sol-cont:hover {
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(7px);
         transform: translateY(-35%);
     }
-    
+
     .ecom-title {
         position: relative;
         margin: 1em;
@@ -4993,11 +5041,11 @@ nav ul li a i{
         backdrop-filter: blur(15px);
         color: rgb(255, 255, 255);
     }
-    
-    .ecom-title p{
+
+    .ecom-title p {
         margin-top: 2px;
     }
-    
+
     .ecom-cont {
         position: absolute;
         margin: 1em;
@@ -5007,25 +5055,25 @@ nav ul li a i{
         color: rgb(255, 255, 255);
         font-size: 1.1875rem;
     }
-    
-    #offers{
+
+    #offers {
         position: relative;
         top: 10px;
         left: 0;
         height: 750px;
         width: 100%;
         color: #ffff;
-        background-image: radial-gradient(circle at 25% 27%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 8%,transparent 1%, transparent 100%), radial-gradient(circle at 80% 36%, rgba(205, 205, 205,0.03) 0%, rgba(255, 255, 255, 0.048) 11%,transparent 1%, transparent 20%);
+        background-image: radial-gradient(circle at 25% 27%, rgba(205, 205, 205, 0.03) 0%, rgba(205, 205, 205, 0.03) 8%, transparent 1%, transparent 100%), radial-gradient(circle at 80% 36%, rgba(205, 205, 205, 0.03) 0%, rgba(255, 255, 255, 0.048) 11%, transparent 1%, transparent 20%);
     }
-    
-    .offers-left{
+
+    .offers-left {
         position: absolute;
         top: 0;
         left: 5%;
         width: 90%;
         height: 60%;
     }
-    
+
     .offer-title {
         position: relative;
         margin-top: 0;
@@ -5035,8 +5083,8 @@ nav ul li a i{
         font-size: 0.875rem;
         font-weight: 280;
     }
-    
-    .offer-percentage{
+
+    .offer-percentage {
         position: relative;
         margin-top: 8px;
         width: 100%;
@@ -5046,8 +5094,8 @@ nav ul li a i{
         font-weight: 600;
         color: gold;
     }
-    
-    .offer-fooall{
+
+    .offer-fooall {
         position: relative;
         margin-top: 8px;
         width: 100%;
@@ -5056,8 +5104,8 @@ nav ul li a i{
         font-size: 2rem;
         font-weight: 500;
     }
-    
-    .offer-cnt1{
+
+    .offer-cnt1 {
         position: relative;
         margin-top: 10px;
         width: 100%;
@@ -5066,8 +5114,8 @@ nav ul li a i{
         font-size: 0.8875rem;
         font-weight: 200;
     }
-    
-    .offer-cnt2{
+
+    .offer-cnt2 {
         position: relative;
         margin-top: 10px;
         width: 100%;
@@ -5076,8 +5124,8 @@ nav ul li a i{
         font-size: 0.8875rem;
         font-weight: 200;
     }
-    
-    .offers-left button{
+
+    .offers-left button {
         position: relative;
         margin-top: 15px;
         cursor: pointer;
@@ -5089,22 +5137,22 @@ nav ul li a i{
         border-radius: 5px;
         color: #ffff;
     }
-    
-    .offers-left button:hover{
+
+    .offers-left button:hover {
         background-color: #ffffff;
         border: 1px solid rgb(0, 0, 0);
         color: #000000;
     }
-    
-    .offers-right{
+
+    .offers-right {
         position: absolute;
         top: 60%;
         left: 0;
         width: 100%;
         max-height: 300px;
     }
-    
-    #offers-right-cart{
+
+    #offers-right-cart {
         position: absolute;
         text-align: center;
         bottom: 0;
@@ -5114,40 +5162,40 @@ nav ul li a i{
         transform: rotateY(180deg);
         max-height: 15.655rem;
     }
-    
-    #offers-right-boxes{
+
+    #offers-right-boxes {
         position: absolute;
         top: 25px;
         right: 90px;
         color: #ffffffa1;
         font-size: 8.75rem;
     }
-    
-    #offers-right-box{
+
+    #offers-right-box {
         position: absolute;
         bottom: 0%;
         left: 8%;
         color: #ffffffa1;
         font-size: 7.5rem;
     }
-    
-    #reviews-projects{
+
+    #reviews-projects {
         position: relative;
         top: 20px;
         left: 0;
         height: 100vh;
-        width: 100%; 
-        background-image: radial-gradient(circle at 73% 67%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 40% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
+        width: 100%;
+        background-image: radial-gradient(circle at 73% 67%, rgba(205, 205, 205, 0.03) 0%, rgba(205, 205, 205, 0.03) 18%, transparent 18%, transparent 100%), radial-gradient(circle at 40% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115, 0.03) 14%, transparent 14%, transparent 100%), linear-gradient(90deg, rgb(12, 12, 12), rgb(12, 12, 12));
     }
-    
-    .reviewsection{
+
+    .reviewsection {
         position: absolute;
         top: 0;
         left: 0;
         height: 70vh;
         width: 100%;
     }
-    
+
     .reviews-title {
         position: absolute;
         top: 20px;
@@ -5158,8 +5206,8 @@ nav ul li a i{
         font-size: 2.8125rem;
         color: #ffffff;
     }
-    
-    .reviews-wrapper{
+
+    .reviews-wrapper {
         position: absolute;
         overflow: hidden;
         overflow-x: auto;
@@ -5169,12 +5217,12 @@ nav ul li a i{
         left: 2%;
         width: 96%;
     }
-    
-    .reviews-wrapper::-webkit-scrollbar{
+
+    .reviews-wrapper::-webkit-scrollbar {
         display: none;
     }
-    
-    .reviews{
+
+    .reviews {
         position: relative;
         text-align: center;
         z-index: 0;
@@ -5186,8 +5234,8 @@ nav ul li a i{
         box-shadow: -8px 8px 7px rgba(0, 0, 0, 0.5);
         background-color: #0c0c0c;
     }
-    
-    .rev-img{
+
+    .rev-img {
         position: absolute;
         overflow: hidden;
         height: 60px;
@@ -5198,16 +5246,16 @@ nav ul li a i{
         border: 2px solid rgb(255, 255, 255);
         background-color: #686868;
     }
-    
-    .rev-img img{
+
+    .rev-img img {
         overflow: hidden;
         top: 0;
         left: 0;
         height: 100%;
         width: 100%;
     }
-    
-    .rev-name{
+
+    .rev-name {
         position: absolute;
         text-align: center;
         font-family: "Inter", sans-serif;
@@ -5219,8 +5267,8 @@ nav ul li a i{
         top: 50px;
         left: 0;
     }
-    
-    .rev-rev{
+
+    .rev-rev {
         position: absolute;
         text-align: center;
         font-family: "Inter", sans-serif;
@@ -5236,8 +5284,8 @@ nav ul li a i{
         top: 90px;
         left: 0;
     }
-    
-    .rev-stars{
+
+    .rev-stars {
         position: absolute;
         text-align: center;
         font-family: "Inter", sans-serif;
@@ -5249,29 +5297,29 @@ nav ul li a i{
         bottom: 20px;
         left: 0;
     }
-    
-    .rev-stars i{
+
+    .rev-stars i {
         margin-left: 3px;
         margin-right: 3px;
         color: gold;
     }
-    
-    #reviews-scroll-left{
+
+    #reviews-scroll-left {
         display: none;
     }
-    
-    #reviews-scroll-right{
+
+    #reviews-scroll-right {
         display: none;
     }
-    
-    .projectssection{
+
+    .projectssection {
         position: absolute;
         bottom: 0;
         left: 0;
         height: 40vh;
         width: 100%;
     }
-    
+
     .projects-title {
         position: absolute;
         top: 20px;
@@ -5282,8 +5330,8 @@ nav ul li a i{
         font-size: 2.1825rem;
         color: #ffff;
     }
-    
-    .projects-wrapper{
+
+    .projects-wrapper {
         position: absolute;
         overflow: hidden;
         overflow-x: auto;
@@ -5293,12 +5341,12 @@ nav ul li a i{
         left: 2%;
         width: 96%;
     }
-    
-    .projects-wrapper::-webkit-scrollbar{
+
+    .projects-wrapper::-webkit-scrollbar {
         display: none;
     }
-    
-    .projects{
+
+    .projects {
         position: relative;
         z-index: 5;
         text-align: center;
@@ -5311,8 +5359,8 @@ nav ul li a i{
         box-shadow: -8px 8px 7px rgba(0, 0, 0, 0.5);
         background-color: #0c0c0c;
     }
-    
-    .proj-img{
+
+    .proj-img {
         position: absolute;
         overflow: hidden;
         height: 60px;
@@ -5323,16 +5371,16 @@ nav ul li a i{
         border: 2px solid rgb(255, 255, 255);
         background-color: #686868;
     }
-    
-    .proj-img img{
+
+    .proj-img img {
         overflow: hidden;
         top: 0;
         left: 0;
         height: 100%;
         width: 100%;
     }
-    
-    .proj-name{
+
+    .proj-name {
         position: absolute;
         text-align: center;
         font-family: "Inter", sans-serif;
@@ -5344,8 +5392,8 @@ nav ul li a i{
         top: 50px;
         left: 0;
     }
-    
-    .proj-ovr{
+
+    .proj-ovr {
         position: absolute;
         text-align: center;
         font-family: "Inter", sans-serif;
@@ -5361,24 +5409,25 @@ nav ul li a i{
         top: 90px;
         left: 0;
     }
-    
-    #projects-scroll-left{
-       display: none;
-    }
-    
-    #projects-scroll-right{
+
+    #projects-scroll-left {
         display: none;
     }
+
+    #projects-scroll-right {
+        display: none;
+    }
+
     #section3 {
         position: relative;
         top: 30px;
         left: 0;
         height: 1250px;
         width: 100%;
-        background-image: radial-gradient(circle at 53% 67%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 40% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 14%,transparent 14%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
+        background-image: radial-gradient(circle at 53% 67%, rgba(205, 205, 205, 0.03) 0%, rgba(205, 205, 205, 0.03) 18%, transparent 18%, transparent 100%), radial-gradient(circle at 40% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115, 0.03) 14%, transparent 14%, transparent 100%), linear-gradient(90deg, rgb(12, 12, 12), rgb(12, 12, 12));
     }
-    
-    .sec3-icon1{
+
+    .sec3-icon1 {
         position: relative;
         overflow: hidden;
         top: 80px;
@@ -5396,8 +5445,8 @@ nav ul li a i{
         left: 0;
         width: 100%;
     }
-    
-    .sec3-for-you p{
+
+    .sec3-for-you p {
         overflow: hidden;
         text-align: center;
         overflow: hidden;
@@ -5407,8 +5456,8 @@ nav ul li a i{
         font-size: 2.8125rem;
         color: #ffff;
     }
-    
-    .ipads{
+
+    .ipads {
         position: absolute;
         top: -80px;
         left: -50px;
@@ -5416,8 +5465,8 @@ nav ul li a i{
         width: 125%;
         border: none;
     }
-    
-    .ipads img{
+
+    .ipads img {
         position: absolute;
         overflow: hidden;
         top: 0;
@@ -5425,7 +5474,7 @@ nav ul li a i{
         height: 100%;
         width: 100%;
     }
-    
+
     .ipad-frame {
         position: absolute;
         top: -7px;
@@ -5434,8 +5483,8 @@ nav ul li a i{
         width: 300px;
         border: none;
     }
-    
-    .ipad-frame img{
+
+    .ipad-frame img {
         position: absolute;
         overflow: hidden;
         top: 0;
@@ -5443,7 +5492,7 @@ nav ul li a i{
         height: 100%;
         width: 100%;
     }
-    
+
     .whyhim {
         position: absolute;
         overflow: hidden;
@@ -5453,8 +5502,8 @@ nav ul li a i{
         width: 250px;
         border: none;
     }
-    
-    .whyhim img{
+
+    .whyhim img {
         position: absolute;
         overflow: hidden;
         top: -10px;
@@ -5462,7 +5511,7 @@ nav ul li a i{
         height: 106%;
         width: 205%;
     }
-    
+
     .ipadtop {
         position: absolute;
         text-align: right;
@@ -5475,12 +5524,12 @@ nav ul li a i{
         font-size: 0.4375rem;
         color: #ffff;
     }
-    
-    .ipadtop i{
+
+    .ipadtop i {
         margin-right: 3px;
         margin-left: 3px;
     }
-    
+
     .fa-lock-open {
         position: absolute;
         text-align: center;
@@ -5490,8 +5539,8 @@ nav ul li a i{
         font-size: 0.75rem;
         color: #ffff;
     }
-    
-    .ipadtime{
+
+    .ipadtime {
         position: absolute;
         text-align: center;
         font-family: "Inter", sans-serif;
@@ -5502,8 +5551,8 @@ nav ul li a i{
         font-size: 1.875rem;
         color: #ffff;
     }
-    
-    .ipaddate{
+
+    .ipaddate {
         position: absolute;
         text-align: center;
         font-family: "Inter", sans-serif;
@@ -5514,8 +5563,8 @@ nav ul li a i{
         font-size: 0.4375rem;
         color: #ffff;
     }
-    
-    .ipadbottumline{
+
+    .ipadbottumline {
         position: absolute;
         border-radius: 5px;
         bottom: 6px;
@@ -5532,8 +5581,8 @@ nav ul li a i{
         width: 94%;
         height: 700px;
     }
-    
-    .sec3-cnt p{
+
+    .sec3-cnt p {
         text-align: center;
         margin-top: 15px;
         font-size: 1.125rem;
@@ -5541,20 +5590,20 @@ nav ul li a i{
         width: 100%;
         font-family: 'Roboto', sans-serif;
     }
-    
-    .sec3-cnt span{
+
+    .sec3-cnt span {
         color: #ffff;
     }
-    
-    #section4{
+
+    #section4 {
         position: relative;
         top: 40px;
         left: 0;
         height: 103vh;
         width: 100%;
-        background-image: radial-gradient(circle at 63% 47%, rgba(205, 205, 205,0.03) 0%, rgba(205, 205, 205,0.03) 18%,transparent 18%, transparent 100%),radial-gradient(circle at 70% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115,0.03) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, rgb(12,12,12),rgb(12,12,12));
+        background-image: radial-gradient(circle at 63% 47%, rgba(205, 205, 205, 0.03) 0%, rgba(205, 205, 205, 0.03) 18%, transparent 18%, transparent 100%), radial-gradient(circle at 70% 24%, rgba(5, 1, 1, 0.03) 0%, rgba(115, 115, 115, 0.03) 12%, transparent 12%, transparent 100%), linear-gradient(90deg, rgb(12, 12, 12), rgb(12, 12, 12));
     }
-    
+
     .contact-title {
         position: absolute;
         overflow: hidden;
@@ -5562,8 +5611,8 @@ nav ul li a i{
         left: 0;
         width: 100%;
     }
-    
-    .contact-title p{
+
+    .contact-title p {
         overflow: hidden;
         text-align: center;
         overflow: hidden;
@@ -5573,23 +5622,23 @@ nav ul li a i{
         font-size: 2.8125rem;
         color: #ffff;
     }
-    
-    .contact-container{
+
+    .contact-container {
         position: absolute;
         top: 20%;
         left: 0;
         height: 70%;
         width: 100%;
     }
-    
+
     .contact-right {
         position: absolute;
         top: 0;
         left: 10%;
         width: 80%;
     }
-    
-    .contact-right p{
+
+    .contact-right p {
         text-align: center;
         height: 40px;
         width: 100%;
@@ -5603,41 +5652,41 @@ nav ul li a i{
         border-radius: 5px;
     }
 
-    .social-icons{
+    .social-icons {
         position: absolute;
         left: 25%;
         width: 56%;
         padding-left: 12px;
     }
-    
-    .social-icons a i{
+
+    .social-icons a i {
         font-size: 1.5625rem;
         margin-top: 5px;
         margin-right: 12px;
         color: #ffff;
     }
-    
-    .contact-left{
+
+    .contact-left {
         position: absolute;
         top: 25%;
         left: 5%;
         height: 70%;
         width: 90%;
     }
-    
-    .contact-left form{
+
+    .contact-left form {
         width: 100%;
     }
-    
-    .form-name{
+
+    .form-name {
         position: absolute;
         top: 0;
         left: 0;
         height: 40px;
         width: 100%;
     }
-    
-    .form-name p{
+
+    .form-name p {
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -5647,8 +5696,8 @@ nav ul li a i{
         font-family: 'Roboto', sans-serif;
         color: #ffff;
     }
-    
-    .form-name input{
+
+    .form-name input {
         position: absolute;
         bottom: 0;
         left: 39%;
@@ -5666,16 +5715,16 @@ nav ul li a i{
         font-size: 1.25rem;
         font-family: 'Roboto', sans-serif;
     }
-    
-    .form-email{
+
+    .form-email {
         position: absolute;
         top: 60px;
         left: 0;
         height: 40px;
         width: 100%;
     }
-    
-    .form-email p{
+
+    .form-email p {
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -5685,8 +5734,8 @@ nav ul li a i{
         font-family: 'Roboto', sans-serif;
         color: #ffff;
     }
-    
-    .form-email input{
+
+    .form-email input {
         position: absolute;
         left: 39%;
         width: 61%;
@@ -5703,16 +5752,16 @@ nav ul li a i{
         font-size: 1.25rem;
         font-family: 'Roboto', sans-serif;
     }
-    
-    .form-message{
+
+    .form-message {
         position: absolute;
         top: 120px;
         left: 0;
         height: 205px;
         width: 100%;
     }
-    
-    .form-message p{
+
+    .form-message p {
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -5722,8 +5771,8 @@ nav ul li a i{
         font-family: 'Roboto', sans-serif;
         color: #ffff;
     }
-    
-    .form-message textarea{
+
+    .form-message textarea {
         position: absolute;
         top: 40px;
         left: 0;
@@ -5741,8 +5790,8 @@ nav ul li a i{
         font-size: 1.25rem;
         font-family: 'Roboto', sans-serif;
     }
-    
-    .contact-left button{
+
+    .contact-left button {
         position: absolute;
         cursor: pointer;
         background-color: #0c0c0c;
@@ -5754,13 +5803,13 @@ nav ul li a i{
         height: 8%;
         width: 35%;
     }
-    
-    .btn2:hover{
+
+    .btn2:hover {
         background-color: #ffffff;
         border: 1px solid rgb(0, 0, 0);
         color: #000000;
     }
-    
+
     #confermation-message {
         position: absolute;
         display: block;
@@ -5770,15 +5819,15 @@ nav ul li a i{
         color: rgb(255, 255, 255);
         width: 100%;
     }
-    
-    .copy-right{
+
+    .copy-right {
         position: absolute;
         bottom: 20px;
         left: 5%;
         width: 90%;
     }
-    
-    .copy-right p{
+
+    .copy-right p {
         font-size: 0.75rem;
         height: 50px;
         width: 100%;
@@ -5788,7 +5837,7 @@ nav ul li a i{
         font-family: 'Roboto', sans-serif;
         color: #686868;
     }
-    
+
     #loader {
         position: fixed;
         overflow: hidden;
@@ -5799,14 +5848,14 @@ nav ul li a i{
         background-color: rgb(0, 0, 0);
         z-index: 100;
     }
-    
+
     #arc {
         margin-left: 70vh;
         margin-top: 22vh;
         width: 400px;
         height: 400px;
     }
-    
+
     #arc span {
         display: block;
         width: 100%;
@@ -5824,23 +5873,23 @@ nav ul li a i{
         animation-direction: alternate;
         animation-timing-function: cubic-bezier(.7, 0, .3, 1);
     }
-    
+
     @keyframes spinit {
         0% {
             transform: rotate(0);
         }
-    
+
         49% {
             transform: rotate(180deg);
         }
-    
+
         51% {
             transform: rotate(180deg);
         }
-    
+
         100% {
             transform: rotate(0);
         }
-    
+
     }
 }
