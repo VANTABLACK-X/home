@@ -147,3 +147,38 @@ document.addEventListener('DOMContentLoaded', function(){
     smoothScroll('left');
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const cardsContainer = document.querySelector('.cards-container');
+  const svgs = document.querySelectorAll('.svg-icon');
+  let currentIndex = 0;
+
+  function showCard(index) {
+      currentIndex = index;
+      const offset = -index * 100; // move the container to show the desired card
+      cardsContainer.style.transform = `translateX(${offset}%)`;
+  }
+
+  function bringToFront(index) {
+      svgs.forEach((s, i) => {
+          if (i === index) {
+              s.style.zIndex = 3;
+          } else {
+              s.style.zIndex = (i < index) ? 2 : 1;
+          }
+      });
+  }
+
+  svgs.forEach((svg, index) => {
+      svg.addEventListener('click', () => {
+          showCard(index);
+          bringToFront(index);
+      });
+  });
+
+  // Show the first card by default on page load
+  showCard(0);
+  bringToFront(0);
+});
+
+
