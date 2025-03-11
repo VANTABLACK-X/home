@@ -365,7 +365,7 @@ nav ul li a i {
     width: 96%;
     margin: 0.2em;
     font-size: 0.625rem;
-    color: #a7a7a7;
+    color: #d7d7d7;
     border-radius: 3px;
     background-color: #00000086;
 }
@@ -386,7 +386,8 @@ nav ul li a i {
     width: 96%;
     margin: 0.2em;
     font-size: 0.625rem;
-    color: #a7a7a7;
+    color: #d7d7d7;
+    ;
 }
 
 .lm-music p {
@@ -405,7 +406,8 @@ nav ul li a i {
     width: 96%;
     margin: 0.2em;
     font-size: 0.625rem;
-    color: #a7a7a7;
+    color: #d7d7d7;
+    ;
 }
 
 .lm-gaming p {
@@ -424,7 +426,7 @@ nav ul li a i {
     width: 96%;
     margin: 0.2em;
     font-size: 0.625rem;
-    color: #a7a7a7;
+    color: #d7d7d7;
 }
 
 .lm-educat p {
@@ -443,7 +445,7 @@ nav ul li a i {
     width: 96%;
     margin: 0.2em;
     font-size: 0.625rem;
-    color: #a7a7a7;
+    color: #d7d7d7;
 }
 
 .lm-science p {
@@ -462,7 +464,7 @@ nav ul li a i {
     width: 96%;
     margin: 0.2em;
     font-size: 0.625rem;
-    color: #a7a7a7;
+    color: #d7d7d7;
 }
 
 .lm-entertain p {
@@ -481,7 +483,7 @@ nav ul li a i {
     width: 96%;
     margin: 0.2em;
     font-size: 0.625rem;
-    color: #a7a7a7;
+    color: #d7d7d7;
 }
 
 .lm-student p {
@@ -2251,6 +2253,44 @@ nav ul li a i {
     width: 100%;
     height: 50%;
     text-align: center;
+}
+
+.dev-box2-bott {
+    position: absolute;
+    top: 45%;
+    height: 55%;
+    left: 5%;
+    width: 90%;
+}
+
+.dev-box2-bott10 {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    width: 32%;
+    background-color: #686868;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.dev-box2-bott20 {
+    position: absolute;
+    height: 100%;
+    left: 34%;
+    width: 32%;
+    background-color: #686868;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.dev-box2-bott30 {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    width: 32%;
+    background-color: #686868;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .dev-box3 {
