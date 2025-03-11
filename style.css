@@ -142,7 +142,7 @@ nav ul li a i {
 
 #hero {
     position: relative;
-    height: 150vh;
+    height: 110vh;
     width: 100%;
     background: rgb(20, 20, 20);
     background: linear-gradient(0deg, rgba(20, 20, 20, 1) 0%, rgb(0, 0, 0, 1) 100%);
@@ -155,8 +155,8 @@ nav ul li a i {
 .blob1 {
     position: absolute;
     transform: rotate(180deg);
-    bottom: -5%;
-    left: 16%;
+    top: 5%;
+    right: 16%;
     height: 95%;
     width: 50%;
     opacity: 1;
@@ -165,8 +165,8 @@ nav ul li a i {
 .blob2 {
     position: absolute;
     transform: rotate(70deg);
-    bottom: 0%;
-    right: 14%;
+    top: 10%;
+    right: 8%;
     height: 50%;
     width: 40%;
     opacity: 1;
@@ -175,8 +175,8 @@ nav ul li a i {
 .blob3 {
     position: absolute;
     transform: rotate(-90deg);
-    bottom: 3%;
-    right: 23%;
+    top: 26%;
+    right: 5%;
     height: 60%;
     width: 40%;
     opacity: 1;
@@ -186,9 +186,9 @@ nav ul li a i {
 #screen {
     position: absolute;
     z-index: 1;
-    bottom: 5%;
-    left: 23.5%;
-    height: 45%;
+    top: 15%;
+    left: 42%;
+    height: 60%;
     width: 53%;
     font-family: 'Roboto', sans-serif;
     background: rgba(53, 53, 53, 0.2);
@@ -1587,10 +1587,10 @@ nav ul li a i {
 .home-hero-content {
     position: absolute;
     z-index: 2;
-    top: 5%;
-    left: 15%;
-    height: 50%;
-    width: 70%;
+    top: 15%;
+    left: 3%;
+    height: 60%;
+    width: 40%;
 }
 
 #hometitle {
@@ -1676,8 +1676,8 @@ nav ul li a i {
     cursor: pointer;
     opacity: 0;
     top: 30px;
-    left: 30%;
-    width: 220px;
+    left: 12%;
+    width: 150px;
 }
 
 #home-hero-contact button {
@@ -1708,8 +1708,8 @@ nav ul li a i {
     cursor: pointer;
     opacity: 0;
     top: -5px;
-    left: 53%;
-    width: 220px;
+    left: 57%;
+    width: 150px;
 }
 
 #home-hero-resume button {
@@ -1725,15 +1725,22 @@ nav ul li a i {
     font-weight: 700;
 }
 
+#home-hero-resume button:hover {
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    color: #000000;
+}
+
 #message {
     position: relative;
     display: grid;
     text-align: center;
     opacity: 0;
+    top: 1%;
     left: 5%;
     width: 90%;
     margin-top: 20px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: "Montserrat", sans-serif;
     color: #6d6d6d;
 }
@@ -1785,6 +1792,7 @@ nav ul li a i {
     padding: 0;
     width: 100%;
     font-size: 2.8125rem;
+    font-family: 'Tangerine', cursive;
     color: #ffff;
 }
 
@@ -1974,8 +1982,8 @@ nav ul li a i {
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 15%;
-    width: 90%;
+    left: 0;
+    width: 100%;
     top: 5%;
 }
 
@@ -1985,6 +1993,7 @@ nav ul li a i {
     padding: 0;
     width: 100%;
     font-size: 2.8125rem;
+    font-family: 'Tangerine', cursive;
     color: #ffff;
 }
 
@@ -2026,12 +2035,12 @@ nav ul li a i {
     border: 1px solid rgba(96, 96, 96, 0.48);
     border-bottom: none;
     background: rgba(42, 42, 42, 0.2);
-    -webkit-backdrop-filter: blur(14.6px); 
-    backdrop-filter: blur(14.6px); 
+    -webkit-backdrop-filter: blur(14.6px);
+    backdrop-filter: blur(14.6px);
     box-shadow: 0 -5px 10px rgb(0, 0, 0);
 }
 
-#svg1 p{
+#svg1 p {
     text-align: center;
     width: 100%;
     color: white;
@@ -2051,12 +2060,12 @@ nav ul li a i {
     border: 1px solid rgba(96, 96, 96, 0.48);
     border-bottom: none;
     background: rgba(42, 42, 42, 0.2);
-    -webkit-backdrop-filter: blur(14.6px);  
+    -webkit-backdrop-filter: blur(14.6px);
     backdrop-filter: blur(40.6px);
     box-shadow: 0 -5px 10px black;
 }
 
-#svg2 p{
+#svg2 p {
     text-align: center;
     width: 100%;
     color: white;
@@ -2076,12 +2085,12 @@ nav ul li a i {
     border: 1px solid rgba(96, 96, 96, 0.48);
     border-bottom: none;
     background: rgba(42, 42, 42, 0.2);
-    -webkit-backdrop-filter: blur(14.6px); 
+    -webkit-backdrop-filter: blur(14.6px);
     backdrop-filter: blur(40.6px);
-    box-shadow: 0 -5px 10px black; 
+    box-shadow: 0 -5px 10px black;
 }
 
-#svg3 p{
+#svg3 p {
     text-align: center;
     width: 100%;
     color: white;
@@ -2101,7 +2110,7 @@ nav ul li a i {
 
 }
 
-.dev-box1{
+.dev-box1 {
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -2112,49 +2121,150 @@ nav ul li a i {
     background-color: black;
 }
 
-.dev-box1-title{
+.dev-box1-title {
     position: relative;
-    top: 4%;
+    top: 7%;
     width: 100%;
-
 }
 
-.dev-box1-title p{
+.dev-box1-title p {
     position: relative;
     text-align: center;
     line-height: 15px;
-    left: 10%;
-    width: 80%;
+    left: 18%;
+    width: 62%;
     font-size: 13px;
     font-weight: 500;
+    color: #c7c7c7;
 }
 
-.dev-box1-cont1{
-    display: none;
+.dev-box1-cont1 {
+    position: relative;
+    top: 10%;
+    width: 100%;
 }
 
-.dev-box2{
+.dev-box1-cont1 p {
+    position: relative;
+    text-align: center;
+    line-height: 15px;
+    left: 18%;
+    width: 62%;
+    font-size: 8px;
+    font-weight: 500;
+    color: #a5a5a5;
+}
+
+.dev-box1-img {
+    position: relative;
+    overflow: hidden;
+    top: 12%;
+    left: 5%;
+    height: 65%;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.dev-box1-img img {
+    position: absolute;
+    top: -20%;
+    width: 100%;
+}
+
+.dev-box1-round1 {
+    position: absolute;
+    bottom: -30%;
+    right: -10%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #70707076;
+}
+
+.dev-box1-round2 {
+    position: absolute;
+    bottom: 60%;
+    right: 2%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #b7b6b676;
+}
+
+.dev-box2 {
     position: absolute;
     overflow: hidden;
     top: 40%;
     left: 1%;
-    height: 38%;
-    width: 48%;
-    border-radius: 15px;
-    background-color: black;
-}
-.dev-box3{
-    position: absolute;
-    overflow: hidden;
-    top: 80%;
-    left: 1%;
-    height: 20%;
+    height: 40%;
     width: 48%;
     border-radius: 15px;
     background-color: black;
 }
 
-.dev-box4{
+.dev-box2-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+}
+
+.dev-box2-top-cont {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 50%;
+}
+
+.dev-box2-top-cont p {
+    font-size: 0.65rem;
+}
+
+.dev-box2-top-message {
+    position: absolute;
+    top: 20%;
+    right: 6%;
+}
+
+.dev-box2-top-message p {
+    font-size: 0.35rem;
+    color: #c4c4c4;
+}
+
+.dev-box2-top-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    height: 22%;
+    width: 13%;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.dev-box2-top-bottom p {
+    position: absolute;
+    color: #000000;
+    font-size: 0.4rem;
+    font-weight: 500;
+    top: 25%;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.dev-box3 {
+    position: absolute;
+    overflow: hidden;
+    top: 82%;
+    left: 1%;
+    height: 18%;
+    width: 48%;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.dev-box4 {
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -2165,7 +2275,7 @@ nav ul li a i {
     background-color: black;
 }
 
-.dev-box5{
+.dev-box5 {
     position: absolute;
     overflow: hidden;
     top: 25%;
@@ -2176,7 +2286,7 @@ nav ul li a i {
     background-color: black;
 }
 
-.dev-box5 img{
+.dev-box5 img {
     position: absolute;
     top: 0;
     left: 0;
@@ -2184,10 +2294,10 @@ nav ul li a i {
     width: 100%;
 }
 
-.dev-box6{
+.dev-box6 {
     position: absolute;
     overflow: hidden;
-    top: 78%;
+    top: 77%;
     left: 51%;
     height: 23%;
     width: 48%;
