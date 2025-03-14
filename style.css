@@ -1813,7 +1813,7 @@ nav ul li a i {
     width: 100%;
     font-size: 1.775rem;
     font-family: "Montserrat", sans-serif;
-    color: #686868;
+    color: #939393;
 }
 
 .sec1-text span {
@@ -1837,7 +1837,7 @@ nav ul li a i {
     width: 90%;
     font-size: 0.75rem;
     font-family: "Montserrat", sans-serif;
-    color: #686868;
+    color: #909090;
 }
 
 .sec1-menu {
@@ -1924,7 +1924,7 @@ nav ul li a i {
     width: 80%;
     height: 12%;
     border-radius: 8px;
-    color: #5f5f5fa9;
+    color: #909090;
     margin: 2.5% 0;
     cursor: pointer;
     background-color: rgb(15, 15, 15);
@@ -1955,7 +1955,7 @@ nav ul li a i {
     width: 80%;
     height: 12%;
     border-radius: 8px;
-    color: #5f5f5fa9;
+    color: #909090;
     margin: 2.5% 0;
 }
 
@@ -1999,6 +1999,16 @@ nav ul li a i {
     color: #ffff;
 }
 
+.sec2-round{
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
 .svg-container {
     position: relative;
     display: flex;
@@ -2010,11 +2020,11 @@ nav ul li a i {
     margin-bottom: 20px;
     background: rgba(43, 43, 43, 0.409);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   
     -webkit-backdrop-filter: blur(14.6px);
     backdrop-filter: blur(40.6px);
-    border: 1px solid rgba(96, 96, 96, 0.48);
-    box-shadow: -10px 10px 20px rgb(0, 0, 0);
+    border: 1px solid rgba(139, 139, 139, 0.553);
+  
     font-family: "Montserrat", sans-serif;
 }
 
@@ -2265,32 +2275,245 @@ nav ul li a i {
 
 .dev-box2-bott10 {
     position: absolute;
+    overflow: hidden;
     height: 100%;
     left: 0;
     width: 32%;
-    background-color: #686868;
+    background-color: #80808063;
+    color: #ffffff;
+    text-align: center;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+
+.dev-box2-bott11 {
+    position: relative;
+    top: 0;
+    height: 30%;
+    left: 5%;
+    width: 90%;
+}
+
+.dev-box2-bott11 p {
+    padding-top: 10%;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.dev-box2-bott12 {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    border-radius: 4px;
+    background-color: rgb(28, 28, 28);
+}
+
+.dev-box2-bott12 p {
+    position: relative;
+    top: 25%;
+    height: 50%;
+    font-size: 0.5rem;
+}
+
+.dev-box2-bott13 {
+    position: relative;
+    overflow: hidden;
+    top: 3%;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    border-radius: 4px;
+    background-color: rgb(28, 28, 28);
+}
+
+.dev-box2-bott13 p {
+    position: relative;
+    top: 25%;
+    height: 50%;
+    font-size: 0.5rem;
+}
+
+.dev-box2-bott14 {
+    position: relative;
+    overflow: hidden;
+    top: 6%;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    border-radius: 4px;
+    background-color: rgb(28, 28, 28);
+}
+
+.dev-box2-bott14 p {
+    position: relative;
+    top: 25%;
+    height: 50%;
+    font-size: 0.5rem;
 }
 
 .dev-box2-bott20 {
     position: absolute;
+    overflow: hidden;
     height: 100%;
     left: 34%;
     width: 32%;
-    background-color: #686868;
+    background-color: #80808063;
+    color: #ffffff;
+    text-align: center;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
 
+.dev-box2-bott21 {
+    position: relative;
+    top: 0;
+    height: 30%;
+    left: 5%;
+    width: 90%;
+}
+
+.dev-box2-bott21 p {
+    padding-top: 10%;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.dev-box2-bott22 {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    border-radius: 4px;
+    background-color: rgb(28, 28, 28);
+}
+
+.dev-box2-bott22 p {
+    position: relative;
+    top: 25%;
+    height: 50%;
+    font-size: 0.5rem;
+}
+
+.dev-box2-bott23 {
+    position: relative;
+    overflow: hidden;
+    top: 3%;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    border-radius: 4px;
+    background-color: rgb(28, 28, 28);
+}
+
+.dev-box2-bott23 p {
+    position: relative;
+    top: 25%;
+    height: 50%;
+    font-size: 0.5rem;
+}
+
+.dev-box2-bott24 {
+    position: relative;
+    overflow: hidden;
+    top: 6%;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    border-radius: 4px;
+    background-color: rgb(28, 28, 28);
+}
+
+.dev-box2-bott24 p {
+    position: relative;
+    top: 25%;
+    height: 50%;
+    font-size: 0.5rem;
+}
+
 .dev-box2-bott30 {
     position: absolute;
+    overflow: hidden;
     height: 100%;
     right: 0;
     width: 32%;
-    background-color: #686868;
+    background-color: #80808063;
+    color: #ffffff;
+    text-align: center;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+
+.dev-box2-bott31 {
+    position: relative;
+    top: 0;
+    height: 30%;
+    left: 5%;
+    width: 90%;
+}
+
+.dev-box2-bott31 p {
+    padding-top: 10%;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.dev-box2-bott32 {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    background-color: rgb(28, 28, 28);
+    border-radius: 4px;
+}
+
+.dev-box2-bott32 p {
+    position: relative;
+    top: 25%;
+    height: 50%;
+    font-size: 0.5rem;
+}
+
+.dev-box2-bott33 {
+    position: relative;
+    overflow: hidden;
+    top: 3%;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    border-radius: 4px;
+    background-color: rgb(28, 28, 28);
+}
+
+.dev-box2-bott33 p {
+    position: relative;
+    top: 25%;
+    height: 50%;
+    font-size: 0.5rem;
+}
+
+.dev-box2-bott34 {
+    position: relative;
+    overflow: hidden;
+    top: 6%;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    border-radius: 4px;
+    background-color: rgb(28, 28, 28);
+}
+
+.dev-box2-bott34 p {
+    position: relative;
+    top: 25%;
+    height: 50%;
+    font-size: 0.5rem;
 }
 
 .dev-box3 {
@@ -2302,6 +2525,85 @@ nav ul li a i {
     width: 48%;
     border-radius: 15px;
     background-color: black;
+}
+
+.dev-box3-hybrid {
+    position: relative;
+    overflow: hidden;
+    top: 30%;
+    height: 70%;
+    left: 20%;
+    width: 60%;
+    font-size: 0.6rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #80808063;
+}
+
+.dev-box3-hybrid1 {
+    position: absolute;
+    top: 10%;
+    height: 20%;
+    width: 100%;
+}
+
+.dev-box3-hybrid1 p {
+    font-size: 0.6rem;
+    width: 100%;
+    text-align: center;
+}
+
+.dev-box3-hybrid2 {
+    position: absolute;
+    top: 40%;
+    height: 50%;
+    width: 100%;
+}
+
+.dev-box3-hybrid21 {
+    position: absolute;
+    overflow: hidden;
+    top: 25%;
+    left: 2.5%;
+    height: 75%;
+    width: 45%;
+    font-size: 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(28, 28, 28);
+}
+
+.dev-box3-hybrid21 p {
+    position: relative;
+    text-align: center;
+    top: 30%;
+}
+
+.dev-box3-hybrid22 {
+    position: absolute;
+    overflow: hidden;
+    top: 25%;
+    left: 52.5%;
+    height: 75%;
+    width: 45%;
+    font-size: 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(28, 28, 28);
+}
+
+.dev-box3-hybrid22 p {
+    position: relative;
+    text-align: center;
+    top: 30%;
+}
+
+.dev-box3-round{
+    position: absolute;
+    bottom: -10%;
+    left: 7%;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #80808052;
 }
 
 .dev-box4 {
@@ -2815,7 +3117,7 @@ nav ul li a i {
     text-align: left;
     margin-top: 22px;
     font-size: 1rem;
-    color: #858585;
+    color: #909090;
     width: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -3056,7 +3358,7 @@ nav ul li a i {
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    color: #686868;
+    color: #909090;
 }
 
 #loader {
