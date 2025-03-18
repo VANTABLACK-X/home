@@ -521,9 +521,9 @@ nav ul li a i {
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: -0.15rem;
+    left: -5%;
     height: 0.9375rem;
-    width: 1.25rem;
+    width: 110%;
 }
 
 .left-music p {
@@ -871,9 +871,9 @@ nav ul li a i {
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0;
-    height: 120%;
-    width: 40%;
+    left: -5%;
+    height: 100%;
+    width: 43%;
 }
 
 .center-main32-cnt {
@@ -965,9 +965,9 @@ nav ul li a i {
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: -33%;
+    left: 0;
     height: 100%;
-    width: 100%;
+    width: 40%;
 }
 
 .center-main33-cnt {
@@ -1122,9 +1122,9 @@ nav ul li a i {
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: -34%;
+    left: -5%;
     height: 100%;
-    width: 110px;
+    width: 110%;
 }
 
 .r-user-name {
@@ -1794,7 +1794,7 @@ nav ul li a i {
     padding: 0;
     width: 100%;
     font-size: 2.8125rem;
-    font-family: 'Tangerine', cursive;
+    font-family: "Roboto", sans-serif;
     color: #ffff;
 }
 
@@ -1995,7 +1995,7 @@ nav ul li a i {
     padding: 0;
     width: 100%;
     font-size: 2.8125rem;
-    font-family: 'Tangerine', cursive;
+    font-family: "Roboto", sans-serif;
     color: #ffff;
 }
 
@@ -2683,7 +2683,7 @@ nav ul li a i {
     top: 20px;
     left: 0;
     width: 100%;
-    font-family: 'Tangerine', cursive;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     font-size: 2.8125rem;
     color: #ffffff;
@@ -2740,7 +2740,7 @@ nav ul li a i {
 .rev-name {
     position: absolute;
     text-align: center;
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.125rem;
     color: #ffff;
     padding-top: 5px;
@@ -2753,8 +2753,8 @@ nav ul li a i {
 .rev-rev {
     position: absolute;
     text-align: center;
-    font-family: "Inter", sans-serif;
-    font-weight: 200;
+    font-family: "Montserrat";
+    font-weight: 400;
     font-size: 0.8125rem;
     color: #ffff;
     padding-top: 5px;
@@ -2829,7 +2829,7 @@ nav ul li a i {
     top: 20px;
     left: 0;
     width: 100%;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 2.8125rem;
     color: #ffff;
@@ -2887,7 +2887,7 @@ nav ul li a i {
 .proj-name {
     position: absolute;
     text-align: center;
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.125rem;
     color: #ffff;
     padding-top: 5px;
@@ -2900,8 +2900,8 @@ nav ul li a i {
 .proj-ovr {
     position: absolute;
     text-align: center;
-    font-family: "Inter", sans-serif;
-    font-weight: 200;
+    font-family: "Montserrat";
+    font-weight: 400;
     font-size: 0.8125rem;
     color: #ffff;
     padding-top: 5px;
@@ -3023,7 +3023,7 @@ nav ul li a i {
 .ipadtop {
     position: absolute;
     text-align: right;
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 200;
     top: 0;
     margin-top: 10px;
@@ -3051,7 +3051,7 @@ nav ul li a i {
 .ipadtime {
     position: absolute;
     text-align: center;
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 200;
     top: 35px;
     right: 0;
@@ -3063,7 +3063,7 @@ nav ul li a i {
 .ipaddate {
     position: absolute;
     text-align: center;
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 200;
     top: 70px;
     right: 0;
@@ -3094,11 +3094,11 @@ nav ul li a i {
     overflow: hidden;
     text-align: center;
     overflow: hidden;
-    font-family: 'Tangerine', cursive;
+    font-family: "Roboto", sans-serif;
     padding: 0;
     width: 100%;
     font-size: 2.8125rem;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .sec3-cnt {
@@ -3115,11 +3115,12 @@ nav ul li a i {
 
 .sec3-cnt p {
     text-align: left;
-    margin-top: 22px;
+    margin-top: 20px;
     font-size: 1rem;
+    font-weight: 400;
     color: #909090;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat";
 }
 
 .sec3-cnt span {
@@ -3147,7 +3148,7 @@ nav ul li a i {
     overflow: hidden;
     text-align: center;
     overflow: hidden;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     width: 100%;
     font-size: 2.8125rem;
